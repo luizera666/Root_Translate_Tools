@@ -13,75 +13,51 @@ Este repositório contém uma tradução **não oficial** do jogo **Root** para 
 1. Navegue até a pasta `translate` no repositório.
 2. Escolha a tradução desejada e baixe o arquivo **localization** correspondente.
 3. Substitua o arquivo original localizado em:
-   ```
-   Root/Root_Data/StreamingAssets/Localization/win/localization
-   ```
-4. Para evitar que o jogo substitua automaticamente o arquivo traduzido por um original, exclua o seguinte arquivo de configuração:
-   ```
-   Root/Root_Data/game.cfg
-   ```
-   > Sem esse arquivo, o jogo não realizará a verificação de integridade online dos arquivos de localização.
+
+```Root\Root_Data\StreamingAssets\Localization\win\```
+
+4. Exclua o arquivo `game.cfg` na pasta:
+
+```Root\Root_Data\```
+
+Isso impedirá que o jogo baixe novamente os arquivos de localização originais.
 
 ---
 
-## 🔧 Editor de Tradução
+## 🔧 Extraindo as Strings para Tradução
 
-Este repositório também inclui um **editor de tradução com interface gráfica** desenvolvido para facilitar o processo de tradução e revisão.
+Para quem deseja criar novas traduções ou modificar as existentes, siga as instruções:
 
-### 🖥️ **Funcionalidades do Editor**
+1. Abra o arquivo **localization** usando a ferramenta [UABEA](https://github.com/nesrak1/UABEA).
+2. Selecione o arquivo de texto referente ao idioma que deseja usar como base (ex: `eu_US.txt`).
+3. Vá até o menu `Plugins` e clique em `Export .txt`. Salve o arquivo exportado onde preferir.
+4. Agora você pode editar o arquivo de texto livremente e traduzir as strings.
 
-- Exibe as **chaves**, as **strings originais** (em inglês) e as **strings traduzidas** lado a lado.
-- Permite a edição direta das strings.
-- Possui um sistema de **busca avançada** com navegação entre resultados.
-- Suporta a abertura de uma tradução em andamento ou a criação de uma nova tradução.
-- Ao salvar, o editor valida automaticamente o número de chaves para evitar erros.
+Para reinserir o arquivo traduzido:
 
-### ▶️ **Como Usar o Editor**
-
-1. Execute o arquivo `editor_traducao.py`.
-2. Escolha a opção:
-   - **"Nova Tradução"**: Para iniciar uma tradução do zero.
-   - **"Abrir Tradução"**: Para continuar uma tradução já iniciada.
-3. Edite as strings conforme necessário.
-4. Após finalizar, clique em **"Salvar Tradução"** e substitua o arquivo original.
+1. No UABEA, selecione o arquivo **localization** novamente.
+2. No menu `Plugins`, clique em `Import .txt` e escolha o arquivo traduzido.
+3. Salve as alterações no asset bundle e, em seguida, salve o bundle modificado.
 
 ---
 
-## 🧩 **Como Extrair o Texto para Tradução**
+## 🛠️ Ferramentas
 
-Se você deseja iniciar uma nova tradução ou adaptar a existente para outra plataforma, siga este processo para extrair os textos:
-
-1. **Localize o arquivo de localização**:
-   O arquivo de localização pode ser encontrado no seguinte caminho na versão Windows:
-   ```
-   Root/Root_Data/StreamingAssets/Localization/win/localization
-   ```
-   
-2. **Use a ferramenta [UABEA](https://github.com/nesrak1/UABEA):**
-   - Abra o arquivo `localization` com a versão mais recente do **UABEA**.
-   - Selecione o arquivo de texto que deseja extrair.
-   - Vá em **Plugins > Export .txt** e salve o arquivo exportado.
-
-3. **Edite livremente o arquivo extraído**:
-   Agora você pode abrir o arquivo exportado e começar a tradução com o editor de tradução ou qualquer editor de texto.
-
-### 🔄 **Como Reinserir o Texto Traduzido**
-
-1. Após finalizar a tradução, abra novamente o **UABEA**.
-2. Selecione o arquivo `localization` original.
-3. Vá em **Plugins > Import .txt** e selecione o arquivo traduzido.
-4. Salve as alterações e substitua o arquivo original pela nova versão.
+Na pasta `tools/stringeditor`, você encontrará uma ferramenta que facilita o processo de tradução, permitindo abrir arquivos de strings e editá-los diretamente em uma interface amigável. Para mais detalhes, consulte o [README da pasta stringeditor](./tools/stringeditor/README.md).
 
 ---
 
-## 🛠️ **Nota sobre a Tradução para Outras Plataformas**
+## 🌍 Colaborando com Novas Traduções
 
-Há uma possibilidade de que essa tradução funcione em outras plataformas onde o jogo **Root** está disponível, como **Android**, **iOS**, **PlayStation** e **Nintendo Switch**.
+Se você deseja contribuir com traduções para outros idiomas, crie uma nova pasta dentro de `translate` seguindo a estrutura do diretório `pt_BR` como modelo. Insira tanto o arquivo de texto traduzido quanto o asset bundle modificado.
 
-O principal ponto a ser verificado é se os arquivos de localização encontrados dentro da pasta `StreamingAssets` dessas plataformas possuem a **mesma quantidade de chaves** que o arquivo de localização da versão **Windows**. Se as chaves forem consistentes, é muito provável que a tradução funcione corretamente ao substituir o arquivo de localização.
-
-### 💬 **Contribua com a Comunidade**
-
-Caso tenha sucesso em adaptar a tradução para outras plataformas ou queira colaborar de outra forma, fique à vontade para abrir uma *issue* ou enviar um *pull request*. Toda ajuda é bem-vinda!
+Se quiser colaborar diretamente com o repositório, fique à vontade para abrir uma **pull request**.
 
 ---
+
+## 🔮 Possibilidades Futuras
+
+Existe a possibilidade de que esta tradução funcione em outras plataformas do jogo, como Android e iOS, desde que os arquivos de localização encontrados em `StreamingAssets` tenham a mesma estrutura e chaves que os do Windows. Se você estiver interessado em testar e verificar isso, por favor, abra uma **issue** relatando seus resultados!
+
+---
+
