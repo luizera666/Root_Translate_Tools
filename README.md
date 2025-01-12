@@ -10,17 +10,23 @@ Este repositório contém uma tradução **não oficial** do jogo **Root** para 
 
 ## 📦 Instalar uma Tradução
 
-1. Navegue até a pasta `translate` no repositório.
-2. Escolha a tradução desejada e baixe o arquivo **localization** correspondente.
-3. Substitua o arquivo original localizado em:
+### Via Release (Recomendado)
 
-```Root\Root_Data\StreamingAssets\Localization\win\```
+1. Acesse a seção de [Releases](https://github.com/luizera666/Root_Translate_Tools/releases) do repositório.
+2. Baixe o arquivo compactado da tradução.
+3. Extraia o arquivo compactado e substitua o arquivo **localization** original na pasta:
+
+   `Root\Root_Data\StreamingAssets\Localization\win\`
 
 4. Exclua o arquivo `game.cfg` na pasta:
 
-```Root\Root_Data\```
+   `Root\Root_Data\`
 
-Isso impedirá que o jogo baixe novamente os arquivos de localização originais.
+   Isso impedirá que o jogo baixe novamente os arquivos de localização originais.
+
+### Manualmente (Alternativo)
+
+Se preferir, você pode seguir o tutorial completo para extrair, traduzir e reinserir as strings manualmente usando as ferramentas descritas abaixo.
 
 ---
 
