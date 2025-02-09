@@ -24,6 +24,9 @@ Este repositório contém uma tradução **não oficial** do jogo **Root** para 
 
    Isso impedirá que o jogo baixe novamente os arquivos de localização originais.
 
+5. Mude o idioma dentro do jogo para "Español". Esta tradução foi feita substituindo a tradução em Espanhol oficial do jogo, com o intuito de manter a tradução em Inglês. 
+ 
+
 ### Manualmente (Alternativo)
 
 Se preferir, você pode seguir o tutorial completo para extrair, traduzir e reinserir as strings manualmente usando as ferramentas descritas abaixo.
