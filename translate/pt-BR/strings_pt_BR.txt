@@ -44,7 +44,7 @@ battledamage.fx.brutaltactics=Táticas Brutais!
 battledamage.fx.commander=<sprite name="eyrie"> Comandante!
 battledamage.fx.defenseless=Indefeso!
 battledamage.fx.electriceyrie=Bônus do Decreto!
-battledamage.fx.format=-$quantidade
+battledamage.fx.format=-$amount
 battledamage.fx.sappers=Armadilheiros!
 battledamage.fx.swiftstrike=Golpe Rápido
 battledamage.fx.wrathful=Colérico!
@@ -628,16 +628,16 @@ prompts.gameresults.cooperativewinner=Vitória Cooperativa
 prompts.gameresults.nowinner=Desistiu
 prompts.gameresults.title=Fim de Jogo
 prompts.gameresults.tutorialcomplete=Tutorial Concluído
-prompts.gameresults.winner.automatedalliance=Aliança Autômata Venceu
-prompts.gameresults.winner.electriceyrie=Rapinas Elétricas Venceram
-prompts.gameresults.winner.eyriedynasties=Rapinas Venceram
-prompts.gameresults.winner.marquisedecat=Marqueses Venceram
-prompts.gameresults.winner.mechanicalmarquise=Marquês Mecânico Venceu
-prompts.gameresults.winner.vagabond=Malandro Venceu
-prompts.gameresults.winner.vagabot=Automalandro Venceu
-prompts.gameresults.winner.woodlandalliance=Aliança Venceu
-prompts.gameresults.winner.lordofthehundreds=Centenas Venceram
-prompts.gameresults.winner.keepersiniron=Guardiões Venceram
+prompts.gameresults.winner.automatedalliance=Vitória - Aliança Autômata
+prompts.gameresults.winner.electriceyrie=Vitória - Rapinas Elétricas
+prompts.gameresults.winner.eyriedynasties=Vitória - Rapinas
+prompts.gameresults.winner.marquisedecat=Vitória - Marqueses
+prompts.gameresults.winner.mechanicalmarquise=Vitória - Marquês Mecânico
+prompts.gameresults.winner.vagabond=Vitória - Malandro
+prompts.gameresults.winner.vagabot=Vitória - Automalandro
+prompts.gameresults.winner.woodlandalliance=Vitória - Aliança
+prompts.gameresults.winner.lordofthehundreds=Vitória - Centenas
+prompts.gameresults.winner.keepersiniron=Vitória - Guardiões
 prompts.loginfailure.eulanotaccepted=Por favor, aceite o EULA para fazer login.
 prompts.marquisebuild.recruiter=Recrutador
 prompts.marquisebuild.sawmill=Serraria
@@ -1010,9 +1010,9 @@ tuber.canis.actions.RiverfolkCompanyActions.RiverfolkTradePostDestroyed.ChooseFu
 tuber.canis.actions.RiverfolkCompanyActions.DaylightChoice=Escolha uma ação.
 tuber.canis.actions.RiverfolkCompanyActions.DaylightChoice.opponent=A Companhia Ribeirinha está ponderando a próxima ação.
 tuber.canis.actions.RiverfolkCompanyActions.BuyRiverfolkServices=Escolha quaisquer serviços da Companhia Ribeirinha para comprar.
-tuber.canis.actions.RiverfolkCompanyActions.BuyRiverfolkServices.opponent=[jogador] está considerando serviços da Companhia Ribeirinha.
+tuber.canis.actions.RiverfolkCompanyActions.BuyRiverfolkServices.opponent=[player] está considerando serviços da Companhia Ribeirinha.
 tuber.canis.actions.RiverfolkCompanyActions.ChooseRiverfolkHandCard=Escolha uma carta da mão da Companhia Ribeirinha para pegar.
-tuber.canis.actions.RiverfolkCompanyActions.ChooseRiverfolkHandCard.opponent=[jogador] está considerando uma carta da mão da Companhia Ribeirinha para pegar.
+tuber.canis.actions.RiverfolkCompanyActions.ChooseRiverfolkHandCard.opponent=[player] está considerando uma carta da mão da Companhia Ribeirinha para pegar.
 tuber.canis.actions.RiverfolkCompanyActions.CommitFund=Comprometa Fundos.
 tuber.canis.actions.RiverfolkCompanyActions.CommitFund.opponent=A Companhia Ribeirinha está comprometendo fundos.
 tuber.canis.actions.RiverfolkCompanyActions.SpendFund=Gaste Fundos.
@@ -1100,7 +1100,7 @@ log.cult.recruit=<color=#748421>Lagartos Cultistas</color> revelam [name] para r
 log.cult.score=<color=#748421>Lagartos Cultistas</color> descartam [name] para pontuar jardins de [suit icon] e ganhar [X] pontos de vitória.
 log.cult.sacrifice=<color=#748421>Lagartos Cultistas</color> revelam [name] para ganhar um acólito.
 log.cult.lost.garden=<color=#748421>Lagartos Cultistas</color> descartam a carta aleatória [name] porque um jardim foi removido.
-log.vagabond.explore.failure=[faction name] não encontra um item legal para pegar ao explorar em uma clareira de [suit icon].
+log.vagabond.explore.failure=[faction name] falha em encontrar um item válido para pegar ao explorar em uma clareira de [suit icon].
 log.vagabond.scorched.earth=[faction name] remove <sprite name="torch"> para usar sua habilidade Terra Queimada em uma clareira de [suit icon]. As seguintes peças são removidas: [piece list]
 log.vagabond.vagrant.ability=<color=#4E6F89>Malandro</color> exaure <sprite name="torch"> para instigar um combate entre [faction name] e [faction name 2] em uma clareira de [suit icon].
 log.vagabond.arbiter.ability=[faction name] recruta a ajuda do Malandro Arbítrio <color=#4E6F89>Malandro</color> no combate, adicionando [X] espadas ao seu máximo de golpes. O Arbítrio ganha [X2] <style="vptext">PV</style> em troca.
@@ -1166,8 +1166,8 @@ tuber.canis.abilities.LizardCultAbilities.CultSanctifyAbility=Escolha uma constr
 playmat.boughthandcard=Carta da Mão Comprada!
 playmat.boughtriverboats=Barcos Comprados!
 playmat.boughtmercenaries=Mercenários Comprados!
-prompts.gameresults.winner.LizardCult=Os Lagartos Cultistas Vencem!
-prompts.gameresults.winner.RiverfolkCompany=A Companhia Ribeirinha Vence!
+prompts.gameresults.winner.LizardCult=Vitória - Cultistas
+prompts.gameresults.winner.RiverfolkCompany=Vitória - Ribeirinhos
 tuber.canis.abilities.LizardCultAbilities.CultConvertAbility=Escolha um guerreiro para converter
 vagabond.title.SecondVagabond_Thief=Malandro Ladrão
 vagabond.title.SecondVagabond_Tinker=Malandro Funileiro
@@ -1202,7 +1202,7 @@ playmat.enlisted=Alistado!
 prompts.vagabonditems.novalidchoices=Você não pode pegar dois itens do mesmo tipo nas ruínas.
 playmat.establishtradepost=Estabelecer Entreposto Comercial!
 playmat.export=Exportar!
-prompts.gameresults.winner.SecondVagabond=Malandro Vence
+prompts.gameresults.winner.SecondVagabond=Vitória - Malandro
 prompt.selectaplayer=Selecione um Jogador!
 Log.riverfolk.Favor.Craft=<color=#397F7F>Companhia Ribeirinha</color> compromete [X2] fundos para criar [name], removendo todas as peças inimigas nas clareiras de [suit icon].
 tooltip.ui.riverfolk.craftedcards=<size=125%><b>Cartas Criadas</b></size>\nA Companhia Ribeirinha cria cartas usando Postos de Comércio.
@@ -1231,7 +1231,7 @@ vagabond.improvise.activate=Gostaria de Improvisar esta tarefa?
 vagabond.improvise.item=Escolha um item para danificar para Improvisar.
 vagabond.improvise.item.opponent=[player] está escolhendo um item para danificar para Improvisar.
 vagabond.improvise.item.quest=Escolha qual item de tarefa para exaurir.
-Log.Quest.Improvise=[faction name] Improvisou, exaurindo um [item icon] e danificando um [item icon 2] para completar a tarefa [name].
+Log.Quest.Improvise=[faction name] Improvisou, exaurindo [item icon] e danificando [item icon 2] para completar a tarefa [name].
 log.vagabond.ronin.ability=[faction name] usou Golpe Rápido, exaurindo [item icon] para adicionar um golpe adicional.
 log.vagabond.harrier.ability=[faction name] usou Esgueirar para mover-se, planando pelo céu.
 tooltip.ability.vagabond.glide=<size=125%><b>Esgueirar</b></size> - Exaura <sprite name="torch"> para mover-se para qualquer clareira (mesmo hostil). Você não pode trazer aliados e não precisa exaurir botas.
@@ -1326,7 +1326,7 @@ tuber.canis.abilities.SwapMeetAbility.give.opponent=[player] está escolhendo um
 tuber.canis.abilities.SwapMeetAbility.player=Escolha um jogador para trocar uma carta.
 tuber.canis.abilities.SwapMeetAbility.player.opponent=[player] está escolhendo um jogador para trocar uma carta.
 Log.BoatBuilders=
-Log.CharmOffensive=[faction name] usa Charme Ofensivo para comprar uma carta e dar [faction name 2] 1 <style="vptext">PV</style>.
+Log.CharmOffensive=[faction name] usa Charme Ofensivo para comprar uma carta e dar 1 <style="vptext">PV</style> para [faction name 2].
 Log.CoffinMakers.Warriors=[X] guerreiros removidos foram posicionados em Coveiros em vez da reserva.
 Log.CoffinMakers.Warriors.One=Um guerreiro removido foi posicionado em Coveiros em vez da reserva.
 Log.CoffinMakers.Points=[faction name] pontua [X] <style="vptext">PV</style> com Coveiros. [X2] guerreiros em Coveiros foram devolvidos à reserva.
@@ -1335,8 +1335,8 @@ Log.EyrieEmigre.Move=[faction name] usa Imigrante Rapina para mover [X] guerreir
 Log.EyrieEmigre.Move.One=[faction name] usa Imigrante Rapina para mover 1 guerreiro para uma clareira de [suit icon], mas não batalha.
 Log.EyrieEmigre.Battle=[faction name] usa Imigrante Rapina para mover [X] guerreiros para uma clareira de [suit icon] e batalhar contra [faction name 2].
 Log.EyrieEmigre.Battle.One=[faction name] usa Imigrante Rapina para mover 1 guerreiro para uma clareira de [suit icon] e batalhar contra [faction name 2].
-Log.EyrieEmigre.Discard=[faction name] descarta seu Imigrante Rapina, pois não se moveu nem batalhou com ela.
-Log.FalseOrdersAbility=[faction name] descarta Ordens Falsificadas para mover [X] guerreiros de [faction name 2] para uma clareira de [suit icon].
+Log.EyrieEmigre.Discard=[faction name] descarta seu Imigrante Rapina, pois não se moveu nem batalhou com ele.
+Log.FalseOrdersAbility=[faction name] descarta Ordens Falsificadas para mover [X] guerreiros [faction name 2] para uma clareira de [suit icon].
 Log.Informants=[faction name] compra uma emboscada de [suit icon] do monte de descarte usando Informantes.
 Log.LeagueOfAdventurousMice=[faction name] exaure [item icon] para usar a Liga dos Ratos Aventureiros.
 Log.MasterEngravers=[faction name] ganha 1 <style="vptext">PV</style> por criar um item com Mestre Escultor.
@@ -1452,7 +1452,7 @@ log.duchy.move.one=<color=#BD5752>Ducado Subterrâneo</color> move 1 guerreiro p
 log.duchy.move.one.burrow=<color=#BD5752>Ducado Subterrâneo</color> move 1 guerreiro da Toca para uma clareira de [suit icon].
 log.duchy.recruit=[faction name] coloca um guerreiro na Toca.
 log.duchy.setup=[faction name] coloca seu túnel inicial e 2 guerreiros em uma clareira de canto de [suit icon]. Mais 2 guerreiros são colocados em cada clareira adjacente.
-log.duchy.sway=[faction name] revela [cardnames] para aliciar [name], ganhando [X] <style="vptext">PV</style>.
+log.duchy.sway=[faction name] revela [cardnames] para influenciar [name], ganhando [X] <style="vptext">PV</style>.
 log.embedded.agents=[faction name] ganha um golpe extra por seu marcador de trama oculto na clareira da batalha.
 log.exert=[faction name] usa Exceder para ganhar uma ação extra de Dia no Anoitecer. Como pagamento, ele deixará de comprar cartas no Anoitecer.
 log.exposure.failure=[faction name] tenta expor um marcador de trama em uma clareira de [suit icon] e revela [name] para adivinhar [plot token name]. A aposta está errada, e [faction name 2] pega [name].
@@ -1467,7 +1467,7 @@ log.lake.Ferry=[faction name] usou a Balsa ao se mover e comprou uma carta.
 log.marshal=[faction name] ativa o Marechal para um movimento.
 log.mayor=[faction name] copia a ação de [name] com o Prefeito.
 log.navalwarfare.hit=[faction name] pontua um golpe de Guerra Naval.
-log.playerwon=[faction name] Vence!
+log.playerwon=Vitória - [faction name]
 log.plot=[faction name] remove [X] guerreiros de uma clareira de [suit icon] para posicionar uma trama oculta lá.
 log.plot.one=[faction name] remove um de seus guerreiros de uma clareira de [suit icon] para posicionar uma trama oculta lá.
 log.spawn.burrow=[X] Guerreiro(s) adicionados à Toca
@@ -1566,12 +1566,12 @@ prompt.exposure.plot.type.opponent=[player] está escolhendo um tipo de trama pa
 prompt.factiondraft.insurgent=Insurgente
 prompt.factiondraft.militant=Militante
 prompt.locked.factiondraft=Não pode ser escolhido a menos que ao menos uma facção militante tenha sido escolhida.
-prompts.duchy.revealswayedministers.title=Ministros Convencidos
-prompts.duchy.revealunswayedministers.title=Ministros Não Convencidos
+prompts.duchy.revealswayedministers.title=Ministros Influenciados
+prompts.duchy.revealunswayedministers.title=Ministros Não Influenciados
 prompts.duchybuild.citadel=Cidadela
 prompts.duchybuild.market=Mercado
-prompts.gameresults.winner.CorvidConspiracy=Conspiração Corvídea Vence
-prompts.gameresults.winner.UndergroundDuchy=Ducado Vence
+prompts.gameresults.winner.CorvidConspiracy=Vitória - Corvídios
+prompts.gameresults.winner.UndergroundDuchy=Vitória - Ducado
 root.duchy.banker=Banqueiro
 root.duchy.banker.text=Gaste qualquer número de cartas do mesmo naipe para pontuar uma quantidade equivalente de <style="vptext">PV</style>.
 root.duchy.baronofdirt=Barão da Terra
@@ -1589,7 +1589,7 @@ root.duchy.foremole.text=Revele qualquer carta para colocar uma cidadela ou merc
 root.duchy.marshal=Marechal
 root.duchy.marshal.text=Realize um movimento.
 root.duchy.mayor=Prefeito
-root.duchy.mayor.text=Realize a ação de qualquer nobre ou comum convencido.
+root.duchy.mayor.text=Realize a ação de qualquer nobre ou comum influenciado.
 scenario.burrowwarfare.name=Guerra Subterrânea
 scenario.burrowwarfare.tier1description=Adicione um guerreiro a menos ao seu Túnel durante o Amanhecer. Quando seus guerreiros forem removidos em batalha, eles vão para o Túnel.
 scenario.burrowwarfare.tier2description=Você não adiciona guerreiros ao seu Túnel durante o Amanhecer e não pode construir Cidadelas. Quando seus guerreiros forem removidos em batalha, eles vão para o Túnel.
@@ -1610,9 +1610,9 @@ scenario.navalwarfare.name=Guerra Naval
 scenario.navalwarfare.tier1description=Você ganha um golpe extra em batalhas adjacentes ao lago. Seus oponentes ganham um golpe extra em batalhas contra você em clareiras não adjacentes ao lago.
 scenario.navalwarfare.tier2description=Você ganha um golpe extra em batalhas na clareira da Balsa. Seus oponentes ganham um golpe extra em batalhas contra você em todas as outras clareiras.
 scenario.nolordsbeforeme.name=Sem Senhores Além de Mim
-scenario.nolordsbeforeme.tier1description=No início do jogo, escolha um lorde para convencer de graça. Você não pode ter outros lordes.
-scenario.nolordsbeforeme.tier2description=No início do jogo, escolha um comum para convencer de graça. Você não pode ter outros comuns.
-scenario.nolordsbeforeme.tier2description.balance.update=No início do jogo, escolha um comum para convencer de graça. Você não pode ter outros comuns nem lordes.
+scenario.nolordsbeforeme.tier1description=No início do jogo, escolha um lorde para influenciar de graça. Você não pode ter outros lordes.
+scenario.nolordsbeforeme.tier2description=No início do jogo, escolha um comum para influenciar de graça. Você não pode ter outros comuns.
+scenario.nolordsbeforeme.tier2description.balance.update=No início do jogo, escolha um comum para influenciar de graça. Você não pode ter outros comuns nem lordes.
 scenario.offensiveagents.name=Agentes Ofensivos
 scenario.offensiveagents.tier1description=Sua habilidade Agentes Escondidos é substituída por "Agentes Ofensivos: Ao atacar em uma clareira com um marcador de trama oculta, você causa um golpe extra."
 scenario.offensiveagents.tier2description=Sua habilidade Agentes Escondidos é substituída por "Agentes Ofensivos: Ao atacar em uma clareira com um marcador de trama oculta, você causa um golpe extra." Você está sem a trama de Extorsão.
@@ -1644,13 +1644,13 @@ tooltip.banned.riverfolk=Ribeirinhos Banidos
 tooltip.banned.secondvagabond=Segundo Malandro Banidos
 tooltip.banned.vagabond=Malandro Banido
 tooltip.corvid.plots.description=Cada clareira pode conter apenas um marcador de trama.
-tooltip.crowns=Cada nível de Ministro (Comum, Nobre, Lorde) pode ser convencido no máximo 3 vezes por jogo. A quantidade de vezes restantes é representada por coroas.
+tooltip.crowns=Cada nível de Ministro (Comum, Nobre, Lorde) pode ser influenciado no máximo 3 vezes por jogo. A quantidade de vezes restantes é representada por coroas.
 tooltip.duchy.burrow.description=O Túnel é adjacente a cada clareira com um túnel. Você sempre o governa, e apenas você pode entrar nele.
 tooltip.duchy.playmat.burrow=<size=125%><b>O Túnel</b></size>\nO Túnel é adjacente a cada clareira com um túnel. O Ducado Subterrâneo sempre o governa, e apenas eles podem entrar nele.
 tooltip.embeddedagents.battle=<size=125%><b>Agentes Ofensivos:</b></size><br>Ao defender em uma clareira com um marcador de trama oculto, cause um golpe extra.
 tooltip.lakemap=<size=125%><b>Mapa do Lago</b></size><br>Use a Balsa para atravessar o grande lago e encher sua mão com cartas extras.
 tooltip.minister.locked=Você não tem mais coroas para jogar um ministro deste nível.
-tooltip.minister.moreinfo=Para Convencer um ministro, você deve revelar um número de cartas baseado no nível do ministro (Comum 2, nobre 3, lorde 4). Você só pode revelar cartas correspondentes a clareiras onde tenha peças, e cada uma dessas clareiras permite revelar apenas uma carta. Ao convencer um ministro, você também perde uma coroa de seu nível. Se não tiver mais coroas de um nível, não poderá recrutar um ministro desse tipo.
+tooltip.minister.moreinfo=Para Influenciar um ministro, você deve revelar um número de cartas baseado no nível do ministro (Comum 2, nobre 3, lorde 4). Você só pode revelar cartas correspondentes a clareiras onde tenha peças, e cada uma dessas clareiras permite revelar apenas uma carta. Ao influenciar um ministro, você também perde uma coroa de seu nível. Se não tiver mais coroas de um nível, não poderá recrutar um ministro desse tipo.
 tooltip.mountainmap=<size=125%><b>Mapa da Montanha</b></size><br>Limpe caminhos bloqueados e controle a Torre para ganhar pontos de vitória adicionais.
 tooltip.mountainmap.tower=<size=125%><b>Torre</b></size>\nA clareira com a <sprite name="TowerToken"> <color=#6E5656>Torre</color> é chamada de Passagem. No final do Anoitecer de um jogador, ele pontua <sprite name="1VP"> se governar a Passagem.
 tooltip.offensiveagents.battle=<size=125%><b>Agentes Ofensivos:</b></size><br>Ao atacar em uma clareira com um marcador de trama oculto, cause um golpe extra.
@@ -1833,7 +1833,7 @@ playerinfo.lordofthehundreds.oppressedspaces.title=Espaços Oprimidos: {0}
 playerinfo.lordofthehundreds.infiltratedspaces.title=Espaços Infiltrados: {0}
 playerinfo.lordofthehundreds.birdsong=1º: Arrase<size=80%> - Em cada clareira com um marcador de turba, remova todas as construções e marcadores inimigos, pegue um item de uma ruína presente na clareira, se houver. Após resolver as turbas, role o dado de turba e posicione uma turba em uma clareira correspondente sem turba, mas adjacente a uma turba.<br><br></size=80%>2º: Recrute <size=80%>guerreiros iguais à sua Proeza na clareira do seu Senhor da Guerra, e então um guerreiro em cada forte.<br><br></size=80%>3º: Convoque <size=80%>um guerreiro das Centenas como seu novo Senhor da Guerra se ele estiver fora do mapa. Se não puder, posicione seu Senhor da Guerra em qualquer clareira.<br><br></size=80%>4º: Escolha um Humor diferente <size=80%>que não mostre um item no seu Tesouro.<br>
 playerinfo.lordofthehundreds.daylight=1º: Criar<size=80%> usando fortes.<br><br></size=80%>2º: Comande as Centenas<size=80%> um número de vezes até Comandar.<br><br><sprite name="hundredswarrior"> Mover<br><br><sprite name="hundredswarrior"> Batalha<br><br><sprite name="hundredswarrior"> Construir<br><br></size=80%>3º: Avance com o Senhor da Guerra<size=80%> um número de vezes até sua quantidade de Proezas.<br><br>Você pode mover seu Senhor da Guerra com quaisquer guerreiros das Centenas, e então pode batalhar na clareira do seu Senhor da Guerra.
-playerinfo.lordofthehundreds.evening=1º: Incite<size=80%> - quantas vezes quiser. Gaste uma carta para posicionar uma horda em uma clareira correspondente com um guerreiro ou Senhor da Guerra das Centenas, mas sem horda.<br><br></size=80%>2º: Oprima <size=80%>clareiras que você governa e que têm uma peça das Centenas e nenhuma peça inimiga. <br><br>1-2: <sprite name="1VP">   3-4: <sprite name="2VP"><br><br>5: <sprite name="3VP">   6+: <sprite name="4VP"><br></size=80%><br>Compre <size=80%>- 1 carta.</size=90%> Descarte<size=80%> até ficar com 5 cartas.
+playerinfo.lordofthehundreds.evening=1º: Incite<size=80%> - quantas vezes quiser. Gaste uma carta para posicionar uma turba em uma clareira correspondente com um guerreiro ou Senhor da Guerra das Centenas, mas sem turba.<br><br></size=80%>2º: Oprima <size=80%>clareiras que você governa e que têm uma peça das Centenas e nenhuma peça inimiga. <br><br>1-2: <sprite name="1VP">   3-4: <sprite name="2VP"><br><br>5: <sprite name="3VP">   6+: <sprite name="4VP"><br></size=80%><br>Compre <size=80%>- 1 carta.</size=90%> Descarte<size=80%> até ficar com 5 cartas.
 playerinfo.lordofthehundreds.evening.infiltrate.normal=1º: Incite<size=80%> - qualquer número de vezes. Gaste uma carta para colocar uma turba em uma clareira correspondente com um guerreiro ou Senhor da Guerra, mas nenhuma turba.<br><br></size>2º: Infiltre <size=80%>clareiras governadas por um oponente que tenham uma peça das Centenas. <br><br>1-2: <sprite name="1VP_White"> 3-4: <sprite name="2VP_White"><br><br>5: <sprite name="3VP_White"> 6+: <sprite name="4VP_White"><br></size><br>Compre <size=80%>- 1 carta. </size=90%>Descarte<size=80%> até 5 cartas.</size>
 playerinfo.lordofthehundreds.evening.infiltrate.heroic=1º: Incite<size=80%> - qualquer número de vezes. Gaste uma carta para colocar uma turba em uma clareira correspondente com um guerreiro ou Senhor da Guerra, mas nenhuma turba.<br><br></size>2nd: Infiltre <size=80%>clareiras governadas por um oponente com pelo menos 3 peças, que tenham um guerreiro das Centenas ou Senhor da Guerra. <br><br>1-2: <sprite name="1VP_White">   3-4: <sprite name="2VP_White"><br><br>5: <sprite name="3VP_White">   6+: <sprite name="4VP_White"><br></size><br>Compre <size=80%>- 1 carta. </size=90%>Descarte<size=80%> até 5 cartas.</size>
 playerinfo.lordofthehundreds.protectthewarlord=Proteger o Senhor da Guerra
@@ -1846,7 +1846,7 @@ hundreds.moods.desc.grandiose=Troque a etapa Avance com o Senhor da Guerra pela 
 hundreds.moods.stubborn=Teimoso
 hundreds.moods.desc.stubborn=Em batalha com seu Senhor da Guerra, você ignora o primeiro golpe que sofrer.
 hundreds.moods.bitter=Cruel
-hundreds.moods.desc.bitter=Em batalha com o Senhor da Guerra, antes da rolagem, posicione um guerreiro na clareira da batalha por horda que você escolher remover da clareira da batalha e das adjacentes.
+hundreds.moods.desc.bitter=Em batalha com o Senhor da Guerra, antes da rolagem, posicione um guerreiro na clareira da batalha por turba que você escolher remover da clareira da batalha e das adjacentes.
 hundreds.moods.lavish=Esbanjador
 hundreds.moods.desc.lavish=No final do Amanhecer, você pode remover quaisquer itens do seu Tesouro para posicionar dois guerreiros por item removido na clareira do seu Senhor da Guerra.
 hundreds.moods.relentless=Implacável
@@ -1854,7 +1854,7 @@ hundreds.moods.desc.relentless=Sempre que você avançar com seu Senhor da Guerr
 hundreds.moods.wrathful=Colérico
 hundreds.moods.desc.wrathful=Como atacante em batalha com seu Senhor da Guerra, você causa um golpe extra. <i>(Ao saquear, você causa este golpe.)</i>
 hundreds.moods.jubilant=Jubilante
-hundreds.moods.desc.jubilant=Após incitar na clareira do seu Senhor da Guerra, você pode rolar o dado da horda para posicionar uma horda <i>(como descrito na sua etapa Arrasar)</i> até quatro vezes.
+hundreds.moods.desc.jubilant=Após incitar na clareira do seu Senhor da Guerra, você pode rolar o dado da turba para posicionar uma turba <i>(como descrito na sua etapa Arrasar)</i> até quatro vezes.
 hundreds.moods.rowdy=Conflitante
 hundreds.moods.desc.rowdy=Durante o Anoitecer, compre uma carta a mais. Se a clareira do seu Senhor da Guerra tiver três ou mais peças inimigas, compre duas cartas a mais.
 hundreds.movewarlord.prompt.title=Mover Senhor da Guerra?
@@ -2302,19 +2302,19 @@ log.patrol.start=Um guerreiro de Patrulha é colocado em cada clareira
 log.band.start=Os guerreiros da Banda são colocados em duas clareiras diferentes.
 log.vault.keepers.start=2 guerreiros Guardiões e um Cofre são colocados em uma clareira [ícone de traje]
 log.bearers.start=2 guerreiros Portadores são colocados em clareiras
-log.encamp=[faction name] substitui um guerreiro por uma [type] estação dento de um clareira [suit icon].
-log.decamp=[faction name] substitui uma [type] estação dentro de uma clareira [suit icon] por um guerreiro.
-log.recruit.keepers=[faction name] gaste [card] para recrutar dois guerreiros em uma clareira [suit icon]
-log.delve=[faction name] escave dentro de uma clareira [suit icon], descobrindo uma relíquia [X] [type].
-log.retinue.lost=[faction name] descarte [card] de seu [type] Séquito.
+log.encamp=[faction name] substitui um guerreiro por uma estação [type] dento de um clareira [suit icon].
+log.decamp=[faction name] substitui uma estação [type] dentro de uma clareira [suit icon] por um guerreiro.
+log.recruit.keepers=[faction name] gasta [card] para recrutar dois guerreiros em uma clareira [suit icon]
+log.delve=[faction name] escava dentro de uma clareira [suit icon], descobrindo uma relíquia [X] [type].
+log.retinue.lost=[faction name] descarta [card] de seu Séquito [type].
 log.recover=[faction name] recupera uma relíquia [type], pontuando [X] <style=""vptext"">VP</style>.
 log.live.off.land=[faction name] perde um guerreiro em uma clareira [suit icon] devido à Deixe a Terra.
-log.gather.retinue=[faction name] adiciona [card] para seu [type] Séquito.
-log.shift.retinue=[faction name] muda o [suit icon] de [type1] Séquito para [type2] Séquito.
+log.gather.retinue=[faction name] adiciona [card] para seu Séquito [type].
+log.shift.retinue=[faction name] muda o [suit icon] de Séquito [type1] para Séquito [type2].
 log.move.relic=[faction name] move uma relíquia [type] para uma clareira [suit icon].
 log.prized.relic=[faction name] pontua um 1 <style=""vptext"">PV</style> extra de Troféu Premiado por remover uma relíquia e a colocar de volta em uma floresta
 log.raze=[faction name] arrasa uma clareira [suit icon], removendo todas as ruínas, construções inimigas e marcadores.
-log.razeitem=[faction name] arrasa uma ruína em uma clareira [suit icon]. Eles ganham um [item icon].
+log.razeitem=[faction name] arrasa uma ruína em uma clareira [suit icon]. Eles ganham [item icon].
 log.razeitem.noitems=[faction name] arrasa uma ruína em uma clareira [suit icon], mas não havia nenhum item lá.
 log.mob.spread=A turba do [faction name] se espalha para uma clareira [suit icon].
 log.anoint=[faction name] convoca um novo líder em uma clareira [suit icon].
@@ -2443,8 +2443,8 @@ scenario.medic.tier1description=Sua habilidade de Hospitais de Campo automaticam
 scenario.medic.tier2description=Sua habilidade de Hospitais de Campo automaticamente resgata guerreiros sem custo. Cada inimigo começa com Táticas Brutais e <style="vpnum">5</style>.
 scenario.builder.tier2description=Você começa com três serrarias no início do jogo e um guerreiro nesses espaços em vez de um guerreiro em cada clareira.
 scenario.builder.tier3description=Você começa com três serrarias no início do jogo e um guerreiro nesses espaços em vez de um guerreiro em cada clareira. Erguer serrarias não lhe dá pontos de vitória.
-scenario.castlesiege.tier1description=Você não pode vencer a menos que o forte dos Marqueses seja destruído.
-scenario.castlesiege.tier3description=Você não pode vencer a menos que o forte dos Marqueses seja destruído. Os Marqueses começam com três guerreiros adicionais em seu forte.
+scenario.castlesiege.tier1description=Você não pode vencer a menos que a Torre da Guarda dos Marqueses seja destruída.
+scenario.castlesiege.tier3description=Você não pode vencer a menos que a Torre da Guarda Marqueses seja destruída. Os Marqueses começam com três guerreiros adicionais em sua Torre da Guarda.
 scenario.thetrueking.tier1description=Sempre que você entrar em Tumulto, mantém o mesmo líder, mas perde <style="vpone">1</style> adicional.
 scenario.thetrueking.tier2description=Sempre que você entrar em Tumulto, mantém o mesmo líder, mas perde <style="vpnum">2</style> adicionais.
 scenario.thetrueking.tier3description=Se você entrar em Tumulto, perde o jogo.
@@ -3344,7 +3344,7 @@ rule.corvidabilities=Para proteger seus marcadores de trama, os Corvídeos preci
 rule.corvidbirdsong=<style=RSH><sprite index=66>Amanhecer</style> <br><br>Primeiramente, você pode criar usando marcadores de trama, estejam eles com a face para cima ou para baixo.<br><br>Depois, você pode revelar marcadores de trama em qualquer clareira onde tenha pelo menos um guerreiro. Cada vez que você revelar uma trama, você pontua <sprite name="1VP"> por marcador de trama com a face para cima no mapa, incluindo o que acabou de revelar, e então resolve seu efeito de revelação se for uma bomba ou extorsão.<br><br>Por fim, uma vez por turno, você pode gastar qualquer carta para colocar um guerreiro em cada clareira correspondente. Se você descartar uma carta de pássaro, escolha um naipe de clareiras para colocar os guerreiros.
 rule.corviddaylight=<style=RSH><sprite index=65>Dia</style> <br><br>Você pode realizar até três das seguintes ações. <br><br><style=RB>Tramar:</style> Remova um guerreiro Corvídeo, mais um guerreiro Corvídeo por marcador de trama que você já tenha colocado neste turno, de uma clareira para colocar um marcador de trama com a face para baixo nessa clareira. Cada clareira só pode conter um marcador de trama por vez, e todos os guerreiros removidos para colocar a trama devem vir da clareira onde a trama será colocada. <br><style=RB>Despistar:</style> Troque dois marcadores de trama no mapa. Ambos os marcadores de trama devem estar com a face para cima ou com a face para baixo.<br><style=RB>Mover:</style> Realize um movimento.<br><style=RB>Batalhar:</style> Inicie uma batalha.<br><br>Adicionalmente, o jogador pode <b>Exceder</b> para realizar uma ação extra de Dia durante o Anoitecer. Se o fizer, ele não comprará cartas durante o Anoitecer deste turno.
 rule.corvidevening=<style=RSH><sprite index=64>Anoitecer</style> <br><br>Compre uma carta, mais uma carta por marcador de extorsão com a face para cima no mapa. Em seguida, descarte até ficar com cinco cartas na mão.
-rule.duchyintro=O Ducado há muito tempo olha com desconfiança para os habitantes da superfície. A vasta riqueza do subsolo parecia mais do que suficiente para satisfazer suas ambições. Agora, no entanto, as reservas estão diminuindo, e o Ducado volta sua atenção para a grande Floresta em busca de expansão. Para ter sucesso, eles precisam convencer ministros a se unirem à sua causa e direcionar a riqueza do Ducado para esse esforço, fornecendo ações extras e formas de pontuar. O Ducado conquista o apoio dos ministros ao revelar cartas que correspondam a clareiras onde o Ducado tem qualquer número de peças, representando seus sucessos ao estabelecer postos avançados nas fronteiras. Por fim, o Ducado precisará construir mercados e cidadelas para justificar sua conquista e obter mais apoio de separatistas da Floresta.
+rule.duchyintro=O Ducado há muito tempo olha com desconfiança para os habitantes da superfície. A vasta riqueza do subsolo parecia mais do que suficiente para satisfazer suas ambições. Agora, no entanto, as reservas estão diminuindo, e o Ducado volta sua atenção para a grande Floresta em busca de expansão. Para ter sucesso, eles precisam influenciar ministros a se unirem à sua causa e direcionar a riqueza do Ducado para esse esforço, fornecendo ações extras e formas de pontuar. O Ducado conquista o apoio dos ministros ao revelar cartas que correspondam a clareiras onde o Ducado tem qualquer número de peças, representando seus sucessos ao estabelecer postos avançados nas fronteiras. Por fim, o Ducado precisará construir mercados e cidadelas para justificar sua conquista e obter mais apoio de separatistas da Floresta.
 rule.duchysetup=<style=RSH>Preparação</style><br><br>Coloque 2 guerreiros e 1 túnel na clareira do canto diagonalmente oposto à clareira com o marcador da torre. Se os Marqueses não estiverem jogando, coloque essas peças em uma clareira de canto à sua escolha. Coloque 2 guerreiros em cada clareira adjacente a essa clareira de canto.
 rule.duchysupply=<style=RSH>Suprimento</style><br><br>∙Guerreiros x20<br>∙Cidadelas x3<br>∙Mercados x3<br>∙Túneis x3<br>∙Coroas de Comum x3<br>∙Coroas de Nobre x3<br>∙Coroas de Lorde x3<br>∙Coroas de Ministro x9
 rule.duchyabilities=O Ducado recruta seus guerreiros em uma clareira especial chamada <b>A Toca</b>. Essa clareira está fora do mapa e não possui espaços para construções, mas é adjacente a todas as clareiras com um marcador de túnel. Devido à sua construção peculiar, somente guerreiros do Ducado podem entrar na Toca.<br><br>Os olhos do Duque estão focados na campanha pela Floresta. Quando qualquer número de construções do Ducado é removido, o Ducado deve pagar o <b>Preço da Derrota</b>, descartando uma carta aleatória e devolvendo seu ministro influenciado de maior patente para a pilha de Ministros Não Influenciados.
@@ -3707,11 +3707,25 @@ store.product.underworldexpansion.description=Conquiste novos campos de batalha 
 store.product.marauderexpansion.name=A Expansão Saqueadores
 store.product.marauderexpansion.description=Duas novas facções!<br>Senhor das Centenas – Oprima a Floresta e queime-a até o chão se necessário. Você não sofre dissidência.<br>Guardiões de Ferro – Lidere sua ordem exilada de cavaleiros devotos para a batalha para recuperar relíquias antigas. Para a glória!
 store.product.marauderexpansion.name.short=A Expansão Saqueadores
+scenario.journeytothenorth.name=Jornada ao Norte
+scenario.journeytothenorth.tier1description=Governe as 4 clareiras mais ao norte para vencer (não é necessário pontuar pontos de vitória).
+scenario.town.name=Cidade do Funileiro
+scenario.town.tier1description=O baralho de cartas contém apenas itens e o suprimento é ilimitado. Você começa como o Funileiro.
+scenario.town.tier2description=O baralho de cartas contém apenas itens e o suprimento é ilimitado. Você começa como o Funileiro e não pode completar tarefas. Os oponentes começam com <style="vpnum">5</style>.
+scenario.delivery.name=Coletor de Ovos
+scenario.delivery.tier1description=No início do seu turno, ovos aparecem em clareiras aleatórias. Quando você se move para uma clareira com um ovo, ele choca e vira um guerreiro das Rapinas. No início do turno de cada oponente, eles quebram um ovo na clareira onde estão por <style="vpnum">1</style>.
+scenario.delivery.tier2description=No início do seu turno, ovos aparecem em clareiras aleatórias. Quando você se move para uma clareira com um ovo, ele choca e vira um guerreiro das Rapinas. No início do turno de cada oponente, eles quebram um ovo na clareira onde estão por <style="vpnum">1</style>. Você começa com apenas 2 guerreiros.
+scenario.work.name=Trabalho, Trabalho, Trabalho
+scenario.work.tier1description=Suas construções iniciais são três oficinas.
+scenario.work.tier2description=Suas construções iniciais são três oficinas. Os oponentes começam com <style="vpnum">5</style>.
+scenario.ww.name=Guerreiros do Inverno
+scenario.ww.tier1description=Você começa com três guerreiros e um oficial e usa guerreiros para criar neste jogo, em vez de marcadores de simpatia. Você não pode mobilizar cartas de pássaro.
+scenario.ww.tier2description=Você começa com três guerreiros e um oficial e usa guerreiros para criar neste jogo, em vez de marcadores de simpatia. Você não pode mobilizar cartas de pássaro e começa sem apoiadores.
 Log.Eyrie.Selects.Character=<color=#3a63cb>Dinastia das Rapinas</color> seleciona [name] como seu líder, adicionando um <sprite name="birdicon"> aos decretos [area1] e [area2].
-Log.Eyrie.Selects.Roost=[faction name] erguem seu Ninho inicial em uma clareira de [suit icon].
+Log.Eyrie.Selects.Roost=[faction name] constrói seu Ninho inicial em uma clareira de [suit icon].
 Log.Vagabond.Character=[faction name] escolhe [name] como seu personagem.
 Log.Keep.Choice=[faction name] coloca sua Torre da Guarda em uma clareira de [suit icon].
-Log.SetupBuilding.Choice=[faction name] coloca seu [piece] em uma clareira de [suit icon].
+Log.SetupBuilding.Choice=[faction name] coloca [piece] em uma clareira de [suit icon].
 Log.Start.Game=Início do Jogo
 Log.Start.Turn=Turno de [faction name]
 Log.Birdsong=<sprite name="Birdsong">Amanhecer
@@ -3723,10 +3737,10 @@ Log.Ambush.Cancel=[faction name] cancela a emboscada de [faction name 2] com uma
 Log.Roll=[faction name] pega o dado [X]. [faction name 2] pega o dado [X2].
 Log.Defenseless.Hit=[faction name] ganha um golpe adicional porque seu oponente está indefeso.
 Log.Casualties=[faction name] perde [pieces].
-Log.Nonvagabond.Move=[faction name] move [X] guerreiros para uma clareira de [suit icon].
+Log.Nonvagabond.Move=[faction name] move [X] guerreiro(s) para uma clareira de [suit icon].
 Log.Craft.Persistent=[faction name] cria [name].
 Log.Craft.Item=[faction name] criou [name], recebendo [item icon] e [X] <style="vptext">PV</style>.
-Log.Build=[faction name] ergue uma [building name] em uma clareira de [suit icon].
+Log.Build=[faction name] constrói um(a) [building name] em uma clareira de [suit icon].
 Log.Recruit.single=[faction name] recruta um guerreiro em uma clareira de [suit icon].
 Log.Recruit.multiple=[faction name] recruta [X] guerreiros.
 Log.Discard.eot=[faction name] descarta [X] cartas para atender ao limite de cartas na mão.
@@ -3734,8 +3748,8 @@ Log.Draw=[faction name] compra [X] cartas.
 Log.Generic.Scoring=[faction name] ganha [X] <style="vptext">PV</style>.
 Log.Claim.Dominance.supply=[faction name] descartou uma carta de [suit icon] para reivindicar [suit icon 2] [name] do estoque.
 Log.Reshuffle=O baralho ficou sem cartas e foi reembaralhado.
-Log.Aid=[faction name] exaure um [item icon] para ajudar [faction name 2] com uma carta.
-Log.Aid.Item=[faction name] recebe um [item icon] em troca pela ajuda.
+Log.Aid=[faction name] exaure [item icon] para ajudar [faction name 2] com uma carta.
+Log.Aid.Item=[faction name] recebe [item icon] em troca pela ajuda.
 Log.Slip.Clearing=[faction name] desliza para uma clareira de [suit icon].
 Log.Slip.Forest=[faction name] desliza para uma floresta.
 Log.Quest=[faction name] exaure [item icon] e [item icon 2] para completar a tarefa [name].
@@ -3746,8 +3760,8 @@ Log.Relationship.2=[faction name] aumenta sua relação com [faction name 2] par
 Log.Relationship.3=[faction name] aumenta sua relação com [faction name 2] para aliado, ganhando 2 <style="vptext">PV</style>.
 Log.Relationship.Hostile=[faction name] torna-se hostil à [faction name 2].
 Log.Refresh=[faction name] reanima os seguintes itens no Amanhecer: [items].
-Log.Explore=[faction name] explora uma ruína em uma clareira de [suit icon]. Eles ganham 1 <style="vptext">PV</style> e obtêm um [item icon].
-Log.Strike=[faction name] ataca um [piece] de [faction name 2] em uma clareira de [suit icon].
+Log.Explore=[faction name] explora uma ruína em uma clareira de [suit icon]. Ganham 1 <style="vptext">PV</style> e obtêm um [item icon].
+Log.Strike=[faction name] ataca [piece] de [faction name 2] em uma clareira de [suit icon].
 Log.Repair=[faction name] exaure <sprite name="hammer"> para reparar [item icon].
 Log.Evenings.Rest=[faction name] repara todos os itens com Descanso do Anoitecer.
 Log.Satchel.Discard=[faction name] remove os seguintes itens de sua mochila por estar sobrecarregada: [items].
@@ -3757,7 +3771,7 @@ Log.Day.Labor=[faction name] usa Dia de Trabalho, exaurindo <sprite name="torch"
 Log.Move.Vagabond=[faction name] exaure <sprite name="boot"> para mover-se para uma clareira de [suit icon].
 Log.Vagabond.item.damage.gen=[faction name] danifica os seguintes itens: [items].
 Log.Enter.Coalition=[faction name] entra em uma Coalizão com [faction name 2].
-Log.Move.Buddy=[faction name] move-se com [X] guerreiros de [faction name 2].
+Log.Move.Buddy=[faction name] move-se com [X] guerreiro(s) de [faction name 2].
 Log.Outrage=[faction name] causa Ultraje, adicionando uma carta aos apoiadores da <color=#008D3F>Aliança da Floresta</color>.
 Log.Outrage.reveal=[faction name 2] revela sua mão para [faction name] devido ao Ultraje. [faction name] adiciona uma carta do baralho aos seus apoiadores.
 Log.Outrage.reveal.rootbot=[faction name 2] não tem cartas na mão para revelar a [faction name] devido ao Ultraje. [faction name] adiciona uma carta do baralho aos seus apoiadores.
@@ -3765,22 +3779,22 @@ Log.Outrage.reveal.nocarddrawn=[faction name 2] revela sua mão para [faction na
 Log.Outrage.reveal.rootbot.nocarddrawn=[faction name 2] não tem cartas na mão para revelar a [faction name] devido ao Ultraje. [faction name] não pode adicionar uma carta do baralho aos seus apoiadores porque não há cartas disponíveis.
 Log.Revolt.Intro=[faction name] inicia uma revolta em uma clareira de [suit icon].
 Log.Revolt.destruction=[faction name] perdeu [pieces].
-Log.Revolt.additions=[faction name] ganha um oficial e [X] guerreiros.
+Log.Revolt.additions=[faction name] ganha um oficial e [X] guerreiro(s).
 Log.Sympathy=[faction name] gasta [X] apoiadores para espalhar simpatia em uma clareira de [suit icon], pontuando [X2] <style="vptext">PV</style>.
 Log.Mobilize=[faction name] usa Mobilizar para adicionar uma carta aos seus apoiadores.
 Log.Organize=[faction name] usa Organizar para sacrificar um guerreiro por simpatia em uma clareira de [suit icon], pontuando [X] <style="vptext">PV</style>.
 Log.Organize.AutomatedAlliance=[faction name] usa Organizar para sacrificar todos os guerreiros em uma clareira de [suit icon] para espalhar simpatia, pontuando [X] <style="vptext">PV</style>.
 Log.Train=[faction name] treina um oficial.
 Log.Lost.base=Como uma base da <color=#008D3F>Aliança da Floresta</color> foi removida, eles perdem [X] oficiais e descartam [X2] apoiadores correspondentes.
-Log.Generate.Wood=[faction name] geraram [X] madeira durante o Amanhecer.
+Log.Generate.Wood=[faction name] geraram [X] madeira(s) durante o Amanhecer.
 Log.Overwork=[faction name] usaram Hora Extra para descartar uma carta de [suit icon] por 1 madeira.
-Log.Field.Hospitals=[faction name] usaram Hospitais de Campanha para devolver [X] guerreiros caídos à sua Torre da Guarda.
+Log.Field.Hospitals=[faction name] usaram Hospitais de Campanha para devolver [X] guerreiro(S) caído(s) à sua Torre da Guarda.
 Log.Hawks=[faction name] descartam uma carta <sprite name="birdicon"> para realizar uma ação extra.
 Log.Decree.Assignment=[faction name] atribui [suit icon] ao seu decreto de [name].
 Log.Special.Birdsong.Draw=[faction name] compra uma carta durante o Amanhecer porque sua mão estava vazia.
 Log.Special.Birdsong.Roost=[faction name] coloca um ninho e 3 guerreiros em uma clareira de [suit icon] porque não tinha ninhos.
 Log.Turmoil.recruit=[faction name] entra em tumulto porque não conseguiu recrutar em uma clareira de [suit icon].
-Log.Turmoil.move=[faction name] entra em tumulto porque não conseguiu se mover em uma clareira de [suit icon].
+Log.Turmoil.move=[faction name] entra em tumulto porque não conseguiu se mover d uma clareira de [suit icon].
 Log.Turmoil.battle=[faction name] entra em tumulto porque não conseguiu batalhar em uma clareira de [suit icon].
 Log.Turmoil.build=[faction name] entra em tumulto porque não conseguiu construir em uma clareira de [suit icon].
 Log.Turmoil.build.noroosts=[faction name] entra em tumulto porque não tinha ninhos restantes em seu suprimento para construir.
@@ -3836,12 +3850,12 @@ log.vagabot.evening.repair=<color=#436979>Automalandro</color> repara: [items]
 log.aiswap.timeout=[name] ficou inativo e foi substituído por uma IA.
 log.aiswap.resign=[name] desistiu e foi substituído por uma IA.
 key.roost=Ninho
-Log.vagabot.aid=<color=#436979>Automalandro</color> exaure [X] itens para ajudar [faction name] com [X] cartas do baralho. Automalandro recebe [items] em troca e ganha [X] <style="vptext">PV</style>.
+Log.vagabot.aid=<color=#436979>Automalandro</color> exaure [X] item(s) para ajudar [faction name] com [X] cartas do baralho. Automalandro recebe [items] em troca e ganha [X] <style="vptext">PV</style>.
 Log.automated.Sympathy=<color=#008D3F>Aliança Automatizada</color> espalha simpatia para uma clareira de [suit icon], pontuando [X] <style="vptext">PV</style>.
 log.steal.clockwork=<color=#436979>Malandro</color> recebe uma carta do baralho em vez disso.
 log.vagabot.repair.daylight=<color=#436979>Automalandro</color> exaure um item para reparar um item danificado.
-log.vagabot.battle=<color=#436979>Automalandro</color> exaure [X] itens para iniciar uma batalha contra [faction name] em uma clareira de [suit icon].
-log.vagabot.battle.move=<color=#436979>Automalandro</color> exaure [X] itens para se mover para uma clareira de [suit icon] e iniciar uma batalha contra [faction name].
+log.vagabot.battle=<color=#436979>Automalandro</color> exaure [X] item(s) para iniciar uma batalha contra [faction name] em uma clareira de [suit icon].
+log.vagabot.battle.move=<color=#436979>Automalandro</color> exaure [X] item(s) para se mover para uma clareira de [suit icon] e iniciar uma batalha contra [faction name].
 log.generic.exhaust.item.one=<color=#436979>Automalandro</color> exaure 1 item.
 log.vagabot.explore.one=<color=#436979>Automalandro</color> move 1 espaço para uma clareira de [suit icon] com uma ruína para explorá-la. Ele exaure 1 item, pega um [item icon] da ruína e pontua 1 <style="vptext">PV</style>.
 Log.vagabot.aid.one=<color=#436979>Automalandro</color> exaure 1 item para ajudar [faction name] com 1 carta do baralho. Automalandro recebe [items] em troca e ganha 1 <style="vptext">PV</style>.
@@ -3851,7 +3865,7 @@ Log.DiscardOne.eot=[faction name] descarta 1 carta para atender ao limite de tam
 Log.DrawOne=[faction name] compra 1 carta.
 log.setup.electric.eyrie.one=<color=#3a63cb>Rapinas Elétricas</color> adicionam 1 carta <sprite name="birdicon"> à coluna de <sprite name="birdicon"> de seu decreto.
 Log.Nonvagabond.Move.one=[faction name] move 1 guerreiro para uma clareira de [suit icon].
-Log.Field.Hospitals.one=[faction name] usou Hospitais de Campo para devolver 1 guerreiro caído à sua Torre da Guarda.
+Log.Field.Hospitals.one=[faction name] usaram Hospitais de Campo para devolver 1 guerreiro caído à sua Torre da Guarda.
 Log.Move.Buddy.one=[faction name] se move com 1 guerreiro de [faction name 2].
 log.public.pity.one=<color=#008D3F>Aliança Automatizada</color> usa Comiseração Pública para espalhar simpatia 1 vez.
 Log.trait.Hospitals.one=<color=#CC6633>Marquês Mecânico</color> usa seu traço Hospital para devolver 1 guerreiro caído à sua Torre da Guarda.
@@ -3865,21 +3879,7 @@ Log.Move.Vagabond.Dynamic=[faction name] exaure [boots] para mover-se para uma c
 Log.Move.Vagabond.Free=[faction name] move-se para uma clareira de [suit icon] sem custo de botas.
 log.advancedsetup.returncards=[faction name] embaralha 2 cartas de sua mão no baralho.
 log.raid=Uma Emboscada é removida, fazendo com que a Conspiração Corvídea adicione um guerreiro a cada clareira adjacente à clareira de [suit icon] onde foi removida.
-log.player.won=[faction name] Vence!
-scenario.journeytothenorth.name=Jornada ao Norte
-scenario.journeytothenorth.tier1description=Governe as 4 clareiras mais ao norte para vencer (não é necessário pontuar pontos de vitória).
-scenario.town.name=Cidade do Funileiro
-scenario.town.tier1description=O baralho de cartas contém apenas itens e o suprimento é ilimitado. Você começa como o Funileiro.
-scenario.town.tier2description=O baralho de cartas contém apenas itens e o suprimento é ilimitado. Você começa como o Funileiro e não pode completar tarefas. Os oponentes começam com <style="vpnum">5</style>.
-scenario.delivery.name=Coletor de Ovos
-scenario.delivery.tier1description=No início do seu turno, ovos aparecem em clareiras aleatórias. Quando você se move para uma clareira com um ovo, ele choca e vira um guerreiro das Rapinas. No início do turno de cada oponente, eles quebram um ovo na clareira onde estão por <style="vpnum">1</style>.
-scenario.delivery.tier2description=No início do seu turno, ovos aparecem em clareiras aleatórias. Quando você se move para uma clareira com um ovo, ele choca e vira um guerreiro das Rapinas. No início do turno de cada oponente, eles quebram um ovo na clareira onde estão por <style="vpnum">1</style>. Você começa com apenas 2 guerreiros.
-scenario.work.name=Trabalho, Trabalho, Trabalho
-scenario.work.tier1description=Suas construções iniciais são três oficinas.
-scenario.work.tier2description=Suas construções iniciais são três oficinas. Os oponentes começam com <style="vpnum">5</style>.
-scenario.ww.name=Guerreiros do Inverno
-scenario.ww.tier1description=Você começa com três guerreiros e um oficial e usa guerreiros para criar neste jogo, em vez de marcadores de simpatia. Você não pode mobilizar cartas de pássaro.
-scenario.ww.tier2description=Você começa com três guerreiros e um oficial e usa guerreiros para criar neste jogo, em vez de marcadores de simpatia. Você não pode mobilizar cartas de pássaro e começa sem apoiadores.
+log.player.won=Vitória - [faction name]
 login.versionPrefix=Construir:
 singleplayer.selectfaction=Selecionar Facção
 eula.acceptTerms=Eu concordo
