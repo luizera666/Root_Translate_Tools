@@ -1,7 +1,390 @@
 #_=
+account.error.usernametaken=Conta já existente
+addfriend.addplayername=Nome do Jogador ou Email
+authError.invalidScreenName=Seu nome de exibição deve ter entre 5 e 24 caracteres e não pode conter caracteres especiais.
+authError.screenNameProfanityCheck=O nome da conta viola as regras.
+auto.update.body=Há uma atualização disponível.
+auto.update.body.forced=É necessário atualizar para continuar.
+auto.update.confirm=Atualizar
+block.player=Bloquear Jogador
+button.accept=Aceitar
+button.account=Conta
+button.back=Voltar
+button.block=Bloquear
+button.cancel=Cancelar
+button.close=Fechar
+button.commit=Comprometer
+button.confirm=Confirmar
+button.continue=Continuar
+button.createfriendgame=Criar Jogo Amistoso
+button.decline=Recusar
+button.dismiss=Dispensar
+button.done=Concluído
+button.emote=Emote
+button.endturn=Finalizar Turno
+button.exit=Sair
+button.expand=Expandir
+button.hold=Segurar
+button.invite=Convidar
+button.invitefriend=Convidar Amigo
+button.join=Entrar
+button.joingame=Entrar no Jogo
+button.learnmore=Saiba mais
+button.mainmenu=Menu Principal
+button.menu=Menu
+button.minimize=Minimizar
+button.newtag=NOVO
+button.next=Avançar
+button.no=Não
+button.ok=Ok
+button.play=Jogar
+button.playagain=Jogar Novamente
+button.purchase=Comprar
+button.quit=Sair do Jogo
+button.quitgame=Sair
+button.reconnect=Reconectar
+button.reject=Rejeitar
+button.replay=Replay
+button.restart=Reiniciar
+button.resume=Continuar
+button.retry=Tentar Novamente
+button.saveandquit=Salvar e Sair
+button.send=Enviar
+button.shop=Loja
+button.skip=Pular
+button.submit=Enviar
+button.tutorial=Tutorial
+button.undo=Desfazer
+button.viewresults=Ver Resultados
+button.yes=Sim
+changePassword.newPassword=Nova Senha
+changePassword.oldPassword=Senha Antiga
+changePassword.title=Alterar Senha
+createaccount.reenterpassword=Reinsira a Senha
+createaccount.screenname=Nome de Exibição
+date.today=Hoje
+deleteaccount.complete.message=Verifique seu e-mail para concluir a exclusão da conta.
+deleteaccount.confirm.message=Tem certeza de que deseja excluir sua conta?
+deleteaccount.failed.message=Um erro de rede impediu a exclusão de sua conta. Tente novamente mais tarde.
+dialogmessages.acceptfriend.failure=Erro ao aceitar convite de amizade.
+dialogmessages.addfriend.accountnotfound=Erro ao enviar convite de amizade: Conta Não Encontrada.
+dialogmessages.addfriend.inviteexists=Convite já enviado para esse usuário.
+dialogmessages.addfriend.invitefailure=Erro ao enviar convite de amizade.
+dialogmessages.aitakeover=Acabou seu tempo para realizar um movimento, então seu turno foi realizado por uma IA. Faça seu próximo movimento no tempo disponível ou você será removido da partida.
+dialogmessages.cancelfriendrequest.failure=Erro ao cancelar solicitação de amizade.
+dialogmessages.changepassword.success=Senha alterada com sucesso.
+dialogmessages.continuegame.failure=Não foi possível conectar ao jogo. Erro: {0}
+dialogmessages.continuegame.failure.gameended=O jogo terminou por não haver mais jogadores humanos restantes.
+dialogmessages.declinefriend.failure=Erro ao recusar convite de amizade.
+dialogmessages.feedback.success=Obrigado pelo feedback.
+dialogmessages.feedback.timeout=Ocorreu um erro ao enviar seu feedback.
+dialogmessages.invitefriend.failure=Não foi possível enviar o convite, tente novamente mais tarde.
+dialogmessages.invitefriend.success=Convite enviado!
+dialogmessages.leaderboard.failure=Não foi possível recuperar o placar no momento.
+dialogmessages.lobbyended.message=A sala que você estava visualizando não existe mais.
+dialogmessages.login.errors.banned=Você foi banido de atividades online. Se você acredita que esse banimento foi um erro, contate Support@DireWolfDigital.com para mais informações.
+dialogmessages.login.errors.couldnotconnect=Servidor de autorização, tente novamente mais tarde.
+dialogmessages.login.errors.default=Não foi possível fazer login no momento.
+dialogmessages.login.errors.gatewaydown=Não foi possível conectar ao gateway.
+dialogmessages.login.errors.invalidlogin=Nome de usuário ou senha inválidos.
+dialogmessages.login.errors.ipbanned=Não foi possível conectar a partir deste IP.
+dialogmessages.login.errors.maintenance=Não foi possível conectar, servidor em manutenção.
+dialogmessages.login.errors.serverfull=Não foi possível conectar, servidores estão cheios no momento.
+dialogmessages.login.errors.upgradeclient=Não foi possível fazer login, certifique-se de que seu cliente está atualizado.
+dialogmessages.passwordpolicy=Tempo esgotado ao tentar conectar ao jogo.
+dialogmessages.registration.failure={0}
+dialogmessages.registration.noInternet=O dispositivo não parece estar conectado à Internet.
+dialogmessages.registration.thanksnewaccount=Obrigado por se registrar!
+dialogmessages.registration.toomanyrequests=Muitas solicitações, tente novamente em 15 minutos.
+dialogmessages.removefriend.failure=Erro ao remover amigo.
+dialogmessages.resetpassword.info=Verifique seu e-mail para mais instruções.
+dialogmessages.resignfromgame.failure=Não foi possível desistir da partida. Verifique sua conexão de rede.
+direbytes.header=Notícias da Dire Wolf
+direbytes.link=Link
+direbytes.none=Sem Notícias da Dire Wolf
+direbytes.store=Loja
+disconnect.defaultReason=Você foi desconectado de suas partidas online. Verifique sua conexão com a Internet.
+disconnect.idleTimeout=Você foi removido dessa partida por exceder o seu tempo duas vezes consecutivas.
+disconnect.idleTimeout.firstTurn=Você foi removido dessa partida por exceder seu tempo no primeiro turno.
+disconnect.observedPlayerLeft=Você foi removido da visualização porque o jogador que você estava observando não está mais na partida.
+disconnect.timeout=Tempo de Conexão Esgotado
+dwd.referral.email.error.alreadyInvited=Você já convidou este usuário.
+friend.invite=Compartilhar com {0}?
+friends.addfriend=Adicionar Amigo
+friends.areYouSure=Você tem certeza?
+friends.category.count.label=({0})
+friends.category.invites=Convites
+friends.category.offline=Offline
+friends.category.online=Online
+friends.chat=Chat
+friends.emailPlaceholder=E-mail ou Código de Amigo
+friends.game.invite.nocrossplay=Você deve ativar o cross play nas configurações do Xbox para jogar com esse amigo.
+friends.game.invite.privacyerror=Você ou seu amigo devem ajustar as configurações de privacidade no Xbox para enviar convites de jogo.
+friends.invitelearn=Convide um amigo para saber mais sobre o jogo.
+friends.removefriend=Remover Amigo
+friends.title=Amigos
+game.over.prompt.confirm=Sair da Partida
+gameoptions.AIdifficulty=Dificuldade da IA
+gameoptions.AIdifficultyEasy=Fácil
+gameoptions.AIdifficultyHard=Difícil
+gameoptions.AIdifficultyMedium=Médio
+gameoptions.creategame=Criar Partida
+gameoptions.password.label=Senha (Opcional)
+gameoptions.password.placeholder=Senha Opcional
+gameoptions.startgame=Iniciar Partida
+gameoptions.timer.fast=Ao Vivo
+gameoptions.timer.slow=Assíncrono
+gen.one=Um
+gen.three=Três
+gen.two=Dois
+label.name=Nome
+landing.achievements.gc=Conquistas
+landing.grm=Ir para o aplicativo Dire Wolf Game Room
+leaderboards.friendsonly=Somente Amigos
+leaderboards.gamescore=Fitrar por Pontuação em Jogos
+leaderboards.seasonscore=Filtrar por Pontuação de Temporada
+lobby.nogames.label=Sem Partidas
+lobby.timerdisplay.daysformat={0}d
+lobby.timerdisplay.hoursformat={0}h
+lobby.timerdisplay.minsformat={0}m
+loc.timeout=A conexão expirou durante a inicialização. Você poderá encontrar erros.
+login.create.account=Criar Conta
+login.deleteaccountbutton=Excluir Conta
+login.email=E-mail
+login.error.invalidEmail=Erro: E-mail Inválido
+login.error.invalidPassword=Erro: A senha deve ter pelo menos 8 caracteres, uma letra maiúscula e conter letras e números.
+login.error.invalidUsername=Erro: Nome de Usuário Inválido
+login.error.passwordMismatch=Erro: As senhas não coincidem
+login.error.usernametooshort=O nome de usuário deve ter pelo menos cinco caracteres.
+login.forgotpassword=Esqueceu a Senha
+login.forgotpassword.reset=Redefinir
+login.loggedInAs=Logado como: {0}
+login.logoutbutton=Sair
+login.newaccount=Nova Conta
+login.password=Senha
+login.title.change.user=Trocar Usuário
+mainmenu.friendgame=Jogo Amistoso
+mainmenu.leaderboards=Classificações
+mainmenu.localplay=Jogo Local
+mainmenu.onlineplay=Jogo Online
+mainmenu.playerstats=Estatísticas do Jogador
+mainmenu.playhistory=Histórico do Jogador
+match.observe.kicked=Você foi removido da visualização deste jogo.
+match.observe.maxobservers=Este jogo não pode ser assistido neste momento.
+match.start.failure=Falha ao carregar a Partida
+multiplayer.activetab=Ativo
+multiplayer.blockplayer=Bloquear {0} ocultará as mensagens dele. Esta ação não pode ser desfeita.
+multiplayer.browsertab=Navegador
+multiplayer.columnbanned=Banido
+multiplayer.columnplayers=Jogadores
+multiplayer.columntimer=Cronômetro
+multiplayer.friendgame=Criar Partida de Amigos
+multiplayer.gameCompleted.1=Sua partida com {0} foi concluída. Ver os resultados?
+multiplayer.gameCompleted.2=Sua partida com {0} e {1} foi concluída. Ver os resultados?
+multiplayer.gameCompleted.3=Sua partida com {0}, {1} e {2} foi concluída. Ver os resultados?
+multiplayer.gameCompleted.4=Sua partida com {0}, {1}, {2} e {3} foi concluída. Ver os resultados?
+multiplayer.gameCompleted.5=Sua partida com {0}, {1}, {2}, {3} e {4} foi concluída. Ver os resultados?
+multiplayer.gameCompleted.6=Sua partida com {0}, {1}, {2}, {3}, {4} e {5} foi concluída. Ver os resultados?
+multiplayer.gamecompletedtitle=Partida Concluída
+multiplayer.globalchat=Chat Global
+multiplayer.goToGame=Ir para a Partida
+multiplayer.live.matchResigned=Você foi removido desta partida por inatividade.
+multiplayer.matchchat=Chat da Partida
+multiplayer.matchCreated=Seu jogo começou. Ir para a partida agora?
+multiplayer.matchCreated.2=Sua partida com {0} foi criada. Ir para essa partida agora?
+multiplayer.matchCreated.3=Sua partida com {0} e {1} foi criada. Ir para essa partida agora?
+multiplayer.matchCreated.4=Sua partida com {0}, {1} e {2} foi criada. Ir para essa partida agora?
+multiplayer.matchremoved=Esta partida não existe mais.
+multiplayer.matchResigned.2=Você foi retirado da sua partida com {0}.
+multiplayer.matchResigned.3=Você foi retirado da sua partida com {0} e {1}.
+multiplayer.matchResigned.4=Você foi retirado da sua partida com {0}, {1} e {2}.
+multiplayer.matchResigned.5=Você foi retirado da sua partida com {0}, {1}, {2} e {3}.
+multiplayer.matchResigned.6=Você foi retirado da sua partida com {0}, {1}, {2}, {3} e {4}.
+multiplayer.nocrossplaywarning=O cross play está bloqueado nas configurações da sua conta Xbox. Para aumentar o número de jogos disponíveis, selecione ativa essa opção nas configurações da sua conta Xbox.
+multiplayer.passandplay=Passar e Jogar
+multiplayer.reconnect=Você foi reconectado ao servidor. Deseja continuar o jogo?
+multiplayer.reconnect.2=Você foi reconectado ao servidor. Deseja continuar seu jogo com {0}?
+multiplayer.reconnect.3=Você foi reconectado ao servidor. Deseja continuar seu jogo com {0} e {1}?
+multiplayer.reconnect.4=Você foi reconectado ao servidor. Deseja continuar seu jogo com {0}, {1} e {2}?
+multiplayer.reportplayer={0} foi bloqueado. Gostaria de denunciar este jogador?
+multiplayer.reportplayer.describe=Descreva por que está denunciando {0}.
+multiplayer.reportplayer.reason.Abusive=Mensagens de bate-papo abusivas ou inapropriadas
+multiplayer.reportplayer.reason.Cheating=Suspeita de trapaça ou uso de bots
+multiplayer.reportplayer.reason.Griefing=Troll ou jogo lento intencional
+multiplayer.reportplayer.reason.InappropriateUsername=Nome de usuário inadequado
+multiplayer.showPasswordGames=Mostrar Partidas com Senha
+multiplayer.variants=Variantes
+multiplayer.yourTurn.1=Parece que é a sua vez em uma partida. Ir para essa partida agora?
+multiplayer.yourTurn.2=Parece que é a sua vez em uma partida com {0}. Ir para essa partida agora?
+multiplayer.yourTurn.3=Parece que é a sua vez em uma partida com {0} e {1}. Ir para essa partida agora?
+multiplayer.yourTurn.4=Parece que é a sua vez em uma partida com {0}, {1} e {2}. Ir para essa partida agora?
+name.ai.easy=IA (Fácil)
+name.ai.hard=IA (Difícil)
+name.ai.medium=IA (Médio)
+network.checkConnection=Verifique sua conexão de rede.
+network.errors.generic=Ocorreu um erro. Tente novamente.
+nsa.accountRequired=Autenticação necessária
+nso.accountRequired=É necessária uma assinatura online para acessar os recursos online.
+online.lobbypassword.enter=Digite a senha do lobby
+passandplay.defaultplayer1.name=Jogador 1
+passandplay.defaultplayer2.name=Jogador 2
+passandplay.defaultplayer3.name=Jogador 3
+passandplay.defaultplayer4.name=Jogador 4
+placement.1st=1º
+placement.2nd=2º
+placement.3rd=3º
+placement.4th=4º
+placement.5th=5º
+placement.6th=6º
+player.defaultName=Jogador
+player.name.self=Você
+player.unsetperson=Aguardando jogador...
+playonline.async.description=<size=125%><b>Assíncrono</b></size><br>Melhor para quem quer jogar uma partida ao longo de vários dias. Os jogadores têm 3 dias para completar uma jogada em um jogo assíncrono. Se um jogador exceder esse tempo, ele será removido da partida e substituído por uma IA.
+playonline.availablegames.game=Jogo de {0}
+playonline.confirmresign=Tem certeza de que deseja desistir desta partida?
+playonline.cpuplayer.label=IA
+playonline.error.banned=Você foi removido deste jogo e banido de atividades online. Se você acredita que este banimento foi injusto, entre em contato com Support@DireWolfDigital.com para obter mais informações.
+playonline.error.cannotcreateasyncgame=Você já está aguardando em outra sala de espera de jogo assíncrona.
+playonline.error.cannotjoingame=Você só pode participar de um jogo ao vivo por vez.
+playonline.error.gamefull=Este jogo está cheio.
+playonline.error.waitingoncasual=Você já está aguardando outro jogo assíncrono começar.
+playonline.error.wrongpassword=A senha não confere.
+playonline.friendplayer.label=Amigo
+playonline.friendplayer.nofriendonline=Nenhum Amigo Online
+playonline.humanplayer.label=Aberto
+playonline.live.description=<size=125%><b>Ao Vivo</b></size><br>Melhor para quem quer jogar uma partida em uma única sessão. Os jogadores têm 5 minutos para completar uma jogada em um jogo ao vivo. Se um jogador exceder esse tempo, seu turno será jogado por uma IA. Se uma IA assumir duas jogadas seguidas ou se um jogador não fizer o primeiro movimento da partida, ele será permanentemente substituído pela IA.
+playonline.matchFound=Partida Encontrada:
+playonline.offplayer.label=Fechado
+playonline.waitingplayer.label=<color=#858585>Aguardando jogador</color>
+playonline.yourturn=É o seu turno
+playsolo.match.startfailure=Não foi possível carregar o jogo.
+prompt.choosemanyplayers.header=Escolher Jogadores
+prompt.chooseplayer.header=Escolher Jogador
+prompt.confirmation.challengerestart=Tem certeza de que deseja perder todo o progresso neste desafio e recomeçá-lo?
+prompt.continuesaved.buttonnewgame=Novo Jogo
+prompt.continuesaved.desc=Você tem um jogo salvo em andamento. Gostaria de continuar esse jogo ou excluí-lo e iniciar um novo?
+prompt.continuesaved.desc.tutorial=Você tem um jogo tutorial salvo em andamento. Deseja continuar esse jogo ou excluí-lo e começar um novo?
+prompt.continuesaved.title=Continuar Jogo
+prompt.continuesaved.title.tutorial=Continuar o Tutorial
+prompt.controllersupport.enable=Detectamos uma entrada de controle. Deseja habilitar o suporte para gamepad?
+prompt.dailychallenge.confirmresign=Desistir de uma partida conta como uma das suas três tentativas permitidas para obter a pontuação máxima. Você não receberá uma pontuação por esta partida. Tem certeza de que deseja desistir?
+prompt.dailychallenge.continuegame.body=Continuar o jogo salvo ou iniciar uma nova tentativa?
+prompt.dailychallenge.timeremaining.long=Tempo restante: {0:%d}d, {0:%h}h, {0:%m}m
+prompt.dailychallenge.timeremaining.short=Tempo restante: {0:%s}s
+prompt.date=Data
+prompt.devices.devicename=Dispositivo
+prompt.devices.disable.confirm=Tem certeza de que deseja desativar todas as entradas de {0}?
+prompt.devices.status=Ativado
+prompt.discard.header=Descartar
+prompt.discarded=Descartado
+prompt.first.live.game=Bem-vindo ao seu primeiro jogo ao vivo. Você tem 3 minutos para completar um turno. Se exceder esse tempo, seu turno será assumido por uma IA. Se a IA assumir seu turno duas vezes seguidas, você será resignado. Divirta-se e não vá a lugar nenhum!
+prompt.friend.gameinvite.declined={0} recusou seu convite de jogo, fazendo com que seu jogo fosse removido do lobby por ter poucos jogadores.
+prompt.friend.gameinvite.header=Convite de Jogo
+prompt.friend.gameinvite.recieved=Você recebeu um convite para um jogo de {0}! Gostaria de participar?
+prompt.general.or=ou
+prompt.hotkeys.command=Comando
+prompt.hotkeys.hotkey=Atalho
+prompt.leaderboard.bronzerank.label=Bronze
+prompt.leaderboard.finish.label=Finalizar
+prompt.leaderboard.goldrank.label=Ouro
+prompt.leaderboard.platinumrank.label=Platina
+prompt.leaderboard.rank.label=Rank
+prompt.leaderboard.recentrank.label=Rank Recente
+prompt.leaderboard.score.label=Pontuação
+prompt.leaderboard.silverrank.label=Prata
+prompt.leaderboard.yourscore=Sua Pontuação
+prompt.observers.confirmkick=Remover todos os jogadores que estão te observando?\n{0}
+prompt.observers.opponent=({0}) Jogadores Observando {1}
+prompt.observers.you=({0}) Jogadores Observando Você
+prompt.platformchange.warning=Essa configuração pode fazer com que a interface do usuário apareça incorretamente em alguns dispositivos e não pode ser alterada dentro do jogo. Tem certeza de que deseja prosseguir?
+prompt.played=Jogado
+prompt.playerhistory=Histórico do Jogador
+prompt.playerreported=Sua denúncia foi compartilhada com nossa equipe.
+prompt.readylivegame=Seu jogo ao vivo está pronto. Como os temporizadores de turno são curtos, você deve ir até lá agora ou desistir.
+prompt.reportplayer.dropdown=Selecione o motivo da sua denúncia.
+prompts.gameresults.title=Fim de Jogo
+prompts.loginfailure.eulanotaccepted=Por favor, aceite o EULA para fazer login.
+prompttitles.generic.success=Sucesso
+quitapplication.confirm.message=Tem certeza de que deseja sair?
+rankedselect.errors.connectfailed=Sua conexão expirou. Verifique sua conexão com a internet e tente novamente.
+settings.allowobservers=Permitir Observadores
+settings.android.uiscale=Escala da Interface
+settings.android.uiscale.0=Pequena
+settings.android.uiscale.1=Grande
+settings.android.uiscale.2=Pequena
+settings.audio.ambiencevolume=Volume Ambiente
+settings.audio.effectsvolume=Volume dos Efeitos
+settings.audio.mastervolume=Volume Principal
+settings.audio.musicvolume=Volume da Música
+settings.audio.mute=Mutar
+settings.audio.title=Áudio
+settings.clientversion=Versão do Cliente:
+settings.controllermap=Mapa do Controle
+settings.devices=Dispositivos
+settings.disablewarnings=Desabilitar Avisos
+settings.eula=EULA
+settings.faq=FAQ
+settings.feedback=Feedback
+settings.feedback.placeholder=Insira o problema aqui. Por favor, inclua sua facção e o modo de jogo, se aplicável.
+settings.feedback.sendlogs=Enviar Logs
+settings.feedback.sendscreenshot=Enviar captura de tela da janela do jogo
+settings.gameplay.animationspeed.0=0.75x
+settings.gameplay.animationspeed.1=1x
+settings.gameplay.animationspeed.2=2x
+settings.gameplay.animationspeed.3=3x
+settings.gameplay.animationspeed.4=4x
+settings.gameplay.animationspeed.label=Velocidade da Animação
+settings.gameplay.title=Jogabilidade
+settings.gen.title=Geral
+settings.hotkeys=Atalhos
+settings.languages=Idiomas
+settings.login=Entrar
+settings.pc.confirmation.body=Deseja manter estas configurações de exibição? Revertendo para as configurações anteriores em {0} segundos.
+settings.pc.graphics.high=Alto
+settings.pc.graphics.low=Baixo
+settings.pc.graphics.medium=Médio
+settings.pc.vsync=VSync
+settings.pc.windowed=Janela
+settings.resign=Desistir
+settings.rules=Regras
+settings.serverversion=Versão do Servidor:
+settings.title=Configurações
+settings.toggle.warnings=Avisos de Jogo
+settings.video.quality=Qualidade
+settings.video.resolution=Resolução
+settings.video.title=Vídeo
+shop.error=A loja falhou ao carregar. Por favor, verifique sua conexão e tente novamente mais tarde.
+shop.expansions=Expansões
+shop.featured=Destaques
+shop.noitems=Itens em breve!
+shop.offline.title=Loja Indisponível
+shop.purchased=Comprado
+singleplayer.difficulty.easy=Normal
+singleplayer.difficulty.label=Dificuldade: {0}
+singleplayer.difficulty.medium=Heróico
+singleplayer.header.label=Desafios
+solooptions.play=Jogo Solo
+solooptions.vsai=Contra IA
+store.restorePurchasesError.default=Ocorreu um erro. Verifique sua conexão com a internet e tente novamente.
+tooltip.challengefriend=Desafie seu amigo para uma partida.
+tooltip.observe=Observar
+tooltip.openchat=Abrir Chat
+tooltip.privategame=Senha Necessária
+tooltip.removeobservers=Remova seus Observadores
+tooltip.totalObservers=({0}) Total de Observadores
+tutorial.advanced.separator=Expansões
+uiscale.checkboxlabel.large=<size=120%>Grande</size><br>Para dispositivos pequenos com formatos paisagem ou widescreen, onde a legibilidade pode ser um problema
+uiscale.checkboxlabel.medium=<size=120%>Médio</size><br>Para tablets e monitores de formato quadrado.
+uiscale.checkboxlabel.small=<size=120%>Pequeno</size><br>Para telas grandes com formato paisagem ou widescreen.
+uiscale.header=Selecione a escala da interface do usuário que melhor se adapta ao seu dispositivo.
+uiscale.subheader=Essa opção pode ser alterada posteriormente na seção Vídeo do menu de configurações.
+waitingforplayer.pendingfriend=Aguardando {0} para entrar
+waitingforplayers.aidifficulty.label=Dificuldade da IA: {0}
+waitingforplayers.joinconfirmation=Jogo iniciado! Use o botão Voltar para sair desta tela e seja notificado quando o seu jogo começar!
+waitingforplayers.password.label=Protegido por Senha
+waitingforplayers.timer.label=Limite de tempo de turno: {0}
 prompts.playerturn.nameformat=É a vez de {0}
 account.changepassword.failed.invalidOldPassword=A senha antiga não confere
-account.error.usernametaken=Conta já existente
 add.player=Adicionar Jogador
 ai.turn=Turno da IA
 aiplayername.AutomatedAlliance=Aliança Automatizada
@@ -26,13 +409,8 @@ appUpdate.offline=Jogar Offline
 appUpdate.update=Atualizar
 authError.invalidEmail=O endereço de e-mail fornecido é inválido.
 authError.invalidPassword=Sua senha deve ter pelo menos 8 caracteres, uma letra maiúscula e conter letras e números.
-authError.invalidScreenName=Seu nome de exibição deve ter entre 5 e 24 caracteres e não pode conter caracteres especiais.
-authError.screenNameProfanityCheck=O nome da conta viola as regras.
 authError.unexpected=Ocorreu um erro inesperado.
-auto.update.body=Há uma atualização disponível.
-auto.update.body.forced=É necessário atualizar para continuar.
 auto.update.cancel=Fechar
-auto.update.confirm=Atualizar
 Automated.Alliance.Challenging=<b>Desafiador:</b> A Aliança Automatizada se organiza se uma clareira tiver dois ou mais guerreiros da Aliança.
 Automated.Alliance.Easy=<b>Fácil:</b> A Aliança Automatizada se organiza se uma clareira tiver quatro ou mais guerreiros da Aliança.
 Automated.Alliance.Nightmare=<b>Pesadelo:</b> A Aliança Automatizada se organiza se uma clareira tiver dois ou mais guerreiros da Aliança. No final do Anoitecer eles ganham um ponto de vitória.
@@ -51,47 +429,21 @@ battledamage.fx.wrathful=Colérico!
 battledamage.fx.stubborn=Teimoso!
 battledamage.fx.devoutknights=Cavaleiros Devotos!
 battledamage.fx.looting=Saqueando!
-block.player=Bloquear Jogador
-button.account=Conta
 button.add=Adicionar
 button.audio=Áudio
-button.back=Voltar
-button.cancel=Cancelar
 button.choosefaction=Escolher Facção
-button.close=Fechar
-button.confirm=Confirmar
-button.continue=Continuar
-button.decline=Recusar
-button.done=Concluído
 button.hints=Dicas
-button.join=Entrar
 button.later=Mais Tarde
 button.more=Mais Informações
-button.newtag=NOVO
-button.next=Avançar
-button.no=Não
-button.ok=Ok
-button.play=Jogar
-button.quit=Sair do Jogo
 button.Rankings=Classificações
 button.resign=Desistir
 button.rules=Regras
-button.saveandquit=Salvar e Sair
-button.shop=Loja
 button.singleplayer.vsai=Contra IA
-button.skip=Pular
-button.submit=Enviar
-button.tutorial=Tutorial
-button.undo=Desfazer
 button.viewachievements=Conquistas
-button.yes=Sim
 card.crafting.soldout.label=Esgotado
 challenges.allComplete=Parabéns, você completou todos os desafios!
 challenges.win=Vença {0} partidas.
 challenges.winagame=Vença uma partida.
-changePassword.newPassword=Nova Senha
-changePassword.oldPassword=Senha Antiga
-changePassword.title=Alterar Senha
 character.ranger.difficult=Andarilho
 character.thief.easy=Ladrão
 character.tinker.moderate=Funileiro
@@ -105,9 +457,9 @@ create.game.error.cannotcreatesecondasyncgame=Você só pode criar um jogo assí
 create.game.error.cannotcreatesecondgame=Você só pode criar um jogo por vez. Aguarde seu jogo começar ou saia do jogo.
 create.game.error.cannotcreatesecondlivegame=Você só pode jogar uma partida ao vivo por vez. Desista de sua partida ao vivo atual se desejar criar ou entrar em uma nova.
 create.game.error.cannotjoinsecondlivegame=Você só pode entrar em uma partida ao vivo por vez.
-createaccount.reenterpassword=Reinsira a Senha
-createaccount.screenname=Nome de Exibição
 creategame.availablefactions=Facções Disponíveis
+creategame.availablehirelings=Capangas Disponíveis
+creategame.availablelandmarks=Marcos Disponíveis
 creategame.coopmode=Jogo Cooperativo
 creategame.deckselection=Seleção de Baralho
 creategame.exilesandpartisans=Exilados e Partisans
@@ -116,55 +468,22 @@ creategame.matchsettings=Configurações
 creategame.randomclearingsuits=Naipes Aleatórios de Clareiras
 creategame.randomfactions=Facções Aleatórias
 demomenu.intro=Introdução
-dialogmessages.acceptfriend.failure=Erro ao aceitar convite de amizade.
-dialogmessages.addfriend.accountnotfound=Erro ao enviar convite de amizade: Conta Não Encontrada.
-dialogmessages.addfriend.invitefailure=Erro ao enviar convite de amizade.
-dialogmessages.cancelfriendrequest.failure=Erro ao cancelar solicitação de amizade.
 dialogmessages.changepassword.failure=Erro ao alterar sua senha: {0}
-dialogmessages.changepassword.success=Senha alterada com sucesso.
-dialogmessages.continuegame.failure=Não foi possível conectar ao jogo. Erro: {0}
-dialogmessages.continuegame.failure.gameended=O jogo terminou por não haver mais jogadores humanos restantes.
 dialogmessages.decline.duplicate.account=Você não pode entrar no mesmo jogo duas vezes.
-dialogmessages.declinefriend.failure=Erro ao recusar convite de amizade.
 dialogmessages.feedback.failure=Ocorreu um erro ao enviar seu feedback: {0}
-dialogmessages.feedback.success=Obrigado pelo feedback.
-dialogmessages.feedback.timeout=Ocorreu um erro ao enviar seu feedback.
-dialogmessages.invitefriend.failure=Não foi possível enviar o convite, tente novamente mais tarde.
-dialogmessages.invitefriend.success=Convite enviado!
 dialogmessages.invitetogame.failure=Não foi possível enviar o convite, tente novamente mais tarde.
 dialogmessages.invitetogame.success=Convite enviado!
-dialogmessages.leaderboard.failure=Não foi possível recuperar o placar no momento.
-dialogmessages.lobbyended.message=A sala que você estava visualizando não existe mais.
-dialogmessages.login.errors.couldnotconnect=Servidor de autorização, tente novamente mais tarde.
-dialogmessages.login.errors.default=Não foi possível fazer login no momento.
-dialogmessages.login.errors.gatewaydown=Não foi possível conectar ao gateway.
-dialogmessages.login.errors.invalidlogin=Nome de usuário ou senha inválidos.
-dialogmessages.login.errors.ipbanned=Não foi possível conectar a partir deste IP.
-dialogmessages.login.errors.maintenance=Não foi possível conectar, servidor em manutenção.
-dialogmessages.login.errors.serverfull=Não foi possível conectar, servidores estão cheios no momento.
-dialogmessages.login.errors.upgradeclient=Não foi possível fazer login, certifique-se de que seu cliente está atualizado.
-dialogmessages.passwordpolicy=Tempo esgotado ao tentar conectar ao jogo.
 dialogmessages.playmat.timeout=Conta já existente!
 dialogmessages.registration.accountexists=Não foi possível conectar ao servidor de autorização, tente novamente mais tarde.
 dialogmessages.registration.authunavailable=Não foi possível criar a conta:
-dialogmessages.registration.failure={0}
-dialogmessages.registration.noInternet=O dispositivo não parece estar conectado à Internet.
 dialogmessages.registration.success=Obrigado por se registrar!
-dialogmessages.registration.thanksnewaccount=Obrigado por se registrar!
-dialogmessages.registration.toomanyrequests=Muitas solicitações, tente novamente em 15 minutos.
-dialogmessages.removefriend.failure=Erro ao remover amigo.
-dialogmessages.resetpassword.info=Verifique seu e-mail para mais instruções.
-dialogmessages.resignfromgame.failure=Não foi possível desistir da partida. Verifique sua conexão de rede.
 dialogmessages.url.external=Visite {0} para mais informações.
 dialogmessages.waitingforplayers.connectfailure=Não foi possível conectar ao jogo. Erro: {0}
-disconnect.defaultReason=Você foi desconectado de suas partidas online. Verifique sua conexão com a Internet.
 disconnect.duplicateLogin=Você não pode entrar no mesmo jogo duas vezes.
 disconnect.information=Não foi possível conectar ao jogo.
 disconnect.serverError=Erro do Servidor
-disconnect.timeout=Tempo de Conexão Esgotado
 disconnect.title=Desconectado
 disconnect.userLogout=Usuário Desconectado
-dwd.referral.email.error.alreadyInvited=Você já convidou este usuário.
 dwd.referral.email.error.throttled=Você atingiu o número máximo de convites por dia.
 dwd.referral.email.error.userDeclined=Este usuário optou por não receber convites.
 Electric.Eyrie.Challenging=<b>Desafiador:</b> Durante a preparação, pegue uma carta de Emboscada de Pássaro do baralho e adicione-a à coluna de pássaros do Decreto.
@@ -189,44 +508,24 @@ factionnames.Vagabot=Automalandro
 factionnames.woodlandalliance=Aliança da Floresta
 feedback.sendLogs=Enviar Registros
 friend.request.from=Pedido de Amizade: {0}
-friends.addfriend=Adicionar Amigo
-friends.areYouSure=Você tem certeza?
 friends.cancelRequest=Cancelar Pedido de Amizade
-friends.category.count.label=({0})
-friends.category.invites=Convites
-friends.category.offline=Offline
-friends.category.online=Online
-friends.emailPlaceholder=E-mail ou Código de Amigo
 friends.invitationSent=Convite Enviado!
 friends.invite=Convidar
 friends.inviteFriends.description=Envie um convite por e-mail para seu amigo experimentar Raiders of the North Sea.\nAssim que eles instalarem o jogo, vocês podem se enfrentar!
 friends.inviteFriends.send=Enviar
 friends.inviteFriends.title=Convidar Amigos
-friends.removeFriend=Remover Amigo
-friends.title=Amigos
 friends.waitingForAcceptance=Aguardando {0} aceitar
-game.over.prompt.confirm=Sair da Partida
-gameoptions.AIdifficulty=Dificuldade da IA
 gameoptions.AIdifficultyChallenging=Desafiador
-gameoptions.AIdifficultyEasy=Fácil
-gameoptions.AIdifficultyHard=Difícil
-gameoptions.AIdifficultyMedium=Médio
 gameoptions.AIdifficultyNightmare=Pesadelo
-gameoptions.creategame=Criar Partida
 gameoptions.deck.EnP=Exilados & Partisans
 gameoptions.deck.standard=Padrão
 gameoptions.gametype=Selecionar um Tipo de Jogo
 gameoptions.header=Opções de Jogo
 gameoptions.numAIplayers=Jogadores IA
 gameoptions.numplayers=Jogadores Humanos
-gameoptions.password.label=Senha (Opcional)
-gameoptions.password.placeholder=Senha Opcional
 gameoptions.resignConfirmed=Você desistiu.
 gameoptions.resigned=Desistiu
 gameoptions.resignMatch=Desistir da Partida?
-gameoptions.startgame=Iniciar Partida
-gameoptions.timer.fast=Ao Vivo
-gameoptions.timer.slow=Assíncrono
 gamepad.disable=Deseja desativar o suporte ao controle?
 gamepad.firstTimeActivation=Deseja ativar a entrada por controle?
 general.defined=Definido
@@ -245,49 +544,28 @@ header.unlockedcard=Nova Carta Disponível!
 header.unlockedcards=Novas Cartas Disponíveis!
 initialturn.tooltip.tutorial.switch=Pressione <sprite name="moz_button"> para saber mais sobre o edifício ou local de pilhagem selecionado.
 input.placeholderText=Digite o texto...
-leaderboards.friendsonly=Somente Amigos
 level.progression=Nível {0}: {1}
 lobby.aiplayer=Jogador IA
 lobby.availablegames=Partidas Disponíveis
 lobby.mode=Modo
-lobby.nogames.label=Sem Partidas
 lobby.players=Jogadores
 lobby.prompt.password=Você deve inserir uma senha para entrar nesta partida.
-lobby.timerdisplay.daysformat={0}d
-lobby.timerdisplay.hoursformat={0}h
-lobby.timerdisplay.minsformat={0}m
 login.accountCreated=Conta Criada
-login.email=E-mail
 login.error.failedAuth=Não foi possível conectar ao servidor de autorização, tente novamente mais tarde.
-login.error.invalidEmail=Erro: E-mail Inválido
-login.error.invalidPassword=Erro: A senha deve ter pelo menos 8 caracteres, uma letra maiúscula e conter letras e números.
-login.error.invalidUsername=Erro: Nome de Usuário Inválido
-login.error.passwordMismatch=Erro: As senhas não coincidem
-login.forgotpassword=Esqueceu a Senha
-login.forgotpassword.reset=Redefinir
-login.loggedInAs=Logado como: {0}
 login.logout=Sair?
-login.logoutbutton=Sair
-login.newaccount=Nova Conta
-login.password=Senha
 login.register=Registrar
 login.register.newsletter=Cadastre-se na newsletter da Dire Wolf para ofertas exclusivas e novidades sobre os próximos jogos!
 login.registrationThanks=Obrigado
-login.title.change.user=Trocar Usuário
 login.title.create.account=Criar Conta
 login.title.log.in=Entrar
 mainmenu.challenges=Desafios
 mainmenu.continue=Continuar
 mainmenu.friends=Amigos
-mainmenu.leaderboards=Classificações
-mainmenu.localplay=Jogo Local
 mainmenu.moregames=Mais Jogos
 mainmenu.multiplayer=Multijogador
 mainmenu.news=Notícias
-mainmenu.onlineplay=Jogo Online
 mainmenu.singleplayer=Jogo Solo
 marquiseWithColor=<color=#CC6633>Marqueses</color>
-match.start.failure=Falha ao carregar a Partida
 Mechanical.Marquise.Challenging=<b>Desafiador:</b> Sempre que o Marquês Mecânico recrutar, posicione dois guerreiros na clareira ordenada de maior prioridade que ele governa.
 Mechanical.Marquise.Easy=<b>Fácil:</b> Sempre que o Marquês Mecânico recrutar, em vez disso, posicione apenas dois guerreiros.
 Mechanical.Marquise.Nightmare=<b>Pesadelo:</b> Sempre que o Marquês Mecânico recrutar, ele coloca também dois guerreiros extras na clareira com o menor número de prioridade que controla. No final do Anoitecer, ele recebe um ponto de vitória adicional.
@@ -296,66 +574,25 @@ moregames.header=Mais Jogos
 moveworkernoopability.button=Pular
 moz.tipIntro=Aqui vai uma dica!
 multiplayer.activegames=Partidas Ativas
-multiplayer.activetab=Ativo
 multiplayer.alreadyJoined=Já Participou
-multiplayer.blockplayer=Bloquear {0} ocultará as mensagens dele. Esta ação não pode ser desfeita.
-multiplayer.browsertab=Navegador
-multiplayer.columnbanned=Banido
 multiplayer.columnname=Nome
-multiplayer.columnplayers=Jogadores
-multiplayer.columntimer=Cronômetro
 multiplayer.createGame=Criar Partida
 multiplayer.defaultgamename=Partida de {0}
-multiplayer.friendgame=Criar Partida de Amigos
 multiplayer.friendgame.description=Convide até três amigos para jogar uma partida juntos.
-multiplayer.gameCompleted.1=Sua partida com {0} foi concluída. Ver os resultados?
-multiplayer.gameCompleted.2=Sua partida com {0} e {1} foi concluída. Ver os resultados?
-multiplayer.gameCompleted.3=Sua partida com {0}, {1} e {2} foi concluída. Ver os resultados?
-multiplayer.gameCompletedTitle=Partida Concluída
-multiplayer.globalchat=Chat Global
-multiplayer.goToGame=Ir para a Partida
-multiplayer.live.matchResigned=Você foi removido desta partida por inatividade.
-multiplayer.matchCreated.2=Sua partida com {0} foi criada. Ir para essa partida agora?
-multiplayer.matchCreated.3=Sua partida com {0} e {1} foi criada. Ir para essa partida agora?
-multiplayer.matchCreated.4=Sua partida com {0}, {1} e {2} foi criada. Ir para essa partida agora?
 multiplayer.matchJoined.2=Você entrou em uma partida com {0}. Ir para essa partida agora?
 multiplayer.matchJoined.3=Você entrou em uma partida com {0} e {1}. Ir para essa partida agora?
 multiplayer.matchJoined.4=Você entrou em uma partida com {0}, {1} e {2}. Ir para essa partida agora?
-multiplayer.matchremoved=Esta partida não existe mais.
-multiplayer.matchResigned.2=Você foi retirado da sua partida com {0}.
-multiplayer.matchResigned.3=Você foi retirado da sua partida com {0} e {1}.
-multiplayer.matchResigned.4=Você foi retirado da sua partida com {0}, {1} e {2}.
 multiplayer.overallRank=Geral
-multiplayer.passandplay=Passar e Jogar
 multiplayer.playonline=Jogo Online
 multiplayer.ranked=Partida Ranqueada
-multiplayer.reportplayer={0} foi bloqueado. Gostaria de denunciar este jogador?
-multiplayer.reportplayer.describe=Descreva por que está denunciando {0}.
-multiplayer.reportplayer.reason.abusive=Mensagens de Chat Abusivas ou Inapropriadas
-multiplayer.reportplayer.reason.cheating=Suspeita de Trapaça ou Uso de Bots
-multiplayer.reportplayer.reason.griefing=Comportamento Prejudicial ou Jogo Intencionalmente Lento
-multiplayer.reportplayer.reason.username=Nome de Usuário Inapropriado
 multiplayer.searching=Procurando...
-multiplayer.showPasswordGames=Mostrar Partidas com Senha
 multiplayer.vs=-vs-
-multiplayer.yourTurn.1=Parece que é a sua vez em uma partida. Ir para essa partida agora?
-multiplayer.yourTurn.2=Parece que é a sua vez em uma partida com {0}. Ir para essa partida agora?
-multiplayer.yourTurn.3=Parece que é a sua vez em uma partida com {0} e {1}. Ir para essa partida agora?
-multiplayer.yourTurn.4=Parece que é a sua vez em uma partida com {0}, {1} e {2}. Ir para essa partida agora?
 multiplayer.yourTurn.friendMatchStart.2=Você foi convidado para uma Partida de Amigos com {0}. É a sua vez! Ir para essa partida agora?
 multiplayer.yourTurn.friendMatchStart.3=Você foi convidado para uma Partida de Amigos com {0} e {1}. É a sua vez! Ir para essa partida agora?
 multiplayer.yourTurn.friendMatchStart.4=Você foi convidado para uma Partida de Amigos com {0}, {1} e {2}. É a sua vez! Ir para essa partida agora?
-network.checkConnection=Verifique sua conexão de rede.
 next.game=Próxima Partida
-nsa.accountRequired=Autenticação necessária
-nso.accountRequired=É necessária uma assinatura online para acessar os recursos online.
 Opening.present=A Leder Games & Dire Wolf Digital Apresentam
-passandplay.defaultplayer1.name=Jogador 1
-passandplay.defaultplayer2.name=Jogador 2
-passandplay.defaultplayer3.name=Jogador 3
-passandplay.defaultplayer4.name=Jogador 4
 pile.reveal.no.units=Nenhuma Carta Disponível.
-player.name.self=Você
 playerhand.title=Mão de {0}
 playerinfo.alliance.Birdsongrev=1º: Revolta - Gaste 2 apoiadores que correspondam a uma clareira simpática. Remova todas as peças de lá. Coloque uma base correspondente e guerreiros iguais ao total de clareiras simpáticas correspondentes. Ganhe um Oficial.
 playerinfo.alliance.Birdsongsym=2º: Distribua Simpatia - Pague o custo de apoiadores para colocar simpatia e ganhe <style="vptext">PVs</style> igual ao valor atual mostrado na trilha de simpatia.
@@ -409,7 +646,7 @@ playerinfo.marquise.Birdsong=Coloque uma madeira <sprite name="Wood"> em cada se
 playerinfo.marquise.daylight=1º: Crie<br>2º: Realize até 3 ações<br><line-indent=15%>• Batalha<br>• Marcha<br>• Recrutamento<br>• Erguer<br>• Hora Extra
 playerinfo.marquise.evening=Compre uma carta (+1 carta para cada <sprite name="DrawCard"> obtido na trilha de recrutadores) e depois descarte até ter 5 cartas.
 playerinfo.marquisedecat.fieldhospital.description=Quando um guerreiro morrer, você pode gastar uma carta correspondente para devolvê-lo à Torre da Guarda.
-playerinfo.marquisedecat.fieldhospital.title=Hospital de Campo
+playerinfo.marquisedecat.fieldhospital.title=Hospitais de Batalha
 playerinfo.marquisedecat.keep.description=Somente você pode colocar peças na clareira com o marcador de Torre da Guarda.
 playerinfo.marquisedecat.keep.title=A Torre da Guarda
 playerinfo.marquisedecat.recruiters.title=Recrutadores
@@ -507,7 +744,7 @@ playmat.claimed=Reivindicado!
 playmat.daylabor=Dia de Trabalho!
 playmat.dominanceavailable=Carta de Dominação Disponível!
 playmat.explore=Explorar!
-playmat.fieldhospital=Hospital de Campo!
+playmat.fieldhospital=Hospitais de Batalha!
 playmat.hawksforhire=Pássaros para Contratar!
 playmat.hideout=Esconderijo!
 playmat.leaderdeposed=Líder Deposto!
@@ -531,9 +768,7 @@ playmat.stinger.outcast=Pária
 playmat.strike=Golpear!
 playmat.train=Treinar!
 playonline.afterJoin=O jogo começa quando todos os jogadores tiverem entrado.
-playonline.async.description=<size=125%><b>Assíncrono</b></size><br>Melhor para quem quer jogar uma partida ao longo de vários dias. Os jogadores têm 3 dias para completar uma jogada em um jogo assíncrono. Se um jogador exceder esse tempo, ele será removido da partida e substituído por uma IA.
 playonline.availablegames=Jogos Disponíveis
-playonline.availablegames.game=Jogo de {0}
 playonline.casual.description=Jogos que ocorrem ao longo de vários dias.
 playonline.casual.error.alreadycreatedone=Você pode ter apenas um jogo casual não iniciado no lobby de cada vez.
 playonline.casual.inqueue=Na Fila
@@ -544,32 +779,23 @@ playonline.casual.playersInQueue=Jogadores na Fila:
 playonline.casual.title=Assíncrono
 playonline.Clockworkplayer.label=Autômato
 playonline.clockworkplayer.label=Autômato
-playonline.confirmresign=Tem certeza de que deseja desistir desta partida?
 playonline.continueGame=Continuar Online
-playonline.cpuplayer.label=IA
 playonline.creategame=Criar Jogo
 playonline.enteredQueue=Fila Entrou
-playonline.error.gamefull=Este jogo está cheio.
 playonline.error.maximum=Você atingiu o número máximo de jogos assíncronos que pode jogar ao mesmo tempo.
-playonline.error.waitingoncasual=Você já está aguardando outro jogo assíncrono começar.
-playonline.error.wrongpassword=A senha não confere.
 playonline.gamemode=Modo de Jogo
 playonline.gameStarting=O jogo está começando, por favor, aguarde.
-playonline.humanplayer.label=Aberto
 playonline.joinedplayer.label=<color=#FFFF00>{0}</color>
 playonline.joinFailed=Não foi possível entrar no jogo, verifique sua conexão com a internet.
 playonline.joininggame=Entrando no Jogo de {0}
 playonline.leftQueue=Saiu da Fila
-playonline.live.description=<size=125%><b>Ao Vivo</b></size><br>Melhor para quem quer jogar uma partida em uma única sessão. Os jogadores têm 5 minutos para completar uma jogada em um jogo ao vivo. Se um jogador exceder esse tempo, seu turno será jogado por uma IA. Se uma IA assumir duas jogadas seguidas ou se um jogador não fizer o primeiro movimento da partida, ele será permanentemente substituído pela IA.
 playonline.live.title=Ao Vivo
 playonline.matchCreated=Partida Criada:
-playonline.matchFound=Partida Encontrada:
 playonline.matchResigned=Partida Desistida:
 playonline.mode=Modo
 playonline.namePlaceholder=Insira o Nome...
 playonline.nameYourPlayers=Nomeie seus Jogadores
 playonline.noavailablegames=Não há jogos disponíveis.
-playonline.offplayer.label=Fechado
 playonline.optionHeader.ai=IA
 playonline.optionHeader.game=Jogo
 playonline.optionHeader.password=Senha
@@ -584,22 +810,14 @@ playonline.waiting.casualmatch=Partida Assíncrona - Esta partida começará ass
 playonline.waiting.livematch=Partida ao Vivo - Por favor, aguarde. Este jogo começará assim que jogadores suficientes entrarem.
 playonline.waitingForPlayers=Aguardando Jogadores
 playonline.waitingInQueue=Partida Entrou! Use o botão de voltar para sair desta tela e ser notificado quando seu jogo começar!
-playonline.waitingplayer.label=<color=#858585>Aguardando jogador</color>
-playonline.yourTurn=Sua Vez:
 playonline.timeout=Sua conexão expirou. Verifique sua conexão com a internet e certifique-se de que o relógio do sistema está corretamente ajustado e tente novamente.
-playsolo.match.startfailure=Não foi possível carregar o jogo.
 presents.screen.companyname1=Leder Games
 presents.screen.companyname2=Dire Wolf Digital
 presents.screen.connector=&
 presents.screen.presents=Apresentam
-prompt.continuesaved.buttonnewgame=Novo Jogo
-prompt.continuesaved.desc=Você tem um jogo salvo em andamento. Gostaria de continuar esse jogo ou excluí-lo e iniciar um novo?
-prompt.continuesaved.title=Continuar Jogo
 prompt.coopdescription=Jogue em equipe contra oponentes Autômatos. Para vencer, os jogadores (e IA) devem cada um marcar 30 pontos de vitória antes que qualquer oponente Autômato marque 30 pontos de vitória. Cartas de Dominação são removidas.
 prompt.expand=Expandir
 prompt.leaderboard.name.label=Nome
-prompt.leaderboard.rank.label=Rank
-prompt.leaderboard.score.label=Pontuação
 prompt.login.banned=Sua conta foi banida.
 prompt.minimize=Minimizar
 prompt.time.out.removed=Você foi removido deste jogo por exceder o tempo de turno por dois turnos seguidos.
@@ -626,7 +844,6 @@ prompts.eyriescoreroosts.label={0} Ninhos
 prompts.gameresults.coalitionwinner=Vitória por Coalizão
 prompts.gameresults.cooperativewinner=Vitória Cooperativa
 prompts.gameresults.nowinner=Desistiu
-prompts.gameresults.title=Fim de Jogo
 prompts.gameresults.tutorialcomplete=Tutorial Concluído
 prompts.gameresults.winner.automatedalliance=Vitória - Aliança Automatizada
 prompts.gameresults.winner.electriceyrie=Vitória - Rapinas Elétricas
@@ -638,7 +855,6 @@ prompts.gameresults.winner.vagabot=Vitória - Automalandro
 prompts.gameresults.winner.woodlandalliance=Vitória - Aliança da Floresta
 prompts.gameresults.winner.lordofthehundreds=Vitória - Senhor das Centenas
 prompts.gameresults.winner.keepersiniron=Vitória - Guardiões de Ferro
-prompts.loginfailure.eulanotaccepted=Por favor, aceite o EULA para fazer login.
 prompts.marquisebuild.recruiter=Recrutador
 prompts.marquisebuild.sawmill=Serraria
 prompts.marquisebuild.workshop=Oficina
@@ -655,6 +871,7 @@ prompts.shop.availableitems=Itens Criáveis
 prompts.shop.claim=Reivindicar
 prompts.shop.dominance=Dominação Disponível
 prompts.shop.title=Suprimento
+prompts.shop.remainingcards=
 prompts.turmoil.faileddecree.battle=Não foi possível <nobr><size=150%><sprite name="EyrieBattle"></size> combater</nobr> em uma clareira de <nobr><size=150%><sprite name="{0}"></size></nobr>
 prompts.turmoil.faileddecree.build=Não foi possível <nobr><size=150%><sprite name="EyrieBuild"></size> construir</nobr> em uma clareira de  <nobr><size=150%><sprite name="{0}"></size></nobr>
 prompts.turmoil.faileddecree.move=Não foi possível <nobr><size=150%><sprite name="EyrieMove"></size> mover</nobr> de uma clareira de  <nobr><size=150%><sprite name="{0}"></size></nobr>
@@ -665,9 +882,6 @@ prompts.turmoil.vpgained.label=ganhou
 prompts.turmoil.vplost.label=perdeu
 prompts.vagabonditems.continue=Continuar
 prompts.vagabonditems.damageallies=Aliados Danificados
-prompttitles.generic.success=Sucesso
-quitapplication.confirm.message=Tem certeza de que deseja sair?
-rankedselect.errors.connectfailed=Sua conexão expirou. Verifique sua conexão com a internet e tente novamente.
 root.vagabot.ranger=Andarilho
 root.vagabot.thief=Ladrão
 root.vagabot.tinker=Funileiro
@@ -687,66 +901,55 @@ set.expansion.vagabond=Expansão do Malandro
 setting.undobutton=Permitir Desfazer
 settings.about=Sobre
 settings.advancedgameplay=Jogabilidade Avançada
-settings.android.uiscale=Escala da Interface
-settings.android.uiscale.0=Pequena
-settings.android.uiscale.1=Grande
-settings.audio.effectsvolume=Volume dos Efeitos
-settings.audio.musicvolume=Volume da Música
-settings.audio.mastervolume=Volume Principal
-settings.audio.ambiencevolume=Volume Ambiente
 settings.audio.muteMusic=Silenciar Música
 settings.audio.muteSound=Silenciar Som
-settings.audio.title=Áudio
 settings.audiovideo=Áudio/Vídeo
-settings.clientversion=Versão do Cliente:
 settings.default=Padrão
 settings.dontShowAgain=Não mostrar esta mensagem novamente
 settings.enableControllerInput=Ativar Entrada por Controle
-settings.eula=EULA
-settings.feedback=Feedback
 settings.feedback.email.placeholder=Email
-settings.feedback.placeholder=Insira o problema aqui. Por favor, inclua sua facção e o modo de jogo, se aplicável.
 settings.feedback.send=Enviar
 settings.gamesettings=Configurações do Jogo
 settings.general.title=Jogabilidade
-settings.languages=Idiomas
-settings.login=Entrar
 settings.matchtype=Tipo de Partida
 settings.matchtypeformat=Tipo de Partida: {0}
-settings.pc.confirmation.body=Deseja manter estas configurações de exibição? Revertendo para as configurações anteriores em {0} segundos.
 settings.pc.confirmation.header=Configurações de Exibição Alteradas
 settings.pc.confirmation.keep=Manter
 settings.pc.confirmation.revert=Reverter
-settings.pc.graphics.high=Alto
-settings.pc.graphics.low=Baixo
-settings.pc.graphics.medium=Médio
-settings.pc.vsync=VSync
-settings.pc.windowed=Janela
 settings.quickbattle=Batalha Rápida
-settings.rules=Regras
-settings.serverversion=Versão do Servidor:
-settings.title=Configurações
+settings.disableautocamera=Desativar movimento automático da câmera
 settings.turntimer=Temporizador de Turno
-settings.video.quality=Qualidade
-settings.video.resolution=Resolução
-settings.video.title=Vídeo
+settings.keybinds.confirmcontinue=Confirmar/Continuar
+settings.keybinds.binding.enter=Enter
+settings.keybinds.cancelback=Cancelar/Voltar
+settings.keybinds.binding.backspace=Backspace
+settings.keybinds.contextualaction=Ação contextual
+settings.keybinds.binding.holdspacebar=Segurar Barra de Espaço
+settings.keybinds.undo=Desfazer
+settings.keybinds.binding.holdbackspace=Segurar Backspace
+settings.keybinds.minimizetoggle=Alternar Minimizar
+settings.keybinds.binding.tab=Tab
+settings.keybinds.settingscloseprompt=Configurações
+settings.keybinds.binding.esc=Esc
+settings.keybinds.navigate=Navegar
+settings.keybinds.binding.arrowkeys=Setas
+settings.keybinds.chat=Chat
+settings.keybinds.actionlog=Log de Ações
+settings.keybinds.togglechallengeskirmishrules=Alternar Regras de Desafio
+settings.keybinds.cameramovement=Movimento de Camera
+settings.keybinds.zoom=Zoom da Camera
+settings.keybinds.playerinfo=Informação de Jogador
+settings.controls.gamepad=Controle
+settings.controls.keyboard=Teclado
 shop.cosmetics=Cosméticos
-shop.error=A loja falhou ao carregar. Por favor, verifique sua conexão e tente novamente mais tarde.
-shop.expansions=Expansões
-shop.featured=Destaques
-shop.noitems=Itens em breve!
 shop.purchase=Comprar
-shop.purchased=Comprado
 singleplayer.difficulty.heroic=Heróico
-singleplayer.difficulty.label=Dificuldade: {0}
 singleplayer.difficulty.legendary=Lendário
 singleplayer.difficulty.normal=Normal
 singleplayer.map.label=Mapa
 singleplayer.factionselect.label=Seleção de Facção
 singleplayer.factionselect.locked.label=Facção
-singleplayer.header.label=Desafios
 solooptions.header=Jogo Solo
-solooptions.play=Jogo Solo
 solooptions.singleplayer=Desafios
 solooptions.tutorial1=Tutorial 1
 solooptions.tutorial2=Tutorial 2
@@ -774,12 +977,9 @@ Vagabot.Easy=<b>Fácil:</b> No Anoitecer, o Automalandro reanima um item a menos
 Vagabot.Nightmare=<b>Pesadelo:</b> No Anoitecer, o Automalandro reanima um item a mais e marca um ponto de vitória.
 vagabotWithColor=<color=#436979>Automalandro</color>
 view.results=Ver Resultados
-waitingforplayers.aidifficulty.label=Dificuldade da IA: {0}
 waitingforplayers.banned.label=Facções Banidas
 waitingforplayers.invalidePlayerState=Ocorreu um erro. Por favor, tente novamente.
 waitingforplayers.norandomfactions=Não há facções restantes disponíveis para você se juntar a este jogo.
-waitingforplayers.password.label=Protegido por Senha
-waitingforplayers.timer.label=Limite de tempo de turno: {0}
 woodlandWithColor=<color=#008D3F>Aliança da Floresta</color>
 your.turn.indicator=Sua Vez
 playerinfo.keepersiniron.retinue.title=Receba o Séquito
@@ -815,6 +1015,8 @@ shortfactionnames.SecondVagabond=Malandro
 shortfactionnames.vagabond=Malandro
 shortfactionnames.Vagabot=Automalandro
 shortfactionnames.woodlandalliance=Aliança
+item.locked=Fechado
+log.wingame=Vitória - [faction name]
 playerinfo.liz.Birdsong=1º: Ajuste o Pária. <br><br>2º: Descarte as Almas Perdidas. <br><br> 3º: Realize Conspirações<size=90%> <i>em Clareiras Párias.</I><br><br><style=RB>Cruzada:</style> Gaste dois acólitos para combater em uma clareira Pária ou mover-se de uma clareira Pária e depois, se desejar, combater na clareira de destino. <br><br><style=RB>Conversão:</style> Gaste dois acólitos para remover um guerreiro inimigo de uma clareira Pária e depois colocar um guerreiro lá. <br><br><style=RB>Santificação:</style> Gaste três acólitos para remover um edifício inimigo de uma clareira Pária e depois colocar um jardim lá.
 playerinfo.liz.daylight=Revele qualquer número de cartas da sua mão e execute um ritual para cada uma. <br><br><sprite index=75>Construir<br>Coloque um jardim em uma clareira correspondente que você governa. <br><br><sprite index=75>Recrutar<br>Coloque um guerreiro em uma clareira correspondente.<br><br><sprite index=75>Pontuar<br>Descarte esta carta para marcar <style="vptext">PVs</style> do espaço vazio mais à direita, correspondente, na trilha de Jardins.<br><br><sprite index=73>Sacrificar<br>Coloque um guerreiro na caixa de Acólitos.
 playerinfo.liz.evening=1º: Retorne as cartas reveladas à mão.<br><br>2º: Crie usando jardins que correspondam ao naipe do Pária. <br><br>3º: Compre 1 carta para cada <sprite index=31> exibido.<br><br>Descarte até ter 5 cartas.
@@ -844,7 +1046,6 @@ playerinfo.riverfolkcompany.swimmers.description=Você trata rios como caminhos 
 playerinfo.riverfolkcompany.tradingpost.removed=Entreposto Comercial Removido: Este posto comercial foi removido do mapa, mas ainda pode ser usado para criar itens.
 playerinfo.riverfolkcompany.Birdsong=1º: Protecionismo - Se a caixa de Pagamentos estiver vazia, coloque dois guerreiros nela.<br><br>2º: Dividendos - Se houver entrepostos comerciais no mapa, marque um ponto de vitória por cada dois fundos. (Você não marca pontos por guerreiros nas caixas de Pagamentos ou Comprometidos.)<br><br>3º: Angariando Fundos - Mova todos os guerreiros do seu tabuleiro de facção para a caixa de Fundos.
 playerinfo.riverfolkcompany.daylight=Comprometa ou gaste fundos para realizar ações.<br>
-<sprite index=76>Estabeleça um Entreposto Comercial com Guarnição
 playerinfo.riverfolkcompany.evening=1º: Descarte até ter 5 cartas.<br><br>2º: Ajuste os preços dos Serviços.
 prompt.riverfolkcompany.hand.title=Mão da Companhia Ribeirinha
 prompts.buyservices.description=Empreste guerreiros do seu suprimento para comprar serviços.
@@ -897,10 +1098,7 @@ settings.controls.select.xbox=Registro de Ações : <sprite name="Xbox_Select">
 settings.controls.righttrigger.xbox=<sprite name="Xbox_RightTrigger"> : Afastar
 settings.controls.rightbumper.xbox=<sprite name="Xbox_RightBumper"> : Suprimento
 settings.controls.start.xbox=Configurações : <sprite name="Xbox_Start">
-settings.gen.title=Geral
 playerinfo.used.title=Usado
-settings.gameplay.title=Jogabilidade
-button.commit=Comprometer
 RFT.Thematic.Intro=<color=#397F7F>A Companhia Ribeirinha</color> montou seu comércio no grande rio que atravessa a floresta. Conforme as outras facções compram <color=#397F7F>serviços</color>, a <color=#397F7F>Companhia Ribeirinha</color> poderá financiar novos entrepostos comerciais pela floresta. A construção desses entrepostos é uma maneira viável de marcar pontos de vitória, mas também são os dividendos obtidos ao acumular riquezas.
 RFT.character.intro=Ora, aí está, camarada. Deixe-me lavar as mãos rapidamente, elas cheiram a mariscos.
 RFT.set.up=Enquanto isso, cuide da preparação para mim e coloque 4 <color=#397F7F>guerreiros</color> em clareiras ao longo do rio.
@@ -1051,7 +1249,6 @@ tuber.canis.abilities.VagabondAbilities.InstigateAbility.SelectAttacker.opponent
 tuber.canis.abilities.VagabondAbilities.InstigateAbility.SelectDefender=Escolha um defensor para Instigar em combate.
 tuber.canis.abilities.VagabondAbilities.InstigateAbility.SelectDefender.opponent=Malandro - escolhendo um defensor para Instigar em combate.
 tooltip.ui.lizardcult.acolytes=<size=125%><b>Acolitos</b></size>\nUsados para realizar conspirações.
-<size=<size=125%><b>Taxa de Compra</b></size>\nCompre esta quantidade de cartas ao Anoitecer. Compre mais cartas ao construir Jardins.=Draw Rate
 tooltip.ability.lizardcult.build=<size=125%><b>Construir</b></size>\nRevele uma carta que não seja pássaro para colocar um jardim em uma clareira correspondente que você governe.
 tooltip.ability.lizardcult.convert=<size=125%><b>Conversão</b></size>\nRemova um guerreiro inimigo em uma clareira Pária e posicione um guerreiro seu no lugar.
 tooltip.ability.lizardcult.crusade=<size=125%><b>Cruzada (combate)</b></size>\nInicie um combate em qualquer clareira Pária.
@@ -1215,6 +1412,7 @@ prompt.vagabond.enlistarbiter.title=Alistar Árbitro
 prompt.export=Escolha uma carta para Exportar.
 shortfactionnames.RiverfolkCompany=Ribeirinhos
 shortfactionnames.lizardcult=Cultistas
+tooltip.ability.riverfolk.buyservices=Comprar Serviços
 root.vagabond.adventurer=Aventureiro
 root.vagabond.adventurer.ability.title=Improvisar
 root.vagabond.adventurer.ability.title.required=Improvisar Necessário
@@ -1251,6 +1449,8 @@ vagabond.swiftstrike.activate.opponent=Malandro  - considerando Ataque Rápido.
 vagabond.improvise.item.quest.opponent=[player] - escolhendo um item para exaurir para Improvisar.
 vagabond.improvise.activate.opponent=Malandro - escolhendo uma tarefa para completar.
 tooltip.swiftstrike.battle=<size=125%><b>Golpe Rápido:</b></size><br>Exaura uma espada para causar um golpe extra.
+warning.explore=O único item nesta ruína corresponde a um que você já tem na sua mochila. Você não pode pegar dois itens do mesmo tipo em ruínas. Explorar mesmo assim?
+warning.explore.opponent=[player] - pensando.
 root.cardname.exilesandpartisans.boatbuilders=Construtores Navais
 root.cardtext.exilesandpartisans.boatbuilders.any=Você trata rios como caminhos.
 root.cardname.exilesandpartisans.charmoffensive=Charme Ofensivo
@@ -1426,6 +1626,7 @@ factionnames.corvidconspiracy=Conspiração Corvídea
 factionnames.undergroundduchy=Ducado Subterrâneo
 ftt.exposure.intro.1=A qualquer momento antes de comprar cartas no Anoitecer, você pode usar Exposição para tentar remover ums trama Corvídea oculta que esteja em uma clareira com uma de suas peças.
 ftt.exposure.intro.2=Para fazer isso, selecione o botão Exposição e revele uma carta que corresponda ao naipe da clareira onde a trama está escondida. Em seguida, faça sua aposta sobre qual é a trama. Se estiver correto, remova a trama. Se errar, você deverá dar a carta revelada para a Conspiração Corvídea.
+ftt.tunnel.move=Como você já tem 3 <sprite name="Tunnel"> <color=#BD5752>Túneis</color> em jogo, você deve escolher um para mover.
 lake.Ferry=Uma vez por turno, um jogador que se mova de uma clareira com a Balsa pode mover qualquer número de guerreiros e a Balsa daquela clareira para outra clareira costeira. Após isso, ele compra uma carta.
 lake.intro=Bem-vindo ao Lago! As coisas aqui são simples, desde que você saiba como usar a Balsa.
 lake.move.Ferry=Gostaria de usar a Balsa para realizar este movimento?
@@ -1661,7 +1862,7 @@ tooltip.playmat.citadel=<size=125%><b>Cidadela</b></size>\nContribui com o naipe
 tooltip.playmat.corvidplots=<size=125%><b>Tramas da Conspiração Corvídea</b></size>
 tooltip.playmat.corvidstack=<size=125%><b>Guerreiros da Conspiração</b></size>
 tooltip.playmat.duchystack=<size=125%><b>Guerreiros do Ducado</b></size>
-tooltip.playmat.Ferry=<size=125%><b>Balsa</b></size>\nUma vez por turno, um jogador que realizar um movimento a partir da clareira costeira com a Balsa pode se mover para outra clareira costeira, movendo também a Balsa. (Segue as regras normais de movimento.) Após realizar esse movimento, o jogador compra uma carta. A Balsa não pode ser alvo de batalhas ou ser removida.
+tooltip.playmat.ferry.lake=<size=125%><b>Balsa</b></size>\nUma vez por turno, um jogador que realizar um movimento a partir da clareira costeira com a Balsa pode mover-se para outra clareira costeira, movendo a Balsa também. (Isso segue as regras normais de movimento.) Após realizar este movimento, esse jogador compra uma carta. A Balsa não pode ser batalhada nem removida.
 tooltip.playmat.market=<size=125%><b>Mercado</b></size>\nContribui com o naipe da clareira onde está para pagar custos de criação. Mercados também aumentam o número de cartas que o jogador do Ducado Subterrâneo compra no Anoitecer.
 tooltip.playmat.plot.Bomb.Down=<size=125%><b>Bomba Oculta</b></size>\nQuando revelado, remova todas as peças inimigas na sua clareira e, em seguida, remova este marcador.
 tooltip.playmat.plot.Down.opponent=<size=125%><b>Trama Oculta</b></size>\nHá uma trama da Conspiração Corvídea aqui.
@@ -1805,6 +2006,11 @@ creategame.bansecondvagabond=Banir Segundo Malandro
 shortfactionnames.corvidconspiracy=Conspiração
 shortfactionnames.undergroundduchy=Ducado
 log.duchy.failure.discardonly=[faction name] - descartando [card] devido ao Preço da Derrota.
+playmat.exposure=Exposição!
+log.corvid.setup.plot=[faction name] - colocando um guerreiro e uma trama em uma clareira de [suit icon].
+log.duchyadvsetup=[faction name] - colocando um túnel e 2 guerreiros em sua clareira inicial, e mais 5 guerreiros entre as clareiras adjacentes.
+tuber.canis.actions.CorvidConspiracyActions.CorvidConspiracyBirdsongAction.CorvidBirdsongRecruitWithAbilities=Descarte uma carta para recrutar um guerreiro em cada clareira que corresponda ao seu naipe.
+tuber.canis.actions.CorvidConspiracyActions.CorvidConspiracyBirdsongAction.CorvidBirdsongRecruitWithAbilities.opponent=Conspiração - escolhendo um tipo de clareira para recrutar.
 factionnames.keepersiniron=Guardiões de Ferro
 factionnames.lordofthehundreds=Senhor das Centenas
 aiplayername.keepersiniron=Guardiões de Ferro
@@ -2064,12 +2270,11 @@ log.shift.retinue=[faction name] - mudando o [suit icon] de Séquito [type1] par
 log.stubborn=[faction name] - recebendo 1 dano a menos devido ao humor Teimoso!
 log.trash.item=[faction name] - descartando [item icon] para pontuar [X] <style=""vptext"">PV</style>.
 Log.uprising.start=O dado da Insurgência rola [suit icon] e um guerreiro da Insurgência é colocado em uma clareira correspondente.
-log.vault.keepers.start=2 guerreiros Guardiões e um Cofre são colocados em uma clareira [ícone de traje]
+log.vault.keepers.start=2 guerreiros Guardiões e um Cofre são colocados em uma clareira de [suit icon]
 log.winterschill=[faction name] - perdendo um guerreiro em uma clareira de [suit icon] devido ao Frio do Inverno.
 log.wrathful=[faction name] - recebendo 1 dano extra devido ao humor Colérico!
 lotht.goal.20vp=Pontue <size=130%><style="vpnumddteen"></size>20</style>. ({0}/{1})
 playerinfo.keepersiniron.birdsong=1º: Acampe<size=80%> uma vez por clareira. Você pode substituir um guerreiro Guardião por uma Estação. Se nenhum estiver no mapa, coloque ambos em uma clareira na borda do mapa.<br><br></size=80%>2º: Levante Acampamento<size=80%> uma vez por clareira. Você pode substituir uma Estação por um guerreiro Guardião. <br><br></size=80%>3º: Recrute <size=80%>quantas vezes quiser. Gaste uma carta para posicionar um guerreiro em uma Estação correspondente.
-playerinfo.keepersiniron.buildwaystations.desc=Você pode pressionar o ícone <sprite name="Flip"> para alternar para o outro lado de uma estação.
 playerinfo.keepersiniron.buildwaystations.figure=Figura
 playerinfo.keepersiniron.buildwaystations.jewelry=Jóia
 playerinfo.keepersiniron.buildwaystations.prompt.title=Escolher Estação
@@ -2093,11 +2298,11 @@ playerinfo.keepersiniron.relics.title=Relíquias
 playerinfo.keepersiniron.retinue.battleanddelve.desc=...na mesma clareira correspondente
 playerinfo.keepersiniron.retinue.battleanddelve.title=Batalhar e Escavar
 playerinfo.keepersiniron.retinue.desc=Você pode adicionar qualquer número de cartas da sua mão ao Séquito ou mover uma carta dentro dele.
-playerinfo.keepersiniron.retinue.move.title=Mover
 playerinfo.keepersiniron.retinue.moveorrecover.desc=...de uma clareira correspondente
-playerinfo.keepersiniron.retinue.moveorrecover.title=Mover ou Recuperar
 playerinfo.keepersiniron.retinue.recruit.desc=...de uma clareira correspondente
+playerinfo.keepersiniron.retinue.move.title=Mover
 playerinfo.keepersiniron.retinue.recruit.title=Mover
+playerinfo.keepersiniron.retinue.moveorrecover.title=Mover ou Recuperar
 playerinfo.keepersiniron.waystations.title=Estações
 playerinfo.lordofthehundreds.birdsong=1º: Arrase<size=80%> - Em cada clareira com um marcador de turba, remova todas as construções e marcadores inimigos, pegue um item de uma ruína presente na clareira, se houver. Após resolver as turbas, role o dado de turba e posicione uma turba em uma clareira correspondente sem turba, mas adjacente a uma turba.<br><br></size=80%>2º: Recrute <size=80%>guerreiros iguais à sua Proeza na clareira do seu Senhor da Guerra, e então um guerreiro em cada forte.<br><br></size=80%>3º: Convoque <size=80%>um guerreiro das Centenas como seu novo Senhor da Guerra se ele estiver fora do mapa. Se não puder, posicione seu Senhor da Guerra em qualquer clareira.<br><br></size=80%>4º: Escolha um Humor diferente <size=80%>que não mostre um item no seu Tesouro.<br>
 playerinfo.lordofthehundreds.command=Comandar
@@ -2162,8 +2367,8 @@ tooltip.ability.hundreds.temperamental.normal=<size=125%><b>Temperamental</b></s
 tooltip.configure.player=Configurar o Jogador
 tooltip.devoutknights.battle=<size=125%><b>Cavaleiros Devotos</b></size><br>O primeiro golpe é ignorado porque há uma relíquia e um guerreiro Guardião nesta clareira.
 tooltip.hangar.hirelings.ability=<b>Habilidade</b><br><br>As habilidades estão sempre ativas, embora algumas indiquem quando ocorrem.
-tooltip.hangar.hirelings.onceperdaylightaction=<b>Ação Uma Vez por Dia</b><br><br>Uma vez durante o Dia, o jogador controlador pode realizar esta ação.
-tooltip.hangar.hirelings.startofbirdsongaction=<b>Ação no Início do Amanhecer</b><br><br>No início de seu Amanhecer, o jogador controlador deve ou pode realizar esta ação, conforme descrito.
+tooltip.hangar.hirelings.onceperdaylightaction=<b>Ação de Uma Vez por Dia</b><br><br>Uma vez durante o Dia, o jogador controlador pode realizar esta ação.
+tooltip.hangar.hirelings.startofbirdsongaction=<b>Ação de Início do Amanhecer</b><br><br>No início de seu Amanhecer, o jogador controlador deve ou pode realizar esta ação, conforme descrito.
 tooltip.hangar.hirelings.whenhiredaction=<b>Ação ao Ser Contratado</b><br><br>Quando ganham o controle do contratado, o jogador controlador deve realizar esta ação.
 tooltip.hirelingsenabled=Capangas Habilitados
 tooltip.keepersiniron.relics.description=<size=125%><b>Relíquias</b></size>
@@ -2390,54 +2595,611 @@ tooltip.faction.secondvagabond=Segundo Malandro
 tooltip.nochat=Este jogador está em uma platforma que não suporta chat e pode não ler suas mensagens.
 warning.hundreds.loot=Você não governa esta clareira. Você precisa governá-la no fim da batalha para pegar um item. Você tem certeza que deseja prosseguir?
 log.loot.failed=[faction name] - não foi possível saquear pois não governou a clareira após a batalha.
-creategame.enablehirelings=Habilitar Mercenários
-hirelings.uprising.title=Escolha a Habilidade de Insurgência
-hirelings.selection.title=Escolha um mercenário para contratar.
-hirelings.card.forestpatrol.title=Patrulha Florestal
-hirelings.card.forestpatrol.ability.1=Sempre que quaisquer guerreiros da Patrulha forem removidos, posicione um deles nesta carta, e não na reserva.
-hirelings.card.forestpatrol.ability.2=Você pode mover, e então pode batalhar.<br><br><b>-OU-</b><br><br>Posicione todos os guerreiros da Patrulha desta carta em uma clareira com quaisquer guerreiros da Patrulha.
-hirelings.card.lastdynasty.title=Última Dinastia
-hirelings.card.lastdynasty.ability.2=Se não houver guerreiros da Dinastia no mapa, posicione todos os 5 guerreiros da Dinastia em qualquer clareira na borda e batalhe lá.<br><br><b>-OU-</b><br><br>Se eles governarem a clareira, mova todos os seus guerreiros e depois batalhe com eles, se possível.<br><br><b>-OU-</b><br><br>Se eles não governarem a clareira, batalhe lá duas vezes.
-hirelings.card.springuprising.title=Insurgência da Primavera
-hirelings.card.springuprising.ability.1=Se não houver guerreiros de Insurgência no mapa, role o dado da insurgência e posicione um guerreiro de Insurgência em uma clareira correspondente.<br><br>Para batalhar contra a Insurgência, o atacante deve descartar uma carta correspondente à clareira da batalha.
-hirelings.card.springuprising.ability.2=<size=125%><b>1º</b></size> Você deve rolar o dado da insurgência.<br><br><size=125%><b>2º</b></size> Você deve remover um guerreiro de Insurgência e todas as peças inimigas de uma clareira correspondente.<br><br><b>-OU-</b><br><br>Você deve posicionar um guerreiro de Insurgência em uma clareira correspondente.
-hirelings.card.theexile.title=O Exilado
-hirelings.card.theexile.ability.1=A qualquer momento durante o turno, um jogador com peças de facção adjacentes ao Exilado pode posicionar um item de sua caixa de Itens Criados nesta carta para comprar uma carta e pontuar um ponto.
-hirelings.card.theexile.ability.2=Quantas vezes quiser, você pode exaurir um item aqui para se mover para uma floresta adjacente, e pode exaurir dois itens aqui para batalhar em uma clareira adjacente.<br><br>Ao terminar, reanime todos os itens aqui.<br><br>Em batalha, você pode causar golpes até o número de itens aqui. Para cada golpe sofrido, exaura um item ou remova um se não puder exaurir nenhum.
+tuber.canis.actions.KeepersInIronActions.KeepersInIronDaylightAction.ChooseMove=Escolha guerreiros para mover.
+tuber.canis.actions.KeepersInIronActions.KeepersInIronDaylightAction.ChooseMove.opponent=[player] - escolhendo guerreiros para mover.
+tuber.canis.actions.KeepersInIronActions.KeepersInIronBirdsongAction.ChooseRecruitClearingOne.opponent=[player] - recrutando.
+log.hundreds.placemob=[faction name] - colocando uma turba em uma clareira de [suit icon] usando o humor Jubilante.
+buttons.corvid.spies.battle=Lute em cada clareira contra quaisquer guerreiros Espiões
+buttons.corvid.spies.steal=Em cada clareira, lute contra qualquer guerreiro Espião. Em uma clareira com qualquer guerreiro Espião, pegue uma carta aleatória de cada inimigo com peças de facção na clareira
+hirelings.prompt.uprisingdie.title=Preparação dos Insurgentes da Primavera
+buttons.spring.uprising.place=Coloque um guerreiro Insurgente em uma clareira correspondente
+buttons.spring.uprising.remove=Remova um guerreiro Insurgente e todas as peças inimigas de uma clareira correspondente
+buttons.sunward.expedition.moveAndBattle=Mova e Batalhe
+buttons.sunward.expedition.recruit=Coloque um guerreiro em cada apoio
+buttons.vault.keepers.battle=Você pode batalhar em cada clareira com um cofre
+buttons.vault.keepers.recruit=Coloque um guerreiro Guardião em cada cofre
+creategame.enablebluff=Habilitar Blefe
+creategame.enablehirelings=Habilitar Capangas
+creategame.enablelandmarks=Habilitar Marcos
+hirelingnames.banned.corvidspy=Espiões Corvídeos / Corvos Sentinelas - Banido
+hirelingnames.banned.exile=O Exilado / O Bandido - Banido
+hirelingnames.banned.flamebearer=Portadores do Fogo / Ratos Contrabandistas - Banido
+hirelingnames.banned.forestpatrol=Patrulha da Floresta / Médicos Felinos - Banido
+hirelingnames.banned.furiousprotector=Protetor Furioso / Protetor Estoico - Banido
+hirelingnames.banned.highwaybandit=Bandidos da Estrada / Gangues Urbanas - Banido
+hirelingnames.banned.lastdynasty=Última Dinastia / Nobres Azulinos - Banido
+hirelingnames.banned.popularband=Banda Popular / Banda de Rua - Banido
+hirelingnames.banned.riverflotilla=Flotilha Ribeirinha / Lontras Mergulhadoras - Banido
+hirelingnames.banned.springuprising=Insurgentes da Primavera / Coelhos Batedores - Banido
+hirelingnames.banned.sunwardexpedition=Expedição à Luz / Toupeiras Artesãs - Banido
+hirelingnames.banned.vaultkeeper=Guardiões do Cofre / Texugos Guarda-Costas - Banido
+hirelingnames.banned.warmsunprophet=Profetas do Sol Quente / Enviados Reptilianos - Banido
+hirelings.bump.flamebearers.text=Portadores do Fogo
+hirelings.bump.springuprising.text=Insurgentes
+hirelings.bump.warmsunprophets.text1=Forçar Movimento
+hirelings.bump.warmsunprophets.text2=Forçar Batalha
+hirelings.card.badgerbodyguards.ability.1=<b>Controlador:</b> Em batalha, você ignora o primeiro golpe que sofrer. <i>(Isso não se combina com outros efeitos que permitem ignorar o primeiro golpe que você sofrer.)</i>
+hirelings.card.badgerbodyguards.title=Texugos Guarda-Costas
+hirelings.card.banditgang.ability.1a=Se não houver guerreiros da Gangue no mapa, coloque um em uma clareira junto a qualquer peça da sua facção.
+hirelings.card.banditgang.ability.1b=Guerreiros da Gangue não podem ser atacados em clareiras com peças da facção de seu controlador.
+hirelings.card.banditgang.ability.2=Coloque um guerreiro da facção do controlador em cada guerreiro da Gangue.<br><br><b>—OU—</b><br><br>Coloque um guerreiro da Gangue em uma clareira com uma peça da facção do controlador.
+tooltip.hirelings.promoted=Promovido
+hirelings.card.bluebirdnobles.ability.1a=<b>Controlador:</b> Você governa as clareiras quando há empate na presença <i>(como os Lordes da Floresta)</i>.
+hirelings.card.bluebirdnobles.ability.1b=<b>Controlador:</b> Marque um ponto para cada três clareiras que você governar.
+hirelings.card.bluebirdnobles.title=Nobres Azulinos
+hirelings.card.corvidspies.ability.2=<size=125%><b>1º</b></size> Posicione 2 Guerreiros Espiões em qualquer clareira com peças inimigas.<br><br><size=125%><b>2º</b></size> Lute em cada clareira com quaisquer Guerreiros Espiões.<br><br><b>—OU—</b><br><br>Em uma clareira com quaisquer Guerreiros Espiões, o controlador pega uma carta aleatória de cada inimigo com peças da facção ali presentes.
+hirelings.card.corvidspies.setup=<i>Preparação: Posicione 2 guerreiros Espiões, um em cada uma das duas clareiras do mesmo naipe.</i>
+log.pillars.of.power.losevp=[faction name] - perdendo <nome do sprite="1VP"> por governar menos de duas clareiras com marcos.
+hirelings.card.demoted.initial=D
+hirelings.card.felinephysicians.ability.1=<b>Controlador:</b> Sempre que qualquer um de seus guerreiros de facção for removido, você pode gastar uma carta correspondente à clareira deles para posicionar esses guerreiros em uma clareira com suas peças de facção, em vez de na reserva <i>(como Hospitais de Batalha)</i>.
 hirelings.card.felinephysicians.title=Médicos Felinos
-hirelings.card.felinephysicians.ability.1=<b>Controlador:</b> Sempre que qualquer um de seus guerreiros de facção for removido, você pode gastar uma carta correspondente à clareira deles para posicionar esses guerreiros em uma clareira com suas peças de facção, em vez de na reserva <i>(como Hospitais de Campo)</i>.
-hirelings.card.bluebirdnobles.title=Nobres do Pássaro Azul
-hirelings.card.bluebirdnobles.ability.1=<b>Controlador:</b> Você governa clareiras em caso de empate na presença <i>(como Lordes da Floresta)</i>.<br><br><b>Controlador:</b> Pontue um ponto para cada três clareiras que você governar.
-hirelings.card.rabbitscouts.title=Exploradores de Coelho
-hirelings.card.rabbitscouts.ability.1=<b>Controlador:</b> Como defensor em batalha, antes da rolagem, você pode gastar uma carta correspondente à clareira da batalha para usar o maior valor da rolagem e fazer o atacante usar o menor valor <i>(como Guerrilha)</i>.
-hirelings.card.thebrigand.title=O Salteador
-hirelings.card.thebrigand.ability.1=<b>Controlador:</b> Você pode pegar um item de uma ruína em uma clareira com suas peças de facção. <i>(Como Senhor das Centenas, coloque-o no seu Tesouro.)</i> Se você pegou o último item da ruína, remova a ruína.<br><br><b>Controlador:</b> Você pode exaurir um item na sua caixa de Itens Criados <i>(não no Tesouro)</i> para pegar uma carta aleatória de um jogador com peças de facção em uma clareira com suas peças de facção.
-hirelings.card.popularband.title=Bando Popular
-hirelings.card.popularband.ability.1=Se não houver guerreiros do Bando no mapa, posicione um guerreiro do Bando em uma clareira com suas peças de facção.<br><br>Os inimigos não podem se mover de uma clareira com um guerreiro do Bando no mesmo turno em que se moveram para ela.
-hirelings.card.popularband.ability.2=<b>1º</b> Escolha uma clareira com um guerreiro do Bando. Você pode forçar qualquer guerreiro de facção em cada clareira adjacente a se mover para a clareira escolhida.<br><br><b>2º</b> Você pode posicionar um guerreiro do Bando em qualquer clareira.
-hirelings.card.vaultkeepers.title=Guardas do Cofre
-hirelings.card.vaultkeepers.ability.1=Se não houver peças dos Guardas no mapa, posicione 2 guerreiros dos Guardas e um marcador de cofre em qualquer clareira.
-hirelings.card.vaultkeepers.ability.2=<b>1º</b> Você pode posicionar um cofre em uma clareira com um cofre ou adjacente a ele. Se não puder, posicione um guerreiro e um cofre em qualquer clareira.<br><br><b>2º</b> Você pode batalhar em cada clareira com um cofre.<br><br><b>-OU-</b><br><br>Você pode posicionar um guerreiro dos Guardas em cada cofre.
-hirelings.card.flamebearers.title=Portadores da Chama
 hirelings.card.flamebearers.ability.1=Se não houver guerreiros dos Portadores no mapa, posicione 2 guerreiros dos Portadores em quaisquer clareiras.
 hirelings.card.flamebearers.ability.2=<b>1º</b> Em cada clareira com quaisquer guerreiros dos Portadores, você deve remover uma peça inimiga por guerreiro dos Portadores lá, guerreiros primeiro.<br><br><b>2º</b> Você deve posicionar um guerreiro dos Portadores em um guerreiro dos Portadores ou adjacente a ele. Se não puder, posicione 2 guerreiros dos Portadores em quaisquer clareiras.
-hirelings.card.streetband.title=Bando de Rua
-hirelings.card.streetband.ability.1=Posicione um guerreiro do Bando em qualquer clareira.
-hirelings.card.badgerbodyguards.title=Guarda-costas Texugos
-hirelings.card.badgerbodyguards.ability.1=<b>Controlador:</b> Em batalha, você ignora o primeiro golpe que sofrer. <i>(Isso não se combina com outros efeitos que permitem ignorar o primeiro golpe que você sofrer.)</i>
-hirelings.card.ratsmugglers.title=Contrabandistas de Rato
+hirelings.card.flamebearers.setup=<i>Preparação : Posicione 2 guerreiros Portadores em qualquer clareira (mesmo que seja a mesma).</i>
+hirelings.card.flamebearers.title=Portadores do Fogo
+hirelings.card.forestpatrol.ability.1=Sempre que quaisquer guerreiros da Patrulha forem removidos, posicione um deles nesta carta, e não na reserva.
+hirelings.card.forestpatrol.ability.2=Você pode mover, e então pode batalhar.<br><br><b>-OU-</b><br><br>Posicione todos os guerreiros da Patrulha desta carta em uma clareira com quaisquer guerreiros da Patrulha.
+hirelings.card.forestpatrol.setup=<i>Preparação: Posicione um guerreiro da Patrulha em cada clareira.</i>
+hirelings.card.forestpatrol.title=Patrulha da Floresta
+hirelings.card.furiousprotector.ability.1=O Protetor não pode ser atacado nem removido. Os inimigos não podem colocar peças em sua clareira.
+hirelings.card.furiousprotector.ability.2=<size=125%><b>1º</b></size> Você deve mover o Protetor, ignorando governo.<br><br><size=125%><b>2º</b></size> Você deve remover um guerreiro da facção de cada jogador <i>(inclusive você)</i> na clareira do Protetor.<br><br><i>(Não remova capangas.)</i>
+hirelings.card.furiousprotector.setup=<i>Preparação: Coloque o Protetor em qualquer clareira</i>
+legendarycraft.goal.normal=Cartas Criadas ({0}/{1})
+hirelings.card.hangar.ability=As habilidades estão sempre ativas, embora algumas digam quando elas acontecem.
+hirelings.card.hangar.ability.title=<b>Habilidade</b>
+hirelings.card.hangar.onceperdaylightaction=Uma vez durante seu Dia, o controlador pode realizar esta ação.
+hirelings.card.hangar.onceperdaylightaction.title=<b>Ação de Uma Vez por Dia</b>
+hirelings.card.hangar.startofbirdsongaction=No início de seu Amanhecer, o controlador deve ou pode realizar esta ação, conforme a descrição da ação.
+hirelings.card.hangar.startofbirdsongaction.title=<b>Ação de Início do Amanhecer</b>
+hirelings.card.hangar.whenhiredaction=Quando o jogador que controla o capanga assume o controle deste, ele deve realizar esta ação.
+hirelings.card.hangar.whenhiredaction.title=<b>Ação ao Ser Contratado</b>
+hirelings.card.highwaybandits.ability.1a=Quando um inimigo se move em um caminho com um bandido, ele deve remover uma peça se movendo ou danificar um item <i>(se for Malandro)</i>
+hirelings.card.highwaybandits.ability.1b=<b>Controlador:</b> Ao se mover por um caminho com um bandido, você pode colocar um guerreiro na clareira de destino.
+hirelings.card.highwaybandits.ability.2=Coloque um bandido em um caminho sem bandidos, conectado a uma clareira com as peças da sua facção. Se não houver bandidos no estoque, você pode remover um para colocá-lo.
+hirelings.card.highwaybandits.setup=<i>Preparação: Coloque 2 bandidos, um em cada caminho onde não houver nenhum.</i>
+settings.enableautocamera=Movimento de Camera Automático
+hirelings.card.lastdynasty.ability.2=Se não houver guerreiros da Dinastia no mapa, posicione todos os 5 guerreiros da Dinastia em qualquer clareira na borda e batalhe lá.<br><br><b>-OU-</b><br><br>Se eles governarem a clareira, mova todos os seus guerreiros e depois batalhe com eles, se possível.<br><br><b>-OU-</b><br><br>Se eles não governarem a clareira, batalhe lá duas vezes.
+hirelings.card.lastdynasty.setup=<i>Preparação: Posicione todos os 5 guerreiros da Dinastia em uma clareira na borda do mapa.</i>
+hirelings.card.lastdynasty.title=Última Dinastia
+hirelings.card.lizardenvoys.ability.2=<b>Controlador:</b> Você pode procurar as cinco cartas do topo da pilha de descarte e pegar uma carta do naipe mais comum, exceto uma emboscada. Você não pode contar pássaros como outros naipes e decide em caso de empate.
+prompt.physicians.rescue.place.opponent=[player] - posicionando guerreiros com <color=#CC6633>Médicos Felinos</color>.
+hirelings.card.moleartisans.ability.1=<b>Controlador:</b> Sempre que você criar uma carta com um item, você pode revelá-la em vez de descartá-la. Ao final do Anoitecer devolva as cartas que você revelou desta forma para a sua mão.<br><i>(Você pode terminar seu turno com 6 ou mais cartas.)</i>
+prompts.hirelings.forced.battle.unavailable=Não há inimigos na clareira para batalhar. Pressione continuar.
+hirelings.card.otterdivers.ability.1=<b>Controlador:</b> Você ignora governo ao se mover para ou de uma clareira no rio.
+rules.landmarks.1=Ao jogar com a Preparação Avançada, você pode adicionar um ou dois <b>marcos</b> aleatórios aos seus jogos. Cada marco adiciona uma regra única, geralmente beneficiando os jogadores que governam ou ocupam a área correspondente.
+hirelings.card.popularband.ability.1a=Se não houver guerreiros da Banda Popular no mapa, coloque um guerreiro da Banda em uma clareira junto com as peças da sua facção.
+hirelings.card.popularband.ability.1b=Os inimigos não podem se mover de uma clareira com um guerreiro da Banda Popular no mesmo turno em que entraram nela.
+hirelings.card.popularband.ability.2=<b>1º</b> Escolha uma clareira com um guerreiro da Banda. Você pode forçar qualquer guerreiro de facção em cada clareira adjacente a se mover para a clareira escolhida.<br><br><b>2º</b> Você pode posicionar um guerreiro da Banda em qualquer clareira.
+hirelings.card.popularband.setup=<i>Preparação: Posicione 2 guerreiros da Banda Popular, cada um em uma clareira diferente.</i>
+hirelings.card.popularband.title=Banda Popular
+hirelings.card.rabbitscouts.ability.1=<b>Controlador:</b> Como defensor em batalha, antes da rolagem, você pode gastar uma carta correspondente à clareira da batalha para usar o maior valor da rolagem e fazer o atacante usar o menor valor <i>(como Guerrilha)</i>.
+hirelings.card.rabbitscouts.title=Coelhos Batedores
 hirelings.card.ratsmugglers.ability.1=<b>Controlador:</b> Quantas vezes quiser durante o Dia, você pode descartar uma carta com um item para se mover ou batalhar. <i>(Você não precisa ser capaz de criar o item.)</i>
+hirelings.card.ratsmugglers.title=Ratos Contrabandistas
+hirelings.card.ravensentries.ability.1=<b>Controlador:</b> Em batalha, você causa um ataque extra se a área de batalha contiver construções ou marcadores da sua facção.
+scenario.pillarsofpower.tier2description=Este jogo é jogado com três marcos. No final do seu turno, se as clareiras que você governo tiverem dois ou mais pontos de referência, você ganha <sprite name="1VP">. Caso contrário, você perde <sprite name="1VP">.
+hirelings.card.riverfolkflotilla.ability.1=A Flotilha não pode ser atacada nem removida.<br>Em batalha, a Flotilha pode rolar até 3 acertos.
+hirelings.card.riverfolkflotilla.ability.2=<size=125%><b>1º</b></size> Cada jogador com peças de facção na Flotilha pode comprar uma carta.<br><br><size=125%><b>2º</b></size> Você deve mover a Flotilha ao longo do rio, ignorando governo. Em seguida, a Flotilha pode batalhar.
+hirelings.card.riverfolkflotilla.setup=<i>Preparação: Posicione a Flotilha em uma clareira na borda do mapa, junto ao rio.</i>
+scenario.mercenarymayhem.tier1description=Ao final do seu turno, escolha um dos três Capangas Rebaixados para controlar até o seu próximo turno. Seu oponente controla um Capanga Promovido durante toda a partida.
+hirelings.card.springuprising.ability.1a=Se não houver guerreiros Insurgentes no mapa, role o dado de insurgência e coloque um guerreiro Insurgente em uma clareira correspondente.
+hirelings.card.springuprising.ability.1b=Para atacar os Insurgentes, o atacante deve descartar uma carta que corresponda à carta de batalha.
+hirelings.card.springuprising.ability.2=<size=125%><b>1º</b></size> Você deve rolar o dado da insurgência.<br><br><size=125%><b>2º</b></size> Você deve remover um guerreiro de Insurgência e todas as peças inimigas de uma clareira correspondente.<br><br><b>-OU-</b><br><br>Você deve posicionar um guerreiro de Insurgência em uma clareira correspondente.
+hirelings.card.springuprising.setup=<i>Preparação: Role o dado da insurgência duas vezes e coloque um guerreiro Insurgente nas clareiras correspondentes.</i>
+hirelings.card.springuprising.title=Insurgentes da Primavera
+hirelings.card.stoicprotector.ability.1a=Se o Protetor não estiver no mapa, coloque-o em uma clareira junto com as peças da sua facção.
+hirelings.card.stoicprotector.ability.1b=O Protetor não pode ser combatido nem removido.
+hirelings.card.stoicprotector.ability.1c=<b>Controlador:</b> Os inimigos não podem batalhar ou remover suas peças de facção no Protetor.
+hirelings.card.stoicprotector.ability.2=Você deve mover o Protetor, ignorando o governo.
+rules.hirelings.4=<size=125%><b>Preparar Capangas</b></size><br><br>Começando pelo último jogador na ordem de turno e seguindo na ordem inversa, os jogadores são solicitados a escolher um capanga para preparar. Capangas que não tiverem seleções de preparação serão ignorados.<br><br>
+hirelings.card.streetband.ability.1=Os inimigos não podem se mover de uma clareira com um guerreiro da Banda de Rua no mesmo turno em que entraram nela.
+hirelings.card.streetband.ability.2=Coloque um guerreiro da Banda de Rua em qualquer clareira.
+hirelings.card.streetband.title=Banda de Rua
+hirelings.card.sunwardexpedition.ability.2=<size=125%><b>1º</b></size> Coloque um marcador de apoio e até 3 guerreiros da Expedição em uma clareira sem apoio. Se não houver apoios disponíveis, remova um do mapa para colocá-lo.<br><br><size=125%><b>2º</b></size> Você pode se mover e, em seguida, pode batalhar.<br><br><b>—OU—</b><br><br>Coloque um guerreiro em cada apoio.
+hirelings.card.sunwardexpedition.setup=<i>Preparação: Coloque um marcador de apoio e 3 guerreiros da Expedição em qualquer clareira.</i>
+rules.hirelings.7=<size=125%><b>Usando Capangas</b></size><br><br><b>Pontuação</b>: Você não pontua quando mercenários que você controla removem peças inimigas.<br><br><b>Governo</b>: O controlador de um capanga trata as peças do capanga como suas apenas para fins de governo. O controlador pode governar uma clareira mesmo que apenas com capangas. Capangas não controlados podem governar clareiras como se fossem um jogador.<br><br><b>Status de Inimigo</b>: Um capanga é um inimigo para jogadores que não sejam seu controlador e jogadores em coalizão com seu controlador.<br><br><b>Peças Separadas</b>: As peças de capangas não são peças da facção do controlador.<br><br><b>Ações Separadas</b>: As ações de Movimento ou Batalha de um mercenário só podem mover ou batalhar com as peças do mercenário e não podem incluir as peças do controlador. Mercenários não podem realizar ações de outras maneiras.<br><br><b>Efeitos Separados</b>: Capangas não podem usar as habilidades de seu controlador, efeitos persistentes criados ou cartas de emboscada.<br><br>
+hirelings.card.thebrigand.ability.2a=<b>Controlador:</b> Você pode pegar um item de uma ruína em uma clareira com suas peças de facção. <i>(Como Senhor das Centenas, coloque-o em seu Tesouro.)</i> Se você pegou o último item da ruína, remova a ruína.
+hirelings.card.thebrigand.ability.2b=<b>Controlador:</b> Você pode usar um item da sua caixa de Itens Artesanais <i>(não Tesouro)</i> para pegar uma carta aleatória de um jogador com peças de facção em uma clareira com suas peças de facção.
+hirelings.card.thebrigand.setup=<i>Preparação: Coloque os itens "R" sob as ruínas como se o Malandro estivesse em jogo.</i>
+hirelings.card.thebrigand.title=O Bandido
+hirelings.card.theexile.ability.1=A qualquer momento durante o turno, um jogador com peças de facção adjacentes ao Exilado pode posicionar um item de sua caixa de Itens Criados nesta carta para comprar uma carta e pontuar um ponto.
+hirelings.card.theexile.ability.2=Quantas vezes quiser, você pode exaurir um item aqui para se mover para uma floresta adjacente, e pode exaurir dois itens aqui para batalhar em uma clareira adjacente.<br><br>Ao terminar, reanime todos os itens aqui.<br><br>Em batalha, você pode causar golpes até o número de itens aqui. Para cada golpe sofrido, exaura um item ou remova um se não puder exaurir nenhum.
+hirelings.card.theexile.setup=<i>Preparação: Coloque o Exilado em qualquer floresta e os 3 itens de Clava nele.</i>
+hirelings.card.theexile.title=O Exilado
+hirelings.card.vaultkeepers.ability.1=Se não houver peças dos Guardiões no mapa, posicione 2 guerreiros Guardiões e um marcador de cofre em qualquer clareira.
+hirelings.card.vaultkeepers.ability.2=<b>1º</b> Você pode posicionar um cofre em uma clareira com um cofre ou adjacente a ele. Se não puder, posicione um guerreiro e um cofre em qualquer clareira.<br><br><b>2º</b> Você pode batalhar em cada clareira com um cofre.<br><br><b>-OU-</b><br><br>Você pode posicionar um guerreiro Guardiões em cada cofre.
+hirelings.card.vaultkeepers.setup=<i>Preparação: Posicione 2 guerreiros Guardiões um cofre em qualquer clareira com um espaço livre para construção.</i>
+hirelings.card.vaultkeepers.title=Guardiões do Cofre
+hirelings.card.warmsunprophets.ability.1=Se não houver guerreiros Profetas no mapa, coloque um guerreiro Profeta em qualquer clareira.
+hirelings.card.warmsunprophets.ability.2=Escolha qualquer jogador (mesmo o controlador) com peças de facção em uma clareira com um guerreiro Profeta. Force-o a batalhar ali, ou force-o a mover o máximo de peças possível dali para uma clareira que você escolher e, se quiser, batalhar no destino.<br><br>Você escolhe o defensor.<br><br><b>—OU—</b><br><br>Coloque um guerreiro Profeta em uma clareira sem nenhum.
+hirelings.card.warmsunprophets.setup=<i>Preparação: Posicione um guerreiro Profeta em cada clareira com uma ruína.</i>
+rules.hirelings.13=<size=125%><b>Lista</b></size><br>Bandidos da Estrada<br>Gangues Urbanas<br>Profetas do Sol Quente<br>Enviados Reptilianos<br>Flotilha Ribeirinha<br>Lontras Mergulhadoras<br>Protetor Furioso<br>Protetor Estoico<br>Espiões Corvídeos<br>Corvos Sentinelas<br>Expedição à Luz<br>Toupeiras Artesãs<br>Insurgentes da Primavera<br>Coelhos Batedores<br>Última Dinastia<br>Nobres Azulinos<br>Patrulha da Floresta<br>Médicos Felinos<br>Banda Popular<br>Banda de Rua<br>O Exilado<br>O Bandido<br>Guardiões do Cofre<br>Texugos Guarda-Costas<br>Portadores do Fogo<br>Ratos Contrabandistas
 hirelings.prompt.bluebirdvpgain.title=Bônus de Governo de Clareira
-hirelings.prompt.flamebearersremovewarrior.title=Portadores da Chama
+hirelings.prompt.bluebirdvpgain.subtitle={0} clareiras governadas
 hirelings.prompt.flamebearersremovewarrior.desc=Removendo peças inimigas em clareiras com portadores
-hirelings.prompt.uprisingremovingpieces.title=Insurgência
-hirelings.prompt.uprisingremovingpieces.body=Removendo Guerreiro de Insurgência e todas as peças inimigas
-tuber.canis.actions.HirelingControlPhase.ChooseHireling=Escolha um mercenário para contratar.
-tuber.canis.actions.HirelingControlPhase.ChoosePlayerForHireling=Escolha um jogador para receber [faction name]
-tuber.canis.actions.HirelingControlPhase.ChooseHireling.opponent=[player] - escolhendo um mercenário.
-tuber.canis.actions.HirelingControlPhase.ChoosePlayerForHireling.opponent=
-tuber.canis.abilities.HirelingAbilities.VaultKeepersAbilities.VaultKeepersWhenHiredAbility=Escolha uma clareira para colocar 2 guerreiros Guardiões e um cofre.
-tuber.canis.abilities.HirelingAbilities.VaultKeepersAbilities.VaultKeepersWhenHiredAbility.opponent=[hirelingfaction] - recrutando.
+hirelings.prompt.flamebearersremovewarrior.title=Portadores do Fogo
+hirelings.prompt.uprisingremovingpieces.body=Removendo Guerreiro Insurgente e todas as peças inimigas
+hirelings.prompt.uprisingremovingpieces.title=Insurgentes
+hirelings.selection.title=Escolha um Capanga para contratar.
+hirelings.setup.title=Escolha um Capanga para preparar
+hirelings.stinger.lizardenvoys.subheader=Peguei uma carta do topo das 5 cartas da pilha de descarte
+hirelings.stinger.moleartisans.header=Revelado
+hirelings.uprising.title=Escolha a Habilidade dos Insurgentes
+log.band.forced.move=<color=#C85B80>Banda Popular</color> forçou [X] guerreiros adjacentes a se moverem para uma clareira [suit icon].
+log.band.place.warrior=[faction name] - colocando um guerreiro da <color=#C85B80>Banda</color> em uma clareira de [suit icon].
+log.band.setup=Guerreiras da <color=#C85B80>Banda Popular</color> são colocados em duas clareiras diferentes.
+log.bandit.gang.place.warrior=[faction name] - colocando um guerreiro da <color=#C85B80>Gangue</color> em uma clareira [suit icon] com uma de suas peças de facção.
+log.bandit.gang.place.warrior.each=[faction name] - colocando um guerreiro em cada clareira com um guerreiro da <color=#C85B80>Gangue</color>.
+log.bearer.removal=<color=#B40518>Portadores do Fogo</color> removeram as seguintes peças de clareiras com guerreiros <color=#B40518>Portadores</color>: [piece list].
+log.bearers.setup=2 guerreiros <color=#B40518>Portadores</color> são colocados em clareiras.
+log.black.market.swap=[faction name] - trocando uma carta da sua mão com Feira do Rolo.
+log.bodyguards.ignore.hit=[faction name] - ignorando o primeiro golpe na batalha com <color=#575757>Texugos Guarda-Costas</color>.
+log.brigand.take.item=[faction name] - usando <color=#436979>O Bandido</color> para pegar [item] de uma ruína.
+log.control=[faction name] obteve o controle de [hireling name] por [X] rodadas.
+log.corvid.spies.setup=2 guerreiros <color=#9673B4>Corvídeos</color> são colocados em clareiras [suit icon].
+log.corvid.spies.place=[faction name] - posicionando um guerreiro <color=#9673B4>Corvídeo</color> em uma clareira de [suit icon].
+log.corvid.spies.move=[faction name] - movendo [X] guerreiros <color=#9673B4>Corvídeos</color> para uma clareira de [suit icon].
+log.corvid.spies.steal=[faction name] - usando <color=#9673B4>Espiões Corvídeos</color> para roubar uma carta de [faction name 2].
+log.dynasty.setup=5 guerreiros da <color=#3A63CB>Dinastia</color> são colocados em uma clareira [suit icon] na borda do mapa.
+log.elder.treetop.vp=[faction name] - removendo uma construção na Árvore Anciã.
+log.exile.battle=<color=#436979>O Exilado</color> exauriu [item icon] [item icon] para batalhar em uma clareira adjacente.
+log.exile.hit.exhausted=<color=#436979>O Exilado</color> exauriu [item list] por ter recebido danos.
+log.exile.hit.removed=<color=#436979>O Exilado</color> removeu [item list] por ter recebido danos.
+log.exile.item=[faction name] - doando [item icon] para <color=#436979>O Exilado</color> para comprar uma carta e marcar um ponto.
+log.exile.movement=<color=#436979>O Exilado</color> exauriu [item icon] para se mover para uma floresta adjacente.
+log.exile.setup=O capanga <color=#436979>O Exilado</color> é colocado em uma floresta.
+log.flotilla.draw=[faction name] - comprando uma carta da <color=#397F7F>Flotilha</color>.
+log.flotilla.setup=<color=#397F7F>A Flotilha</color> é colocada em uma clareira de [suit icon].
+log.flotilla.move=[faction name] - movendo <color=#397F7F>A Flotilha</color> para uma clareira de [suit icon].
+log.furious.protector.setup=O <color=#C85B80>Protetor Furioso</color> é colocado em uma clareira de [suit icon].
+log.highway.bandit.path.cost=[faction name] - removendo [piece] por se mover por um caminho com um <color=#C85B80>bandido</color> inimigo.
+log.highway.bandit.path.cost.vagabond=[faction name] - danificando [item icon] por se mover por um caminho com um <color=#C85B80>bandido</color> inimigo.
+log.highway.bandit.path.reward=[faction name] - ganhando um guerreiro em uma clareira de [suit icon] por se mover por um caminho com seu <color=#C85B80>bandido</color>.
+log.highway.bandit.path.setup=Um <color=#C85B80>bandido</color> é colocado em um caminho.
+log.highway.bandit.place.warrior=[faction name] - colocando um <color=#C85B80>bandido</color> em um caminho.
+log.highway.bandit.place.warrior.move=[faction name] - movendo um guerreiro <color=#C85B80>bandido</color> para uma clareira de [suit icon].
+log.legendary.forge.craft=[faction name] - ganhando 1 <style="vptext">PV</style> e comprando uma carta por criar um item na Forja Lendária.
+log.lizard.envoys.draw.from.discard=[faction name] - usando <color=#748421>Enviados Reptilianos</color> para comprar [card] das 5 cartas do topo da pilha de descarte.
+log.nobles.scoring=[faction name] - usando <color=#3A63CB>Nobres Azulinos</color> para marcar [X] <style=""vptext"">VP</style> por governar [X2] clareiras.
+log.patrol.setup=Um guerreiro da <color=#CC6633>Patrulha</color> é posicionado em cada clareira.
+log.physicians.rescue=[faction name] - usando <color=#CC6633>Médicos Felinos</color> e descartando [card] para retornar [X] guerreiros caídos a uma clareira de [suit icon].
+log.physicians.rescue.decline=[faction name] - recusando-se a usar <color=#CC6633>Médicos Felinos</color>.
+log.place.landmark=[landmark name] foi colocada em uma clareira de [suit icon].
+log.raven.sentries.hit=[faction name] - obtendo um acerto adicional de <color=#9673B4>Corvos Sentinelas</color>.
+log.scouts.highroll=[faction name] - usando <color=#008D3F>Coelhos Batedores</color> e descartando [card] para obter o resultado mais alto na batalha.
+log.smugglers.battle=[faction name] - usando <color=#B40518>Ratos Contrabandistas</color> e descartando [card] para batalhar contra [faction name 2] em uma clareira de [suit icon].
+log.smugglers.move=[faction name] - usando <color=#B40518>Ratos Contrabandistas</color> e descartando [card] para mover [X] guerreiros para uma clareira de [suit icon].
+log.sun.prophets.force.battle=[faction name] - usando <color=#748421>Profetas do Sol Quente</color> para forçar [faction name 2] a batalhar contra [faction name 3] em uma clareira de [suit icon].
+log.sun.prophets.force.move=[faction name] - usando <color=#748421>Profetas do Sol Quente</color> para forçar [faction name 2] a mover [X] guerreiros para uma clareira de [suit icon].
+log.sun.prophets.place.warrior=[faction name] - colocando um guerreiro <color=#748421>Profeta</color> em uma clareira de [suit icon].
+log.sunward.expedition.setup=Um apoio e 3 guerreiros da <color=#BD5752>Expedição</color> são colocados em uma clareira de [suit icon].
+log.sunward.expedition.place.foothold.warriors=A <color=#BD5752>Expedição à Luz</color> estabeleceu um apoio e [X] <color=#BD5752>guerreiros da Expedição</color> em uma clareira de [suit icon].
+log.sunward.expedition.move=[faction name] - movendo [X] guerreiros da <color=#BD5752>Expedição</color> para uma clareira de [suit icon].
+log.uprising.battle.cost=[faction name] - descartando [card] para batalhar contra os <color=#008D3F>Insurgentes</color> em uma clareira de [suit icon].
+log.uprising.destruction=[faction name] - perdendo [piece list] na insurgência.
+log.uprising.setup=O dado da <color=#008D3F>Insurgência</color> rola [suit icon] e [suit icon 2].
+log.uprising.setup2=Um guerreiro <color=#008D3F>Insurgente</color> é colocado em uma clareira correspondente.
+log.uprising.uprising=Os <color=#008D3F>Insurgentes da Primavera</color> removem um guerreiro <color=#008D3F>Insurgente</color> e todas as peças inimigas em uma clareira de [suit icon].
+log.vault.keepers.place.vault.warriors=[faction name] - colocando um cofre e 2 guerreiros <color=#575757>Guardiões</color> em uma clareira de [suit icon].
+log.vault.keepers.place.onlyvault=[faction name] - colocando um cofre em uma clareira de [suit icon].
+log.vault.keepers.place.vault.warrior=[faction name] - colocando um cofre e 1 guerreiro <color=#575757>Guardião</color> em uma clareira de [suit icon].
+log.vault.keepers.place.many.warriors=[faction name] - colocando 1 guerreiro <color=#575757>Guardião</color> em cada clareira com um cofre.
+log.furious.protector.move=O <color=#C85B80>Protetor</color> é movido para uma clareira de [suit icon], removendo 1 guerreiro de cada facção ali.
+log.stoic.protector.move=[faction name] - movendo o <color=#C85B80>Protetor</color> para uma clareira de [suit icon].
+prompt.spring.uprising.battle.discard=Descarte uma carta para batalhar contra os Insurgentes.
+prompt.spring.uprising.battle.discard.opponent=[player] - escolhendo descartar para batalhar contra os Insurgentes.
+prompt.spring.uprising.battle.nocard=Não é possível atacar - não há cartas correspondentes à clareira para descartar.
+prompt.spring.uprising.battle.nocard.opponent=[player] - pensando.
+prompt.spring.uprising.setup.opponent=O oponente está preparando [hireling].
+prompts.bandit.gang.daylight.controller.recruit=Suprimentos no limite. Escolha uma clareira para recrutar um guerreiro. ([X] restantes)
+prompts.bandit.gang.daylight.controller.recruit.opponent=[player] - recrutando.
+prompts.bandit.gang.daylight.recruit=Escolha uma clareira com as peças da sua facção para posicionar um guerreiro Bandido.
+prompts.bandit.gang.daylight.recruit.opponent=[player] - recrutando.
+prompts.bandit.gang.when.hired=Escolha uma clareira com as peças da sua facção para posicionar um guerreiro Bandido.
+prompts.bandit.gang.when.hired.opponent=[player] - recrutando.
+prompts.black.market.setup=Escolha uma clareira com exatamente um espaço para construção e sem ruínas para colocar a Feira do Rolo. Ela não pode ter um marco nem ser adjacente a um.
+prompts.black.market.setup.opponent=O oponente está colocando a Feira do Rolo.
+prompts.brigand.daylight.explore=Escolha um item para pegar da ruína.
+prompts.brigand.daylight.explore.opponent=[player] - escolhendo um item para pegar da ruína.
+prompts.brigand.daylight.steal=Escolha um oponente que tenha peças de qualquer facção em uma clareira com peças da sua facção para pegar uma carta aleatória dele.
+prompts.brigand.daylight.steal.opponent=[player] - escolhendo roubar uma carta.
+prompts.corvid.spies.battleOrSteal=Escolha:
+prompts.corvid.spies.battleOrSteal.opponent=[player] - escolhendo.
+prompts.corvid.spies.daylight.place=Escolha uma clareira com uma peça inimiga para posicionar um guerreiro Espião.
+prompts.corvid.spies.daylight.place.opponent=[player] - recrutando.
+prompts.corvid.spies.daylight.steal=Escolha uma clareira com quaisquer guerreiros Espiões.
+prompts.corvid.spies.daylight.steal.opponent=[player] - escolhendo.
+prompts.corvid.spies.setup=Escolha uma clareira para posicionar um guerreiro Espião.
+prompts.corvid.spies.setup.2=Escolha uma clareira correspondente para posicionar um guerreiro Espião.
+prompts.corvid.spies.setup.2.opponent=O oponente está preparando [hireling].
+prompts.corvid.spies.setup.opponent=O oponente está preparando [hireling].
+prompts.elder.treetop.build=Colocar na Árvore Anciã?
+prompts.elder.treetop.build.opponent=[player] - construindo.
+prompts.elder.treetop.setup=Escolha uma clareira de canto para colocar a Árvore Anciã. Ela não pode ter um marco ou ser adjacente a um.
+prompts.elder.treetop.setup.opponent=O oponente está colando a Árvore Anciã.
+prompts.exile.daylight.move=Você pode escolher uma floresta próxima para se mover para ela.
+prompts.exile.daylight.move.opponent=O Exilado está escolhendo.
+prompts.exile.daylight.moveOrBattle=Você pode escolher uma floresta adjacente para se mover ou um inimigo para batalhar.
+prompts.exile.daylight.moveOrBattle.opponent=O Exilado está escolhendo.
+prompts.exile.public.giveItem=Doe um item ao Exilado para comprar uma carta e marcar 1 <style="vptext">VP</style>.
+prompts.exile.public.giveItem.opponent=[player] - doando um item para O Exilado.
+prompts.exile.setup=Escolha uma floresta para colocar o Exilado.
+prompts.exile.setup.opponent=O oponente está preparando [hireling].
+prompts.ferry.setup=Escolha uma clareira no rio, sem nenhum outro marco no local ou adjacente para posicionar a balsa.
+prompts.ferry.setup.lake=Escolha uma clareira costeira sem outros marcos no local ou adjacentes para posicionar a balsa.
+prompts.ferry.setup.opponent=O oponente está posicionando a Balsa.
+prompts.ferry.setup.lake.opponent=O oponente está posicionando a Balsa.
+prompts.flame.bearers.birdsong.recruit=Escolha uma clareira com ou adjacente a um guerreiro Portador para posicionar outro guerreiro Portador.
+prompts.flame.bearers.birdsong.recruit.opponent=[player] - recrutando.
+prompts.flame.bearers.birdsong.remove=Remova uma peça inimiga, guerreiros primeiro ([X] restantes).
+prompts.flame.bearers.birdsong.remove.opponent=[player] - removendo peças inimigas!
+prompts.flame.bearers.setup=Coloque um guerreiro Portador em uma clareira. ([X] restantes)
+prompts.flame.bearers.setup.opponent=O oponente está preparando [hireling].
+prompts.forest.patrol.daylight.place=Escolha uma clareira com quaisquer guerreiros de Patrulha para colocar [X] guerreiros de Patrulha.
+prompts.forest.patrol.daylight.place.opponent=[player] - recrutando.
+prompts.furious.protector.birdsong.move=Escolha uma clareira para onde mover o Protetor Furioso. (Você pode ignorar governo.)
+prompts.furious.protector.birdsong.move.opponent=[player] - se movendo.
+prompts.furious.protector.setup=Escolha uma clareira para posicionar o Protetor Furioso.
+prompts.furious.protector.setup.opponent=O oponente está preparando [hireling].
+prompts.highway.bandits.banditToMove=Escolha um bandido para mover.
+prompts.highway.bandits.banditToMove.opponent=[player] - se movendo.
+prompts.highway.bandits.controller.recruit=Colocar um guerreiro com Bandidos da Estrada?
+prompts.highway.bandits.controller.recruit.opponent=[player] - recrutando.
+prompts.highway.bandits.damage=Escolha um item para danificar ao passar por um Bandido da Estrada.
+prompts.highway.bandits.damage.opponent=[player] - escolhendo um item para danificar.
+prompts.highway.bandits.place=Coloque um bandido em um caminho sem bandido, adjacente a qualquer uma das suas peças de facção.
+prompts.highway.bandits.place.opponent=[faction] - colocando peças.
+prompts.highway.bandits.remove=Escolha uma peça para remover.
+prompts.highway.bandits.remove.opponent=[player] - escolhendo uma peça para remover.
+prompts.highway.bandits.setup=Escolha um caminho sem um bandido para colocar um bandido. ([X] restantes)
+prompts.highway.bandits.setup.opponent=O oponente está preparando [hireling].
+prompts.hirelings.choose.setup=Escolha um Capanga para preparar.
+prompts.hirelings.choose.setup.opponent=O oponente está escolhendo um Capanga para preparar.
+prompts.hirelings.choose=Escolha um Capanga para pegar.
+prompts.hirelings.choose.opponent=[player] - escolhendo um Capanga.
+prompts.hirelings.choose.player=Escolha um jogador para receber [faction name].
+prompts.hirelings.choose.player.opponent=[player] - escolhendo um jogador para receber [faction name].
+prompts.hirelings.setup.confirmOrUndo=Pressione o botão Continuar para concluir a preparação.
+prompts.hirelings.setup.confirmOrUndo.opponent=Aguardando [player] confirmar a preparação.
+prompts.landmarks.black.market.chooseCard=Escolha uma carta para colocar na Feira do Rolo.
+prompts.landmarks.black.market.chooseCard.opponent=[player] - usando a Feira do Rolo.
+prompts.landmarks.black.market.choosePile=Escolha uma carta para pegar da Feira do Rolo.
+prompts.landmarks.black.market.choosePile.opponent=[player] - usando a Feira do Rolo.
+prompts.landmarks.setup=Escolha um marco para preparar.
+prompts.landmarks.setup.confirmOrUndo=Pressione o botão Continuar para concluir a preparação.
+prompts.landmarks.setup.confirmOrUndo.opponent=Aguardando [player] confirmar a preparação.
+prompts.landmarks.setup.opponent=O oponente está colocando um marco.
+prompts.last.dynasty.setup=Escolha uma clareira de borda para posicionar 5 guerreiros da Dinastia.
+prompts.last.dynasty.setup.opponent=O oponente está preparando [hireling].
+prompts.legendary.forge.setup=Escolha uma clareira para colocar a Forja Lendária. Ela não pode ter um marco ou ser adjacente a um.
+prompts.legendary.forge.setup.opponent=O oponente está colocando a Forja Lendária.
+prompts.lizard.envoys.birdsong.search=Escolha uma carta para pegar.
+prompts.lizard.envoys.birdsong.search.opponent=[player] - escolhendo uma carta para pegar.
+prompts.lizard.envoys.birdsong.search.noneavailable=Não há cartas disponíveis. Pressione o botão Cancelar.
+prompts.lizard.envoys.birdsong.search.noneavailable.opponent=[player] - escolhendo uma carta para pegar.
+prompts.lost.city.setup=Escolha uma clareira no rio para colocar a Cidade Perdida. Ela não pode ter um marco ou ser adjacente a um.
+prompts.lost.city.setup.lake=Escolha uma clareira no lago para colocar a Cidade Perdida. Ela não pode ter um marco ou ser adjacente a um.
+prompts.lost.city.setup.opponent=O oponente está posicionando a Cidade Perdida.
+prompts.lost.city.setup.lake.opponent=O oponente está posicionando a Cidade Perdida.
+prompts.mole.artisans.reveal.choice=Revelar esta carta em vez de descartá-la?
+prompts.mole.artisans.reveal.choice.opponent=[player] - escolhendo.
+prompts.popular.band.daylight.clearing=Escolha uma clareira com um guerreiro da Banda Popular.
+prompts.popular.band.daylight.clearing.opponent=[player] - forçando guerreiros a se moverem.
+prompts.popular.band.daylight.forceMove=Escolha um guerreiro para se mover. (Movimento forçado respeita governo!)
+prompts.popular.band.daylight.forceMove.opponent=[player] - forçando guerreiros a se moverem.
+prompts.popular.band.daylight.placeWarrior=Escolha uma clareira para posicionar um guerreiro da Banda Popular.
+prompts.popular.band.daylight.placeWarrior.opponent=[player] - recrutando.
+prompts.popular.band.setup=Posicione um guerreiro da Banda Popular. ([X] restantes)
+prompts.popular.band.setup.opponent=O oponente está preparando [hireling].
+prompts.popular.band.when.hired=Escolha uma clareira com qualquer uma das peças da sua facção para posicionar um guerreiro da Banda Popular.
+prompts.popular.band.when.hired.opponent=[player] - recrutando.
+prompts.rabbit.scouts.discard=Você pode gastar uma carta que corresponda à clareira da batalha para usar o resultado mais alto e fazer com que o atacante use o resultado mais baixo.
+prompts.rabbit.scouts.discard.bluff=Não há cartas correspondente para usar com os Coelhos Batedores. Pressione "Pular" para passar.
+prompts.rabbit.scouts.discard.opponent=[player] - escolhendo uma carta para gastar.
+prompts.rabbit.scouts.discard.bluff.opponent=[player] - escolhendo uma carta para gastar.
+prompts.rat.smugglers.daylight.discard.battle=Descarte uma carta com um item para batalhar.
+prompts.rat.smugglers.daylight.discard.battle.opponent=[player] - escolhendo batalhar.
+prompts.rat.smugglers.daylight.discard.move=Descarte uma carta com um item para mover.
+prompts.rat.smugglers.daylight.discard.move.opponent=[player] - se movendo.
+prompts.riverfolk.flotilla.birdsong.move=Escolha uma clareira ao longo do rio para mover a Flotilha. (Você pode ignorar governo.)
+prompts.riverfolk.flotilla.birdsong.move.opponent=[player] - se movendo.
+prompts.riverfolk.flotilla.setup=Escolha uma clareira na borda do mapa e perto do rio para posicionar a Flotilha.
+prompts.riverfolk.flotilla.setup.opponent=O oponente está preparando [hireling].
+prompts.spring.uprising.place=Escolha uma clareira para posicionar um guerreiro Insurgente.
+prompts.spring.uprising.place.opponent=[player] - recrutando.
+prompts.spring.uprising.place.suit=Escolha uma clareira de [suit icon] para posicionar um guerreiro Insurgente.
+prompts.spring.uprising.place.suit.opponent=O oponente está preparando [hireling].
+prompts.spring.uprising.place.suit.option=Escolha uma clareira de [suit icon] ou [suit icon 2] para posicionar um guerreiro Insurgente.
+prompts.spring.uprising.place.suit.option.opponent=O oponente está preparando [hireling].
+prompts.spring.uprising.remove=Escolha uma clareira correspondente para remover um guerreiro Insurgente e todas as peças inimigas.
+prompts.spring.uprising.remove.opponent=[player] - causando uma insurgência!
+prompts.spring.uprising.removeOrPlace=Escolha:
+prompts.spring.uprising.removeOrPlace.opponent=[player] - escolhendo.
+prompts.spring.uprising.when.hired.noneValid=Todas as clareira de [suit icon] estão bloqueadas. Pressione Continuar.
+prompts.spring.uprising.when.hired.noneValid.opponent=[player] - recrutando.
+prompts.stoic.protector.when.hired=Escolha uma clareira com as peças da sua facção para posicionar o Protetor Estoico.
+prompts.stoic.protector.when.hired.opponent=[player] - recrutando.
+prompts.street.band.daylight.place=Escolha uma clareira para posicionar um guerreiro da Banda de Rua.
+prompts.street.band.daylight.place.opponent=[player] - escolhendo uma clareira para posicionar um guerreiro da Banda de Rua.
+prompts.sunward.expedition.daylight.move=Posicione até [X] guerreiro(s) da Expedição a mais.
+prompts.sunward.expedition.daylight.move.opponent=[player] - recrutando.
+prompts.sunward.expedition.daylight.move.empty=Não há guerreiros da Expedição para posicionar. Pressione continuar.
+prompts.sunward.expedition.daylight.move.empty.opponent=[player] - recrutando.
+prompts.sunward.expedition.daylight.placeFoothold=Escolha uma clareira para colocar um apoio e posicionar até 3 guerreiros da Expedição.
+prompts.sunward.expedition.daylight.placeFoothold.opponent=[player] - recrutando.
+prompts.sunward.expedition.daylight.recruit=Suprimentos no limite. Escolha uma clareira para recrutar um guerreiro da Expedição. ([X] restantes)
+prompts.sunward.expedition.daylight.recruit.opponent=[player] - recrutando.
+prompts.sunward.expedition.daylight.recruitOrMoveAndBattle=Escolha:
+prompts.sunward.expedition.daylight.recruitOrMoveAndBattle.opponent=[player] - escolhendo.
+prompts.sunward.expedition.daylight.removeFoothold=Escolha um apoio para remover.
+prompts.sunward.expedition.daylight.removeFoothold.opponent=[player] - recrutando.
+prompts.sunward.expedition.setup=Escolha uma clareira para colocar um apoio e posicione 3 guerreiros da Expedição.
+prompts.sunward.expedition.setup.opponent=O oponente está preparando [hireling].
+prompts.tower.setup=Escolha uma clareira com uma ruína e nenhum outro marco para posicionar a Torre.
+prompts.tower.setup.opponent=O oponente está posicionando a Torre.
+prompts.vault.keepers.daylight.battle=Escolha um inimigo em uma clareira com um cofre para batalhar.
+prompts.vault.keepers.daylight.battle.opponent=[player] - escolhendo batalhar.
+prompts.vault.keepers.daylight.battleOrRecruit=Escolha:
+prompts.vault.keepers.daylight.battleOrRecruit.opponent=[player] - escolhendo.
+prompts.vault.keepers.daylight.placeBoth=Escolha uma clareira para posicionar um guerreiro Guardião e um cofre.
+prompts.vault.keepers.daylight.placeBoth.opponent=[player] - recrutando.
+prompts.vault.keepers.daylight.placeVault=Coloque um cofre em uma clareira com ou adjacente a outro cofre.
+prompts.vault.keepers.daylight.placeVault.opponent=[player] - colocando um cofre.
+prompts.vault.keepers.daylight.recruit=Suprimentos no limite. Escolha uma clareira para recrutar um guerreiro Guardião. ([X] restantes)
+prompts.vault.keepers.daylight.recruit.opponent=[player] - recrutando.
+prompts.vault.keepers.setup=Escolha uma clareira para posicionar 2 guerreiros Guardiões e um cofre.
+prompts.vault.keepers.setup.opponent=O oponente está preparando [hireling].
+prompts.vault.keepers.when.hired=Escolha uma clareira para posicionar 2 guerreiros Guardiões e um cofre.
+prompts.vault.keepers.when.hired.opponent=[player] - recrutando.
+prompts.warm.sun.prophets.daylight.forceMove=Escolha um jogador com qualquer peça em uma clareira com um guerreiro Profeta.
+prompts.warm.sun.prophets.daylight.forceMove.destination=Escolha uma clareira para forçá-los a se moverem.
+prompts.warm.sun.prophets.daylight.forceMove.destination.opponent=[player] - escolhendo uma clareira para onde forçar os guerreiros a se moverem.
+prompts.warm.sun.prophets.daylight.forceMove.opponent=[player] - escolhendo quem forçar a se mover.
+prompts.warm.sun.prophets.daylight.incite.attacker=Escolha um jogador com peças em uma clareira com um guerreiro Profeta.
+prompts.warm.sun.prophets.daylight.incite.attacker.opponent=[player] - escolhendo quem forçar a batalhar.
+prompts.warm.sun.prophets.daylight.incite.defender=Escolha um inimigo para batalhar.
+prompts.warm.sun.prophets.daylight.incite.defender.opponent=[player] - escolhendo batalhar.
+prompts.warm.sun.prophets.daylight.recruit=Escolha uma clareira para posicionar um guerreiro Profeta.
+prompts.warm.sun.prophets.daylight.recruit.opponent=[player] - recrutando.
+prompts.warm.sun.prophets.when.hired=Escolha uma clareira para posicionar um guerreiro Profeta.
+prompts.warm.sun.prophets.when.hired.opponent=[player] - recrutando.
+prompts.strikerelic.header=Escolha a Relíquia para Atacar
+prompts.strikerelic.confirm=Atacar
+tooltip.landmarknames.ancientforge=<size=125%><b>Forja Lendária</b><br>Durante a preparação, quatro itens são removidos do estoque e colocados na Forja Lendária. Para criar uma carta que exija qualquer um desses itens, você precisa ter uma peça de facção neste espaço. Sempre que você criar um item aqui, compre uma carta e marque um ponto extra.
+tooltip.landmarknames.banned.ancientforge=A Forja Lendária foi banida.
+tooltip.landmarknames.banned.blackmarket=A Feira do Rolo foi banida.
+tooltip.landmarknames.banned.eldertree=A Árvore Anciã foi banida.
+tooltip.landmarknames.banned.ferry=A Balsa foi banida.
+tooltip.landmarknames.ferry=<size=125%><b>Balsa</b></size>\nUma vez por turno, um jogador que realizar um movimento a partir de uma clareira no rio com a Balsa pode mover-se para uma clareira de rio adjacente, movendo a Balsa também. (Isso segue as regras normais de movimento.) Após realizar este movimento, o jogador compra uma carta. A Balsa não pode ser usada em batalhas nem removida.
+tooltip.landmarknames.banned.lostcity=A Cidade Perdida foi banida.
+tooltip.landmarknames.tower=<size=125%><b>Torre</b></size><br>Ao final do Anoitecer de um jogador, se ele governar a clareira da Torre, ele marca <sprite name="1VP">.
+tooltip.landmarknames.banned.tower=A Torre foi banida.
+tooltip.landmarknames.blackmarket=<size=125%><b>Feira do Rolo</b></size><br>Uma vez em seu turno, um jogador com peças na Feira do Rolo pode trocar uma carta em sua mão por uma das cartas na Feira do Rolo.
+tooltip.landmarknames.eldertree=<size=125%><b>Árvore Anciã</b></size><br>A Árvore Anciã adiciona um espaço para construção à sua clareira. Sempre que um jogador remove uma construção inimiga do espaço Árvore Anciã, ele marca um ponto extra. (Dois no total, não um.)
+tooltip.landmarknames.lostcity=<size=125%><b>Cidade Perdida</b></size><br>A clareira da Cidade Perdida é tratada como sendo do naipe de raposa, rato e coelho.
+tooltip.landmarks.1=1 Marco
+tooltip.landmarks.2=2 Marcos
+tooltip.playmat.corvidspiesstack=<size=125%><b>Guerreiros Espiões Corvídeos</b></size>
+tooltip.playmat.flamebearersstack=<size=125%><b>Guerreiros Portadores do Fogo</b></size>
+tooltip.playmat.forestpatrolstack=<size=125%><b>Guerreiros da Patrulha da Floresta</b></size>
+tooltip.playmat.furiousprotectorstack=<size=125%><b>Protetor Furioso</b></size><br>O Protetor não pode ser atacado nem removido. Inimigos não podem colocar peças em sua clareira.
+tooltip.playmat.highwaybanditsstack=<size=125%><b>Bandidos da Estrada</b><br>Quando o controlador do capanga se move por um caminho com um bandido, ele pode colocar um guerreiro na clareira de destino. Quando o inimigo se move por um caminho com um bandido, ele deve remover uma peça se movendo ou danificar um item (se for Malandro).</size>
+tooltip.playmat.banditgangstack=<size=125%><b>Guerreiros das Gangues Urbanas</b><br>Não podem ser atacados em clareiras com peças da facção de seu controlador.
+tooltip.playmat.lastdynastystack=<size=125%><b>Guerreiros da Última Dinastia</b></size>
+tooltip.playmat.popularbandstack=<size=125%><b>Guerreiros da Banda Popular</b></size>
+tooltip.playmat.streetbandstack=<size=125%><b>Guerreiros da Banda de Rua</b></size>
+tooltip.playmat.riverfolkflotillastack=<size=125%><b>Flotilha Ribeirinha</b></size>
+tooltip.playmat.springuprisingstack=<size=125%><b>Guerreiros Insurgentes da Primavera</b></size>
+tooltip.playmat.stoicprotectorstack=<size=125%><b>Protetor Estoico</b></size><br>O Protetor não pode ser atacado ou removido. Inimigos não podem atacar ou remover as peças de facção do seu controlador no Protetor.
+tooltip.playmat.sunwardexpeditionfootholdstack=<size=125%><b>Marcador de Apoio</b></size><br>Usado pela Expedição à Luz para posicionar guerreiros.
+tooltip.playmat.sunwardexpeditionstack=<size=125%><b>Guerreiros da Expedição à Luz</b></size>
+tooltip.playmat.theexilestack=<size=125%><b>O Exilado</b></size>
+tooltip.playmat.vaultkeepersstack=<size=125%><b>Guerreiros Guardiões do Cofre</b></size>
+tooltip.playmat.vaultkeepersvaultstack=<size=125%><b>Cofre</b></size><br>Usado pelos Guardiões do Cofre para colocar guerreiros e batalhar.
+tooltip.playmat.warmsunprophetsstack=<size=125%><b>Guerreiros Profetas do Sol Quente</b></size>
+tooltip.ui.enablebluff=<size=125%><b>Blefes</b></size><br>A prioridade é passada para realizar ações independentemente do conteúdo das mãos dos jogadores. Aplica-se a Emboscada, Hospitais de Batalha, Médicos Felinos e Coelhos Batedores. Disponível apenas em jogos ao vivo.
+tooltip.ui.enablehirelings=<size=125%><b>Capangas</b></size><br>Adiciona três facções menores não alinhadas ao mapa, que os jogadores podem controlar para obter ações extras e habilidades especiais. Suas lealdades são inconstantes, então é apenas uma questão de tempo até que mudem para outro jogador. Recomendado para jogos com poucos jogadores. Não compatível com Autômatos.
+tooltip.ui.enablelandmarks=<size=125%><b>Marcos</b></size><br>Adicione até dois marcos, posicionados durante a preparação. Cada marco introduz regras únicas vinculadas à clareira que ocupa. Eles não podem ser atacados ou removidos, pois nenhum jogador os controla.
+bodyguardsWithColor=<color=#575757>Texugos Guarda-Costas</color>
+banditGangWithColor=<color=#C85B80>Gangues Urbanas</color>
+noblesWithColor=<color=#3A63CB>Nobres Azulinos</color>
+spiesWithColor=<color=#9673B4>Espiões Corvídeos</color>
+physiciansWithColor=<color=#CC6633>Médicos Felinos</color>
+flameBearersWithColor=<color=#B40518>Portadores do Fogo</color>
+forestPatrolWithColor=<color=#CC6633>Patrulha da Floresta</color>
+furiousProtectorWithColor=<color=#C85B80>Protetor Furioso</color>
+banditsWithColor=<color=#C85B80>Bandidos da Estrada</color>
+lastDynastyWithColor=<color=#3A63CB>Última Dinastia</color>
+envoysWithColor=<color=#748421>Enviados Reptilianos</color>
+artisansWithColor=<color=#BD5752>Toupeiras Artesãs</color>
+diverWithColor=<color=#397F7F>Lontras Mergulhadoras</color>
+popularBandWithColor=<color=#C85B80>Banda Popular</color>
+scoutsWithColor=<color=#008D3F>Coelhos Batedores</color>
+smugglersWithColor=<color=#B40518>Ratos Contrabandistas</color>
+sentriesWithColor=<color=#9673B4>Corvos Sentinelas</color>
+flotillaWithColor=<color=#397F7F>Flotilha Ribeirinha</color>
+uprisingWithColor=<color=#008D3F>Insurgentes da Primavera</color>
+stoicProtectorWithColor=<color=#C85B80>Protetor Estoico</color>
+streetBandWithColor=<color=#C85B80>Banda de Rua</color>
+expeditionWithColor=<color=#BD5752>Expedição à Luz</color>
+brigandWithColor=<color=#436979>O Bandido</color>
+exileWithColor=<color=#436979>O Exilado</color>
+vaultKeepersWithColor=<color=#575757>Guardiões do Cofre</color>
+prophetsWithColor=<color=#748421>Profetas do Sol Quente</color>
+tooltip.ui.eldertreewarning=O marco Árvore Anciã não é recomendado para jogos de 2 jogadores.
+tooltip.controlmarkers=O número de turnos que o jogador atual que controla {0} irá controlá-lo.
+tooltip.ability.banditgang.placefactionwarrior=<size=125%><b>Coloque um Guerreiro da Facção</b></size>\nColoque um guerreiro da sua facção em cada clareira com um guerreiro Bandido.
+tooltip.ability.banditgang.placebanditwarrior=<size=125%><b>Coloque um Guerreiro Bandido</b></size>\nColoque um guerreiro bandido em uma clareira com uma das peças da sua facção.
+tooltip.ability.highwaybandits.placebandit=<size=125%><b>Coloque um Bandido</b></size>\nColoque um bandido em um caminho sem nenhum, conectado a uma clareira com qualquer uma das suas peças de facção. Se não houver bandidos no suprimento, você pode remover um para colocá-lo.
+tooltip.ability.bluebirdnobles.birdsong=<size=125%><b>Pontue</b></size>\nPontue <sprite name="1VP"> para cada três clareiras que você governar.
+tooltip.ability.ratsmugglers.discardmove=<size=125%><b>Descarte para Mover</b></size>\nDescarte uma carta com um item para mover qualquer um de seus guerreiros para uma clareira adjacente.
+tooltip.ability.ratsmugglers.discardbattle=<size=125%><b>Descarte para Batalhar</b></size>\nDescarte uma carta com um item para batalhar em qualquer clareira com qualquer um de seus guerreiros.
+tooltip.ability.flamebearers.birdsong=<size=125%><b>Remova os inimigos e, em seguida, coloque Guerreiros Portadores</b></size>\n1º: Em cada clareira com Guerreiros Portadores, você deve remover uma peça inimiga para cada Guerreiro Portador presente, guerreiros primeiro.\n2º: Você deve colocar um Guerreiro Portador junto com outro guerreiro ou em uma clareira adjacente a um. Se não for possível, coloque 2 Guerreiros Portadores em qualquer clareira.
+tooltip.ability.vaultkeepers.placethenbattle=<size=125%><b>Coloque um cofre, depois Batalhe ou Coloque Guerreiros Guardiões</b></size>\nColoque um cofre em uma clareira com outro cofre ou adjacente a um. Se não for possível, coloque um cofre e um guerreiro guardião em qualquer clareira. Em seguida, você pode batalhar em cada clareira com um cofre ou colocar um guerreiro Guardião em cada cofre.
+tooltip.ability.thebrigand.takeitem=<size=125%><b>Pegar Item da Ruína</b></size>\nPegue um item de uma ruína em uma clareira com qualquer uma das suas peças de facção.
+tooltip.ability.thebrigand.stealcard=<size=125%><b>Roubar uma Carta</b></size>\nExaura um item que você criou para pegar uma carta aleatória de um jogador com quaisquer peças em uma clareira com quaisquer peças de sua facção.
+tooltip.ability.theexile.moveorbattle=<size=125%><b>Mover e/ou Batalhar</b></size>\nExaura itens para mover O Exilado para uma floresta adjacente ou batalhar em uma clareira adjacente a ele.
+tooltip.ability.theexile.giveitem=<size=125%><b>Dar Item</b></size>\nDê um item que você criou ao Exilado para comprar uma carta e marcar um <sprite name="1VP">.
+tooltip.ability.streetband.placewarrior=<size=125%><b>Coloque um Guerreiro da Banda</b></size>\nColoque um guerreiro da Banda em qualquer clareira.
+tooltip.ability.popularband.movethenplace=<size=125%><b>Forçar Guerreiros a se Moverem e Posicionar Guerreiro da Banda</b></size>\nEscolha uma clareira com um Guerreiro da Banda. Você pode forçar um guerreiro da facção em cada clareira adjacente a se mover para lá. Em seguida, posicione um Guerreiro da Banda em qualquer clareira.
+tooltip.ability.forestpatrol.movethenbattle=<size=125%><b>Mover e Batalhar</b></size>\nMova qualquer número de guerreiros da Patrulha para uma clareira adjacente e então lute.
+tooltip.ability.forestpatrol.placewarriors=<size=125%><b>Coloque Guerreiros da Patrulha</b></size>\nColoque todos os Guerreiros da Patrulha feridos de volta em uma clareira com quaisquer Guerreiros da Patrulha.
+tooltip.ability.lastdynasty.placewarriors=<size=125%><b>Coloque Guerreiros da Dinastia</b></size>\nColoque 5 guerreiros da dinastia em uma clareira de borda e batalhe lá.
+tooltip.ability.lastdynasty.movethenbattle=<size=125%><b>Mover e Batalhar</b></size>\nMova todos os guerreiros da Dinastia para uma clareira adjacente e, em seguida, batalhe se possível.
+tooltip.ability.lastdynasty.battletwice=<size=125%><b>Batalhe Duas Vezes</b></size>\nGuerreiros da Dinastia lutam duas vezes em sua clareira.
+tooltip.ability.springuprising.birdsong=<size=125%><b>Remova Inimigos ou Coloque um Guerreiro Insurgente</b></size>\n1º: Você deve rolar o dado da insurgência.\n2º: Você deve remover um Guerreiro Insurgente e todas as peças inimigas de uma clareira correspondente OU deve colocar um Guerreiro Insurgente em uma clareira correspondente.
+tooltip.ability.lizardenvoys.birdsong=<size=125%><b>Pegar Carta do Descarte</b></size>\nVocê pode olhar as cinco cartas do topo da pilha de descarte e pegar uma carta do naipe mais comum, exceto uma Emboscada. Você não pode contar pássaros como outros naipes e decide em caso de empate.
+tooltip.ability.warmsunprophets.battle=<size=125%><b>Forçar Inimigo para Batalhar</b></size>\nForça qualquer jogador (incluindo você mesmo) com peças de qualquer facção em uma clareira com um guerreiro Profeta a batalhar.
+tooltip.ability.warmsunprophets.movethenbattle=<size=125%><b>Forçar Inimigo a Mover e Batalhar</b></size>\nForce qualquer jogador (incluindo você mesmo) com peças de qualquer facção em uma clareira com um guerreiro Profeta a mover o máximo de peças possível para uma clareira que você escolher e, em seguida, batalhar no destino, se você desejar.
+tooltip.ability.warmsunprophets.placewarrior=<size=125%><b>Coloque um Guerreiro Profeta</b></size>\nColoque um guerreiro Profeta em uma clareira que não tenha nenhum.
+tooltip.ability.riverfolkflotilla.birdsong=<size=125%><b>Jogadores Compram, Movem e Batalham</b></size>\n1º: Cada jogador com peças de facção na Flotilha compra uma carta.\n2º: Você deve mover a Flotilha ao longo do rio, ignorando governo. Em seguida, a Flotilha pode batalhar.
+tooltip.ability.stoicprotector.birdsong=<size=125%><b>Mover</b></size>\nVocê deve mover o Protetor Estoico, ignorando a governo.
+tooltip.ability.furiousprotector.birdsong=<size=125%><b>Mover e Remover</b></size>\n1º: Você deve mover o Protetor Furioso, ignorando governo.\n2º: Você deve remover um guerreiro da facção de cada jogador <i>(inclusive você)</i> na clareira do Protetor. <i>(Não remova capangas.)</i>
+tooltip.ability.corvidspies.placethenbattle=<size=125%><b>Coloque Guerreiros Espiões</b></size>\n1º: Posicione 2 Guerreiros Espiões em qualquer clareira com peças inimigas.<br>2º: Batalhe em cada clareira com quaisquer Guerreiros Espiões.<br>—OU—<br>Em uma clareira com quaisquer Guerreiros Espiões, pegue uma carta aleatória de cada inimigo com peças da facção ali presentes.
+tooltip.ability.sunwardexpedition.placethenbattle=<size=125%><b>Coloque um Apoio, depois você pode se Mover e Batalhar ou posicionar Guerreiros da Expedição.</b></size>\nColoque um marcador de apoio e até 3 Guerreiros da Expedição em uma clareira sem apoio. Se não houver apoios disponíveis, remova um do mapa primeiro. Em seguida, você pode se mover e batalhar OU posicionar um Guerreiro da Expedição em cada apoio.
+creategame.validation.header=<b><size=125%>Não é possível criar o jogo</size></b><br>
+creategame.validation.subheader=Requisitos não atendidos para jogo de {0} com Draft {1} e Capangas {2}.<br>
+creategame.validation.item.disabled=desabilitado
+creategame.validation.item.enabled=habilitado
+creategame.validation.invalid.available=<color=red>({0} disponível)</color>
+creategame.validation.noclockworkwithhirelings=Facções Autômatas e Capangas não podem ser combinados.
+creategame.validation.minfactions=Mínimo de {0} facções de jogadores
+creategame.validation.minmilitant.single=Mínimo de {0} facção militante
+creategame.validation.minmilitant.plural=Mínimo de {0} facções militantes
+creategame.validation.minmilitant.hirelings.single=Mínimo de {0} facção militante que não precisa ser um capanga
+creategame.validation.minmilitant.hirelings.plural=Mínimo de {0} facções militantes que não precisam ser capangas
+creategame.validation.minhirelings=Mínimo de {0} capangas
+creategame.validation.minnonplayerhirelings=Mínimo de {0} capangas que não podem ser usados como suas respectivas facções de jogador
+creategame.validation.minunique=Mínimo de {0} facções únicas entre capangas e facções do jogador
+creategame.validation.bullet.valid=<br>• {0}
+creategame.validation.bullet.invalid=<br>• <color=red>(!)</color> {0}
+prompts.hirelings.sunwardexpedition.place=Coloque
+scenario.coalitionbusting.name=Quebra de Coalizão
+log.stoic.protector.setup=O <color=#C85B80>Protetor Estoico</color> é colocado em uma clareira de [suit icon].
+log.uprising.place=O guerreiro <color=#008D3F>Insurgente da Primavera</color> é colocado em uma clareira de [suit icon].
+scenario.pillarsofpower.name=Pilares do Poder
+scenario.pillarsofpower.tier1description=Este jogo é jogado com três marcos. No final do seu turno, se as clareiras que você governo tiverem dois ou mais marcos, você ganha <sprite name="1VP">. Caso contrário, você perde <sprite name="1VP">.
+scenario.legendarycrafting.name=Criação Lendária
+tooltip.landmark.legendaryforge.items=<b>Itens na Forja</b><br>
+tooltip.playmat.lostcityclearing=<size=125%><b>Clareira da Cidade Perdida</b></size>
+hirelings.diceroll={0} - rolando para o controle de capangas
+log.ruintakeitem=[faction name] - pegando o item da ruína na clareira de [suit icon].
+log.street.band.place=1 guerreiro da <color=#C85B80>Banda de Rua</color> é colocado em uma clareira de [suit icon].
+log.patrol.place=[X] guerreiros da <color=#CC6633>Patrulha</color> são colocados em uma clareira de [suit icon] contendo outro guerreiro da <color=#CC6633>Patrulha</color>.
+log.patrol.store=1 guerreiro da <color=#CC6633>Patrulha</color> é colocado no suprimento de cartas da <color=#CC6633>Patrulha da Floresta</color>.
+prompt.exile.giveitem.title=Doe um item
+hirelings.warriorsinreserve=<b>Guerreiros na Reserva:</b> {0}
+hirelings.vaultsinreserve=<b>Cofres em Reserva:</b> {0}
+hirelings.footholdsinreserve=<b>Apoios na reserva:</b> {0}
+log.mole.artisans.reveal=[faction name] - revelando [card] para criar [item icon] com <color=#BD5752>Toupeiras Artesãs</color>.
+tooltip.playmat.ferry=<size=125%><b>Balsa</b></size>\nUma vez por turno, um jogador que realizar um movimento a partir de uma clareira no rio com a Balsa pode mover-se para uma clareira de rio adjacente, movendo a Balsa também. (Isso segue as regras normais de movimento.) Após realizar este movimento, esse jogador compra uma carta.<br>A Balsa não pode ser batalhada nem removida.
+tooltip.badgerbodyguards.battle=<size=125%><b>Texugos Guarda-Costas</b></size><br>O primeiro ataque foi ignorado pelo capanga dos Texugos Guarda-Costas.
+battledamage.fx.badgerbodyguards=Texugos Guarda-Costas!
+battledamage.fx.ravensentries=Corvos Sentinelas
+prompts.landmark.tower.score=Ponto da Torre
+hirelings.tooltip.hirelings=Capangas
+card.crafting.inforge.label=Na Forja
+log.dynasty.replace=5 guerreiros da <color=#3A63CB>Dinastia</color> são colocados em uma clareira de [suit icon] na borda do mapa e batalham lá.
+log.sunward.expedition.place.foothold.warriors.setup=A <color=#BD5752>Expedição à Luz</color> estabeleceu um apoio e 3 guerreiros em uma clareira de [suit icon].
+title.hirelings=Capangas
+hirelings.card.banditgang.title=Gangues Urbanas
+hirelings.card.highwaybandits.title=Bandidos da Estrada
+hirelings.card.moleartisans.title=Toupeiras Artesãs
+hirelings.card.otterdivers.title=Lontras Mergulhadoras
+hirelings.card.ravensentries.title=Corvos Sentinelas
+hirelings.card.riverfolkflotilla.title=Flotilha Ribeirinha
+hirelings.card.stoicprotector.title=Protetor Estoico
+hirelings.card.sunwardexpedition.title=Expedição à Luz
+hirelings.card.warmsunprophets.title=Profetas do Sol Quente
+hirelings.card.lizardenvoys.title=Enviados Reptilianos
+hirelings.card.furiousprotector.title=Protetor Furioso
+hirelings.card.corvidspies.title=Espiões Corvídeos
+scenario.coalitionbusting.tier1description=Você controla Capangas Promovidos (Guardiões do Cofre) durante todo o jogo. Seus dois oponentes estão em uma coalizão contra você.
+scenario.coalitionbusting.tier2description=Você controla Capangas Promovidos (Bandidos da Estrada) durante todo o jogo. Seus três oponentes estão em uma coalizão contra você.
+hirelings.card.promoted.initial=P
+log.pillars.of.power.score=[faction name] - marcando <nome do sprite="1VP"> por governar duas clareiras com marcos.
+tooltip.battlescene.theexile=<size=125%><b>Clava</b></size>\nSem habilidades. No entanto, conta como um item para determinar os acertos de Exílio.
+tooltip.battlescene.ravensentries=<size=125%><b>Corvos Sentinelas:</b></size><br> Causam um acerto adicional porque a área de batalha contém construções ou marcadores da facção que controla esse Capanga.
+tooltip.battlescene.badgerbodyguards=<size=125%><b>Texugos Guarda-Costas:</b></size><br>  Primeiro ataque ignorado pelo capanga dos Texugos Guarda-Costas.
+tooltip.battlescene.riverfolkflotilla=<size=125%><b>Flotilha Ribeirinha:</b></size><br> A Flotilha não pode ser atacada ou removida. Em batalha, a Flotilha pode rolar até 3 acertos.
+legendarycraft.goal.heroic=Cartas Criadas ({0}/{1})
+tuber.canis.actions.LizardCultActions.LizardCultSetup.ChooseSuit.opponent=Os Lagartos Cultistas estão escolhendo um naipe inicial para o Pária.
+mercmayhem.goal.heroic=Peças inimigas removidas neste turno ({0}/{1})
+log.corvid.spies.recruit=[faction name] - recrutando um guerreiro <color=#9673B4>Espião</color> em uma clareira de [suit icon].
+prompt.brigand.exhaustitem.title=Exaura um item
+prompt.flotilla.choose.enemy.opponent=[faction name] - escolhendo quem lutará contra a Flotilha.
+title.landmarks=Marcos
+rules.landmarks.2=O último jogador na ordem de turno escolhe um dos marcos selecionados aleatoriamente para posicionar, fazendo as seleções necessárias, como a colocação em clareiras. Se estiver jogando com 2 marcos, o penúltimo jogador na ordem de turno posiciona o segundo marco.
+rules.landmarks.3=<b>Segurança</b>: Os marcos não podem ser atacados, movidos ou removidos, a menos que isso seja explicitamente indicado pelo próprio marco.<br><br><b>Propriedade</b>: Os marcos não pertencem a nenhuma facção e não são peças inimigas.
+scenario.legendarycrafting.tier1description=Jogue com a Forja Lendária, a Cidade Perdida e a Feira do Rolo. Você só pode vencer se tiver criado 4 cartas.
+scenario.legendarycrafting.tier2description=Jogue com a Forja Lendária, a Cidade Perdida, a Feira do Rolo e a Árvore Anciã. Você só pode vencer se tiver criado 5 cartas.
+scenario.mercenarymayhem.name=Caos Mercenário
+scenario.mercenarymayhem.tier2description=Ao final do turno, se você removeu duas ou mais peças inimigas, escolha um dos três Capangas Rebaixados para controlar até o seu próximo turno. Cada oponente controla um Capanga Promovido durante toda a partida.
+rules.hirelings.1=<b>Capangas</b> são aliados especiais que os jogadores podem recrutar para obter habilidades únicas e presença no mapa. Cada capanga representa uma facção menor ou um personagem com seus próprios poderes, e eles mudam de mãos ao longo do jogo.<br><br>Ao jogar com a Preparação Avançada, você pode optar por adicionar exatamente três capangas ao jogo. A maioria dos capangas estão associados a uma facção, e você não pode jogar com uma facção no mesmo jogo que seu capanga associado. Por exemplo, os Marqueses não podem ser usados no mesmo jogo que a Patrulha da Floresta ou os Médicos Felinos.<br><br>
+rules.hirelings.2=<size=125%><b>Randomizar Capangas</b></size><br><br>Os Capangas são selecionados aleatoriamente da coleção do criador do jogo, excluindo quaisquer capangas banidos durante a criação do jogo. Se a seleção de facções estiver desativada, os capangas associados às facções escolhidas pelos jogadores também serão excluídos.
+rules.hirelings.3=<size=125%><b>Rebaixando Capangas</b></size><br><br>Existem dois tipos de capangas: Promovidos e Rebaixados. Mercenários promovidos tendem a ter mais presença no mapa e aparecem com maior frequência em partidas com menos jogadores.
+rules.hirelings.5=<size=125%><b>Obtendo Capanga</b></size><br><br>Os capangas começam o jogo sem controle e são reivindicados à medida que os jogadores atingem certos limites de pontuação. O primeiro jogador a terminar seu turno com pelo menos 4, 8 e 12 pontos de vitória seleciona um capanga sem controle e rola o dado de controle para determinar por quanto tempo o controlará. Ele então ganha um número de marcadores de controle igual à quantidade de pontos rolados no dado. Se você estiver empatado na liderança ou em primeiro lugar, rolará um dado com menos pontos, o que diminui a probabilidade de você controlar o capanga.
+rules.hirelings.6=Os capangas perdem motivação com o tempo. Ao final do seu turno, você perde um marcador de controle de cada capangas que você controlou desde o início do seu turno.\n\n\nQuando você remove o último marcador de controle de um capangas, você deve imediatamente entregar a carta de capangas dele para qualquer outro jogador. Ele rola os dados para controle da mesma forma que você.\n\n
+rules.hirelings.8=<size=125%><b>Habilidades</b></size><br>Os capangas possuem diversas habilidades e ações que podem realizar:
+rules.hirelings.9=<size=125%><b>Ação ao Ser Contratado</b></size><br>Ao assumir o controle do capanga, o jogador que o controla deve realizar esta ação.
+rules.hirelings.10=<size=125%><b>Ação de Início do Amanhecer</b></size><br>No início do seu Amanhecer, o jogador que o controla deve ou pode realizar esta ação, conforme a descrição da ação.
+rules.hirelings.11=<size=125%><b>Ação de Uma Vez por Dia</b></size><br>Uma vez por turno durante o Dia, o jogador que controla o capanga pode realizar esta ação.
+rules.hirelings.12=<size=125%><b>Habilidade</b></size><br>Esta habilidade está sempre ativa ou especifica quando ela ocorre.
+rules.hirelings.title.setup=Preparação do Capanga
+rules.hirelings.demoting.twoplayer.1=3 Promovidos
+rules.hirelings.demoting.twoplayer.2=0 Rebaixados
+rules.hirelings.demoting.threeplayer.1=1 Rebaixado
+rules.hirelings.demoting.threeplayer.2=2 Promovidos
+rules.hirelings.demoting.fourplayer.1=1 Promovido
+rules.hirelings.demoting.fourplayer.2=2 Rebaixados
+rules.hirelings.standardDiceSides=Faces de dados padrão
+rules.hirelings.LeaderDiceSides=Faces de dados do líder
+tooltip.hirelings.demoted=Rebaixado
+landmark.ferry=Balsa
+landmark.tower=Torre
+landmark.blackmarket=Feira do Rolo
+landmark.eldertreetop=Árvore Anciã
+landmark.lostcity=Cidade Perdida
+landmark.legendaryforge=Forja Lendária
+rules.landmarks.4=A Árvore Anciã adiciona um espaço para construção à sua clareira.<br><br>Sempre que um jogador remove uma construção inimiga do espaço da Árvore Anciã, ele marca um ponto extra.<i>(Dois no total, não um.)
+rules.landmarks.5=A clareira da Cidade Perdida é tratada como sendo de naipe de raposa, rato e coelho.<br><i>Exemplos:<br><br>• Com duas peças de criação aqui, você poderia dizer que uma é de raposa e a outra de rato.<br>• Para Insurgentes, dê qualquer carta da sua mão.<br>• A Aliança pode se revoltar com resultados mistos.<br>• Os Lagartos podem colocar jardins de qualquer naipe, mas devem criar usando seus naipes atribuídos.<br>• O Ducado conta isso uma vez para influência.<br>• Você poderia jogar uma Emboscada de rato, e então o atacante poderia jogar uma emboscada de raposa.
+rules.landmarks.6=Na sua vez, um jogador com uma peça de facção na Feira do Rolo pode trocar qualquer carta virada para baixo na Feira do Rolo por uma carta da sua mão, colocando-a virada para baixo.
+rules.landmarks.7=Para criar uma carta na Forja Lendária, você precisa ter uma peça de facção na Forja Lendária. <i>Você ainda segue as regras normais de criação.</i><br><br>Sempre que você criar um item na Forja Lendária, compre uma carta e marque um ponto extra. <i>(Marque mesmo se você tiver Desprezo por Comércio.)</i>
+rules.landmarks.8=Uma vez por turno, um jogador que fizer um movimento a partir da clareira da Balsa pode mover-se para uma clareira adjacente ao longo do rio, movendo também a Balsa.<br><br><i>(Isso segue as regras normais de movimento. No mapa do lago, a Balsa pode mover-se para outra clareira costeira.)</i><br><br>Após fazer este movimento, esse jogador compra uma carta.
+rules.landmarks.9=Ao final do Anoitecer de um jogador, se ele governar a clareira da Torre, ele marca <sprite name="1VP">.
+tooltip.exile.itemcount=Contagem de itens do Exilado
+prompts.hirelings.forced.move.unavailable=O movimento do capanga foi impedido. Pressione o botão Continuar.
+prompt.physicians.rescue.place=Escolha uma clareira com as peças da sua facção para posicionar o(s) guerreiro(s) removido(s).
+log.brigand.steal=[faction name] - usando <color=#436979>O Bandido</color>, exaurindo [item icon] para roubar uma carta de [faction name 2].
+tooltip.hirelings.willclaim=Você reivindicará o seguinte número de capangas no final do turno: {0}
+creategame.forestpatrol=<size=125%><b>Patrulha da Floresta / Médicos Felinos</b></size><br>Facção Associada: Marqueses
+creategame.lastdynasty=<size=125%><b>Última Dinastia / Nobres Azulinos</b></size><br>Facção Associada: Dinastia das Rapinas
+creategame.springuprising=<size=125%><b>Insurgentes da Primavera / Coelhos Batedores</b></size><br>Facção Associada: Aliança da Floresta
+creategame.theexile=<size=125%><b>O Exilado / O Bandido</b></size><br>Facção Associada: Malandro
+creategame.warmsunprophets=<size=125%><b>Profetas do Sol Quente / Enviados Reptilianos</b></size><br>Facção Associada: Lagartos Cultistas
+creategame.riverfolkflotilla=<size=125%><b>Flotilha Ribeirinha / Lontras Mergulhadoras</b></size><br>Facção Associada: Companhia Ribeirinha
+creategame.corvidspies=<size=125%><b>Espiões Corvídeos / Corvos Sentinelas</b></size><br>Facção Associada: Conspiração Corvídea
+creategame.sunwardexpedition=<size=125%><b>Expedição à Luz / Toupeiras Artesãs</b></size><br>Facção Associada: Ducado Subterrâneo
+creategame.flamebearers=<size=125%><b>Portadores do Fogo / Ratos Contrabandistas</b></size><br>Facção Associada: Senhor das Centenas
+creategame.vaultkeepers=<size=125%><b>Guardiões do Cofre / Texugos Guarda-Costas</b></size><br>Facção Associada: Guardiões de Ferro
+creategame.popularband=<size=125%><b>Banda Popular / Banda de Rua</b></size><br>Facção Associada: Nenhuma
+creategame.highwaybandits=<size=125%><b>Bandidos de Estrada / Gangues Urbanas</b></size><br>Facção Associada: Nenhuma
+creategame.furiousprotector=<size=125%><b>Protetor Furioso / Protetor Estoico</b></size><br>Facção Associada: Nenhuma
+tooltip.ravensentries.battle=<size=125%><b>Corvos Sentinelas:</b></size><br>Causam um acerto adicional porque a área de batalha contém contruções ou marcadores da facção que controla este capanga.
+tooltip.rabbitscouts.battle=<size=125%><b>Coelhos Batedores:</b></size><br>O defensor usa o resultado mais alto.
+battledamage.fx.rabbitscouts=Coelhos Batedores!
+warning.exposure=Você não poderá remover uma trama exposta devido ao Protetor Estoico. Tem certeza de que quer arriscar um palpite?
+warning.exposure.opponent=[player] - pensando.
 scenario.classic.tier1description=Jogo normal contra duas IAs Fáceis.
 scenario.classic.tier2description=Jogo normal contra duas IAs Médias.
 scenario.classic.tier3description=Jogo normal contra três IAs Difíceis.
@@ -2454,8 +3216,8 @@ scenario.battleinthebranches.description=Guerreiros podem se mover para dentro e
 scenario.thelonggame.tier1description=O primeiro jogador a atingir <style="vpnumdd">40</style> vence.
 scenario.thelonggame.tier2description=O primeiro jogador a atingir <style="vpnumdd">50</style> vence. Os inimigos começam com <style="vpnum">5</style>.
 scenario.thelonggame.tier3description=O primeiro jogador a atingir <style="vpnumdd">60</style> vence. Os inimigos começam com <style="vpnumddteen">10</style>.
-scenario.medic.tier1description=Sua habilidade de Hospitais de Campo automaticamente resgata guerreiros sem custo.
-scenario.medic.tier2description=Sua habilidade de Hospitais de Campo automaticamente resgata guerreiros sem custo. Cada inimigo começa com Táticas Brutais e <style="vpnum">5</style>.
+scenario.medic.tier1description=Sua habilidade de Hospitais de Batalha automaticamente resgata guerreiros sem custo.
+scenario.medic.tier2description=Sua habilidade de Hospitais de Batalha automaticamente resgata guerreiros sem custo. Cada inimigo começa com Táticas Brutais e <style="vpnum">5</style>.
 scenario.builder.tier2description=Você começa com três serrarias no início do jogo e um guerreiro nesses espaços em vez de um guerreiro em cada clareira.
 scenario.builder.tier3description=Você começa com três serrarias no início do jogo e um guerreiro nesses espaços em vez de um guerreiro em cada clareira. Erguer serrarias não lhe dá pontos de vitória.
 scenario.castlesiege.tier1description=Você não pode vencer a menos que a Torre da Guarda dos Marqueses seja destruída.
@@ -2746,10 +3508,10 @@ tutorial2.aiturn1.Birdsong=Os <color=#CC6633>Marqueses</color> são intrusos! A 
 tutorial2.aiturn1.factions=A <color=#336699>Dinastia das Rapinas</color> está atribuindo ações ao seu <color=#336699>Decreto</color>. Cada facção tem capacidades únicas e sua própria forma de realizar ações.
 tutorial2.aiturn1.factions2=A <color=#336699>Dinastia das Rapinas</color> pode não parecer muito forte agora, mas seu <color=#336699>Decreto</color> em constante crescimento permitirá que realizem cada vez mais ações a cada turno, desde que seu líder permaneça no poder.
 tutorial2.aiturn1.battle=Eles encontraram o ponto fraco em nossa defesa. Prepare-se para lutar!
-tutorial2.aiturn1.fieldhospital=Podemos ter perdido a luta, mas enquanto sua <sprite name="KeepToken"><color=#CC6633>torre da guarda</color> ainda estiver de pé, podemos curar guerreiros caídos com os <sprite name="FieldHospital"><color=#CC6633>Hospitais de Campo</color>.
+tutorial2.aiturn1.fieldhospital=Podemos ter perdido a luta, mas enquanto sua <sprite name="KeepToken"><color=#CC6633>torre da guarda</color> ainda estiver de pé, podemos curar guerreiros caídos com os <sprite name="FieldHospital"><color=#CC6633>Hospitais de Batalha</color>.
 tutorial2.turn2.fhdiscard=Descarte uma carta que corresponda ao naipe da clareira onde seus guerreiros foram derrotados para devolvê-los à sua <sprite name="KeepToken"><color=#CC6633>torre da guarda</color>.
-tutorial2.turn2.refrence=Você pode revisar habilidades especiais exclusivas de sua facção, como os <sprite name="FieldHospital"><color=#CC6633>Hospitais de Campo</color>, tocando em seu avatar.
-tutorial2.turn2.refrence.gamepad=Você pode revisar habilidades especiais exclusivas de sua facção, como os <sprite name="FieldHospital"><color=#CC6633>Hospitais de Campo</color>, pressionando o botão <sprite name="Switch_LeftBumper">.
+tutorial2.turn2.refrence=Você pode revisar habilidades especiais exclusivas de sua facção, como os <sprite name="FieldHospital"><color=#CC6633>Hospitais de Batalha</color>, tocando em seu avatar.
+tutorial2.turn2.refrence.gamepad=Você pode revisar habilidades especiais exclusivas de sua facção, como os <sprite name="FieldHospital"><color=#CC6633>Hospitais de Batalha</color>, pressionando o botão <sprite name="Switch_LeftBumper">.
 tutorial2.playerturn2.action1=Não retalie ainda. Erga mais duas construções para continuar ganhando <style="vptext">PV</style>.
 tutorial2.playerturn2.goal=Erga 2 construções ({0}/{1})
 tutorial2.playerturn2.build=Erga outra construção de sua escolha.
@@ -2945,7 +3707,8 @@ Firsttime.ally.Eyrie=Você agora está <sprite name="Allied"><color=#4E6F89>alia
 Firsttime.ally.Alliance=Você agora está <sprite name="Allied"><color=#4E6F89>aliado</color> à <color=#008D3F>Aliança da Floresta</color>. Cada vez que você lhes fornecer <sprite name="heart"> <color=#4E6F89>ajuda</color>, você pontuará <style="vptext">PV</style>. Você também pode comandar os guerreiros deles em sua clareira para se mover e lutar ao seu lado.
 tutorial4.turn2.craftOrMobilize=Você pode criar ou <color=#008D3F>Mobilizar</color> a carta em sua mão. A escolha é sua.
 tutorial2.turn1.evening2=Vamos revisar as fases do seu turno.
-tutorial2.turn1.evening2.gamepad=Para revisar as fases do turno, pressione <sprite name="Switch_LeftBumper"> seguido de <sprite name="Switch_RightStickButton">.
+tutorial2.turn1.evening2.gamepad=Para rever as fases do turno, pressione <sprite name="Xbox_LeftBumper"> seguido de <sprite name="Switch_RightStickButton">.
+tutorial2.turn1.evening2.gamepad.switch=Para rever as fases do turno, pressione name="Switch_LeftBumper"> seguido de <sprite name="Switch_RightStickButton">.
 tutorial1.turn2.daylight2=Espalhe seus guerreiros para governar mais clareiras.
 tutorial1.firstbattle.dice.revamp=Durante a batalha, dois dados são rolados com lados de 0 a 3 para determinar os acertos. O atacante tem vantagem. Ele escolhe o dado com o valor mais alto, deixando o defensor com o valor mais baixo.
 Tutorial1.firstbattle.dice.2.revamp=Cada jogador não pode causar mais acertos do que o número de guerreiros que possui na clareira da batalha.
@@ -2975,12 +3738,23 @@ Clockwork.tutorial.ending=Hora de desmontar esse pedaço de ferrugem. Pontue 10 
 tutorial.title.MechaTutorial=Introdução aos Autômatos
 tutorial.description.MechaTutorial=Aprenda sobre os inimigos Autômatos
 Clockwork.tutorial.goal.10vp=Pontue 10 <style="vptext">PV</style>
-tutorial.advanced.separator=Expansões
-ftt.MoveToKeepArea=Cuidado com a habilidade de Hospitais de Campo dos Marqueses. Guerreiros podem ser curados imediatamente ao serem removidos da clareira com a Torre da Guarda.
+ftt.MoveToKeepArea=Cuidado com a habilidade de Hospitais de Batalha dos Marqueses. Guerreiros podem ser curados imediatamente ao serem removidos da clareira com a Torre da Guarda.
 practice.savedgame=Você tem um jogo de prática em andamento. Gostaria de continuar?
 tutorial.strategic.touch=Para ajustar o nível de zoom, posicione dois dedos no mapa e mova-os para mais perto ou mais longe. Diminua o zoom ao máximo agora para entrar na visão estratégica (o que bloqueia o movimento da câmera).
 tutorial.strategic.mouse=Para ajustar o nível de zoom, use a roda do mouse, as teclas de seta para cima e para baixo ou os botões +/-. Diminua o zoom ao máximo agora para entrar na visão estratégica (o que bloqueia o movimento da câmera).
 tutorial.strategic.gamepad=Para ajustar o nível de zoom, use os botões <sprite name="Switch_LeftTrigger"> e <sprite name="Switch_RightTrigger">. Diminua o zoom ao máximo agora para entrar na visão estratégica (o que bloqueia o movimento da câmera).
+hirelings.ftt.1=Há capangas em jogo. Essas facções menores começam neutras, mas juram servir aos seus aliados assim que um líder surge na Floresta.
+hirelings.ftt.2=Há sempre três Capangas. Dependendo do número de jogadores, eles podem ser Promovidos, concedendo ações extras com suas peças, ou Rebaixados, concedendo habilidades especiais ao seu controlador.
+hirelings.ftt.3=O primeiro jogador a atingir <sprite name="4VP">, <sprite name="8VP"> e, finalmente, <sprite name="12VP"> assume o controle de um Capanga, rolando um dado para ver quanto tempo sua lealdade durará.
+hirelings.ftt.4=Quando a lealdade de um Capanga acaba, seu controlador atual escolhe um novo jogador para assumir o controle dele.
+hirelings.ftt.die.roll=O resultado do dado determina por quantas rodadas você controlará os Capangas. Se você estiver na liderança, rolará um dado com menos pontos em cada lado. Isso significa que jogadores com pontos de vitória à frente tendem a controlar os Capangas por menos rodadas.
+hirelings.rule=As peças deste capanga contam para o seu governo sobre as clareiras, mas você não pontua quando os guerreiros ou habilidades dele removem peças inimigas.
+hirelings.ftt.new.control=A lealdade deste capanga expirou. Você deve escolher um novo controlador para ele.
+ftt.black.market=O marco Feira do Rolo será usado neste jogo. Quando chegar a sua vez, um jogador com peças de facção na Feira do Rolo poderá colocar uma carta da sua mão na feira e pegar uma carta aleatória de lá.
+ftt.legendary.forge.1=O marco Forja Lendária será usado neste jogo. Os quatro itens a seguir são removidos do suprimento com base no naipe da clareira da Forja Lendária e colocados na Forja: [item list]
+ftt.legendary.forge.2=Para criar uma carta que lhe dê um item na Forja Lendária, você precisa ter uma peça da sua facção na clareira da Forja Lendária. Sempre que você criar um item na forja, compre uma carta e marque um ponto extra.
+ftt.lost.city=O marco da Cidade Perdida será usado neste jogo. A clareira da Cidade Perdida é tratada como sendo do naipe de raposa, rato e coelho. Cada peça de criação em sua clareira ainda conta apenas uma vez.
+ftt.elder.treetop=O marco Árvore Anciã será usado neste jogo. Ele adiciona um espaço para construção à sua clareira. Quando um jogador remove uma construção inimiga desse espaço, ele marca um ponto extra.
 tooltip.opponent.cat=<size=125%><b>Oponente: Marqueses</b></size>
 tooltip.opponent.eyrie=<size=125%><b>Oponente: Dinastia das Rapinas</b></size>
 tooltip.opponent.alliance=<size=125%><b>Oponente: Aliança da Floresta</b></size>
@@ -3066,6 +3840,7 @@ tooltip.item.torch=<size=125%><b>Tocha</b></size>\nO Malandro usa <sprite name="
 tooltip.item.goldstack=<size=125%><b>Pilha de Moedas</b></size>\nO Malandro usa <sprite name="coinstack"> para comprar cartas adicionais durante o Anoitecer.
 tooltip.item.fromruins=\n\nEste item foi encontrado ao explorar ruínas.
 tooltip.item.invalid=Item Inválido
+tooltip.item.club=<size=125%><b>Clava</b></size>\nSem habilidades. No entanto, conta como um item para determinar os acertos do Exilado.
 tooltip.ui.eyrie.drawrate=<size=125%><b>Taxa de Compra</b></size>\nCompre esta quantidade de cartas no Anoitecer. Compre mais cartas ao construir Ninhos.
 tooltip.ui.marquise.drawrate=<size=125%><b>Taxa de Compra</b></size>\nCompre esta quantidade de cartas no Anoitecer. Compre mais cartas ao erguer Recrutadores.
 tooltip.ui.alliance.drawrate=<size=125%><b>Taxa de Compra</b></size>\nCompre esta quantidade de cartas no Anoitecer. Compre mais cartas ao construir Bases.
@@ -3147,7 +3922,6 @@ tooltip.ui.hand.reveal.vagabond=<size=125%><b>Mão do Malandro</b></size> Visual
 tooltip.ui.martiallaw=<size=125%><b>Lei Marcial</b></size> Você deve gastar um apoiador adicional correspondente se a clareira alvo tiver pelo menos 3 guerreiros de outro jogador.
 tooltip.mechorder=<size=125%><b>Ordem</b></size><br>O naipe da ordem determina quais ações um jogador Autômato realiza em seu turno.
 tooltip.ui.firstturn=Este jogador fará o primeiro turno após a preparação. A ordem do jogo segue a lista para baixo.
-landing.achievements.gc=Conquistas
 tooltip.ui.actionlog=<size=125%><b>Registro de Ações</b></size><br>Exibe as ações realizadas anteriormente no jogo.
 tooltip.ui.hitsearned=Os acertos obtidos com sua rolagem de dados não podem exceder o número de guerreiros que você tem nesta clareira.
 tooltip.ui.vagabondhitsearned=Os acertos obtidos com sua rolagem de dados não podem exceder o número de espadas que você tem na mochila.
@@ -3155,7 +3929,6 @@ tooltip.ui.daylightactions=<size=125%><b>Ações do Dia</b></size><br>Ações de
 tooltip.ui.vbbattletrack=<size=125%><b>Trilha de Batalha</b></size><br>Os acertos máximos rolados do Automalandro em batalha começam em um. Enquanto o Automalandro tiver pelo menos seis, nove e doze itens não danificados, um item é colocado aqui. Os espaços do sexto e do nono item aumentam os acertos máximos em um, e o décimo segundo faz com que ele cause um acerto adicional.
 tooltip.ui.crackdown=<size=125%><b>Repressão:</b></size><br>Sempre que uma base for removida, devolva todos os marcadores de simpatia das clareiras correspondentes ao naipe da base removida.
 tooltip.ui.coop=<size=125%><b>Jogo Cooperativo</b></size><br>Jogue como um time contra oponentes Autômatos. Para vencer, os jogadores (e a IA) devem pontuar 30 pontos de vitória antes que qualquer oponente Autômato alcance 30 pontos de vitória. Cartas de Domínio são removidas.
-landing.grm=Ir para o aplicativo Dire Wolf Game Room
 grm.return=Voltar ao aplicativo Dire Wolf Game Room
 tooltip.opponent.mechanical.marquise=<size=125%><b>Oponente: Marquês Mecânico</b></size>
 tooltip.opponent.electric.eyrie=<size=125%><b>Oponente: Rapinas Elétricas</b></size>
@@ -3191,6 +3964,20 @@ cat.snareblock.tooltip=Você não pode erguer aqui devido à Armadilha da Conspi
 tooltip.ui.randomfactionsonly=<size=125%><b>Facções Aleatórias</b></size><br>Os jogadores e a IA não terão a opção de escolher sua facção. Facções Autômatas estão excluídas desta regra.
 tooltip.ui.hand.revealed=Cartas Reveladas
 tooltip.chat=<b>Chat</b>
+root.rootbot.trait.random.bold=<size=125%><b>Característica Aleatória</b></size>
+root.rootbot.trait.random.text=Uma característica aleatória será atribuída a este Autômato.
+tooltip.item.status.exhausted.nonvagabond=Este item está exaurido. <i>(O Malandro pode reanimar itens exauridos no Amanhecer.)</i>
+tooltip.playmat.vagabond.adventurer=<size=125%><b>Malandro Aventureiro</b></size>
+tooltip.playmat.vagabond.arbiter=<size=125%><b>Malandro Árbitro</b></size>
+tooltip.playmat.vagabond.harrier=<size=125%><b>Malandro Saqueador</b></size>
+tooltip.playmat.vagabond.ranger=<size=125%><b>Malandro Andarilho</b></size>
+tooltip.playmat.vagabond.ronin=<size=125%><b>Malandro Ronin</b></size>
+tooltip.playmat.vagabond.thief=<size=125%><b>Malandro Ladrão</b></size>
+tooltip.playmat.vagabond.tinker=<size=125%><b>Malandro Funileiro</b></size>
+tooltip.playmat.vagabond.vagrant=<size=125%><b>Malandro Vagabundo</b></size>
+tooltip.playmat.vagabot.ranger=<size=125%><b>Automalandro Andarilho</b></size>
+tooltip.playmat.vagabot.thief=<size=125%><b>Automalandro Ladrão</b></size>
+tooltip.playmat.vagabot.tinker=<size=125%><b>Automalandro Funileiro</b></size>
 title.introduction=Introdução
 title.flowofplay=Fluxo de Jogo
 rule.eachturn=Cada turno é dividido em três fases: Amanhecer, Dia e Anoitecer. Assim que você jogar todas essas fases em ordem, seu turno termina, e o próximo jogador na ordem de turno começa seu turno.
@@ -3228,7 +4015,7 @@ rules.marq=Os Marqueses ocupam a Floresta e querem transformá-la em uma potênc
 title.setup=Preparação
 rules.marqsetup=<style=RSH>Preparação</style><br><br>∙Compre 3 cartas.<br>∙Coloque o marcador de Torre da Guarda na clareira de canto à sua escolha.<br>∙Você ganha 1 guerreiro em cada clareira, exceto na clareira de canto diagonalmente oposta à da sua Torre da Guarda.<br>∙Coloque 1 serraria, 1 oficina e 1 recrutador entre a clareira com o marcador da Torre da Guarda e qualquer uma adjacente a ela.
 title.thekeep=A Torre da Guarda
-rules.thekeep=A Torre da Guarda dos Marqueses concede duas habilidades especiais enquanto estiver no mapa. Primeiro, ninguém além dos Marqueses pode colocar peças na clareira com o marcador da Torre da Guarda. Além disso, sempre que guerreiros dos Marqueses forem removidos, os Marqueses podem recorrer a seus Hospitais de Campo, gastando uma carta correspondente ao naipe da clareira dos guerreiros para colocá-los de volta na clareira com o marcador da Torre da Guarda. Essa habilidade pode ser usada instantaneamente para resgatar guerreiros removidos da clareira da Torre e no início do turno dos Marqueses para guerreiros removidos de outras clareiras.
+rules.thekeep=A Torre da Guarda dos Marqueses concede duas habilidades especiais enquanto estiver no mapa. Primeiro, ninguém além dos Marqueses pode colocar peças na clareira com o marcador da Torre da Guarda. Além disso, sempre que guerreiros dos Marqueses forem removidos, os Marqueses podem recorrer a seus Hospitais de Batalha, gastando uma carta correspondente ao naipe da clareira dos guerreiros para colocá-los de volta na clareira com o marcador da Torre da Guarda. Essa habilidade pode ser usada instantaneamente para resgatar guerreiros removidos da clareira da Torre e no início do turno dos Marqueses para guerreiros removidos de outras clareiras.
 rules.marqturn=<style=RSH><sprite index=66>Amanhecer</style><br><br>Cada serraria gera um marcador de madeira.<br><br><style=RSH><sprite index=65>Dia</style><br><br>Primeiro, você pode criar qualquer carta em sua mão usando oficinas.<br><br>Em seguida, você pode realizar até três das seguintes ações:<br><br><style=RB>Batalha:</style> Inicie uma batalha.<br><style=RB>Marchar:</style> Realize dois movimentos.<br><style=RB>Recrutar:</style> Coloque um guerreiro em cada recrutador. Você só pode realizar essa ação uma vez por turno.<br><style=RB>Erguer:</style> Coloque uma construção em uma clareira que você controle com um espaço livre ao gastar marcadores de madeira iguais ao custo da construção. Você pode gastar qualquer madeira no mapa conectada a essa clareira por qualquer número de clareiras que você controle. Ao colocar a construção, pontue os pontos de vitória mostrados na sua trilha de construções.<br><style=RB>Hora Extra:</style> Gaste uma carta para colocar um marcador de madeira em uma serraria em uma clareira cujo naipe corresponda à carta gasta.
 rules.hawks=Pássaros para Contratar: Você pode realizar qualquer número de ações extras ao gastar uma carta de pássaro por ação extra.
 rules.marqeve=<style=RSH><sprite index=64>Anoitecer</style><br><br>Compre uma carta, mais uma carta por cada bônus de compra descoberto. Em seguida, se você tiver mais de cinco cartas em sua mão, descarte até ficar com cinco.
@@ -3416,6 +4203,7 @@ rules.hundreds.ability.1=<style=RSH>A habilidade Saqueadores</style> <br><br>É 
 rules.hundreds.ability.2=Notavelmente, você não pode saquear o Malandro, que não tem uma caixa de Itens Criados.
 rules.keepers.desc=Os Guardiões de Ferro são uma ordem de cavaleiros devotos, exilados da Floresta, que retornaram para recuperar relíquias perdidas em conflitos passados. Eles pontuam recuperando relíquias em suas estações.
 rules.hundreds.desc=O Senhor das Centenas não tolera tolos e não permite dissidência. Durante o Anoitecer, eles marcam pontos com base em quão bem eles oprimem seus inimigos. Quanto mais clareiras eles governarem que tenham uma peça de Centenas e nenhuma peça inimiga, mais pontos eles marcam.
+rules.overview=Visão Geral
 emote.dominance.marquise=Desloque para a esquerda, ataque pela direita!
 emote.dominance.eyrie=Segurem suas penas. Temos um novo caminho para a vitória pela frente.
 emote.dominance.alliance=Mudança de planos, amigos. Eles nunca saberão o que os atingiu!
@@ -3433,6 +4221,7 @@ tuber.canis.actions.BattleActions.BattleGetDefender=Escolha quem atacar.
 tuber.canis.actions.BattleActions.VagabondChooseAlliedAttacker=Escolha um guerreiro aliado para atacar junto.
 tuber.canis.actions.BattleActions.ChooseInterruptCards=Usar cartas criadas?
 tuber.canis.actions.BattleActions.ChooseAmbushCards=Escolha cartas de emboscada.
+tuber.canis.actions.BattleActions.ChooseAmbushCards.bluff=Não há nenhuma Emboscada correspondente em mãos. Pressione Recusar para passar.
 tuber.canis.actions.MovePieces.VagabondChooseAlly=Escolha um aliado para mover junto.
 tuber.canis.actions.MovePieces.SelectSource=Selecione guerreiros para mover.
 tuber.canis.actions.MovePiece.NumberToMove=Escolha o número de guerreiros para mover.
@@ -3451,6 +4240,7 @@ tuber.canis.actions.WoodlandAllianceActions.WoodlandAllianceEveningAction=Escolh
 tuber.canis.actions.tuber.canis.actions.WoodlandAllianceActions.Outrage=Escolha uma carta para adicionar aos apoiadores da Aliança da Floresta.
 tuber.canis.actions.VagabondActions.VagabondBirdsongActionRefresh=Escolha itens para reanimar.
 tuber.canis.actions.VagabondActions.VagabondBirdsongActionSlip=Escolha um local para deslizar.
+tuber.canis.actions.VagabondActions.VagabondBirdsongActionSlipWithAbilities=Escolha um local para deslizar ou use uma habilidade.
 tuber.canis.actions.VagabondActions.AidActions.ChooseWhoToAid=Escolha um jogador para ajudar.
 tuber.canis.actions.VagabondActions.Draw2=Compre 2 cartas.
 tuber.canis.actions.VagabondActions.GainVP=Ganhe Pontos de Vitória.
@@ -3464,7 +4254,8 @@ tuber.canis.abilities.StandAndDeliverAbility=Escolha um jogador para roubar uma 
 tuber.canis.abilities.ActivateDominanceAbility=Escolha um jogador para formar uma coalizão.
 tuber.canis.actions.MarquiseDeCatActions.MarquiseDeCatBirdsongAction.ChooseWhereToPutWood=Escolha onde colocar esta madeira.
 tuber.canis.actions.MarquiseDeCatActions.MarquiseDeCatBirdsongAction.ChooseWhereToPutWoodWithCount=No limite de suprimento. Escolha onde colocar esta madeira. ([X] restante(s))
-tuber.canis.actions.MarquiseDeCatActions.FieldHospitalSelection=Descarte uma carta correspondente para o Hospital de Campo<br>para devolver ([count]) guerreiros à sua Torre da Guarda.
+tuber.canis.actions.MarquiseDeCatActions.FieldHospitalSelection=Descarte uma carta correspondente para o Hospitais de Batalha<br>para devolver ([count]) guerreiros à sua Torre da Guarda.
+tuber.canis.actions.MarquiseDeCatActions.FieldHospitalSelection.bluff=Não há cartas correspondentes para usar Hospitais de Batalha. Pressione Pular para prosseguir.
 tuber.canis.actions.CostActions.ExhaustSelectedItem=Escolha um item para exaurir.
 tuber.canis.actions.VagabondActions.AidActions.ChooseCardForAiding=Escolha uma carta para ajudar.
 tuber.canis.abilities.MarquiseDeCatAbilities.ChooseBuilding=Escolha uma construção.
@@ -3520,6 +4311,7 @@ tuber.canis.actions.MarquiseDeCatActions.MarquisePlaceStartingBuildings.Sawmill.
 tuber.canis.actions.MarquiseDeCatActions.MarquisePlaceStartingBuildings.Workshop.opponent=Marqueses - escolhendo uma clareira para a oficina.
 tuber.canis.actions.MarquiseDeCatActions.MarquisePlaceStartingBuildings.Recruiter.opponent=Marqueses - escolhendo uma clareira para o recrutador.
 tuber.canis.actions.MarquiseDeCatActions.RemoveWoodForBuilding=Escolha a madeira para gastar. ([X])
+tuber.canis.actions.MarquiseDeCatActions.RemoveWoodForBuilding.opponent=[player] - considerando opções...
 tuber.canis.actions.EyrieDynastiesActions.EyrieDynastiesSetup.ChooseLeader.opponent=Rapinas - escolhendo um líder.
 tuber.canis.actions.EyrieDynastiesActions.EyrieDynastiesSetup.ChooseStarting.opponent=Rapinas - escolhendo uma clareira para o ninho.
 tuber.canis.actions.VagabondActions.VagabondSetup.ChooseVagabond.opponent=Malandro - escolhendo o personagem.
@@ -3529,6 +4321,7 @@ tuber.canis.actions.BattleActions.BattleGetDefender.opponent=[player] - escolhen
 tuber.canis.actions.BattleActions.VagabondChooseAlliedAttacker.opponent=Malandro - escolhendo um atacante aliado para atacar junto.
 tuber.canis.actions.BattleActions.ChooseInterruptCards.opponent=[player] - considerando opções...
 tuber.canis.actions.BattleActions.ChooseAmbushCards.opponent=[player] - considerando opções...
+tuber.canis.actions.BattleActions.ChooseAmbushCards.bluff.opponent=[player] - considerando opções...
 tuber.canis.actions.MovePieces.VagabondChooseAlly.opponent=[player] - se movendo.
 tuber.canis.actions.MovePiece.NumberToMove.opponent=[player] - se movendo.
 tuber.canis.actions.MovePieces.SelectSource.opponent=[player] - se movendo.
@@ -3547,6 +4340,7 @@ tuber.canis.actions.WoodlandAllianceActions.WoodlandAllianceEveningAction.oppone
 tuber.canis.actions.tuber.canis.actions.WoodlandAllianceActions.Outrage.opponent=O jogador está escolhendo uma carta para adicionar aos Apoiadores da Aliança.
 tuber.canis.actions.VagabondActions.VagabondBirdsongActionRefresh.opponent=Malandro - escolhendo itens para reanimar.
 tuber.canis.actions.VagabondActions.VagabondBirdsongActionSlip.opponent=Malandro - escolhendo uma localização para deslizar.
+tuber.canis.actions.VagabondActions.VagabondBirdsongActionSlipWithAbilities.opponent=Malandro - escolhendo uma localização para deslizar.
 tuber.canis.actions.VagabondActions.AidActions.ChooseWhoToAid.opponent=Malandro - escolhendo um jogador para ajudar.
 tuber.canis.actions.VagabondActions.ChooseQuestOption.opponent=Malandro - escolhendo a recompensa de uma tarefa.
 tuber.canis.actions.VagabondActions.VagabondDamageActionSelectionsWithAllies.opponent=Malandro - escolhendo baixas.
@@ -3557,7 +4351,8 @@ tuber.canis.actions.VagabondActions.DiscardItems.opponent=Malandro - descartando
 tuber.canis.abilities.ActivateDominanceAbility.opponent=[player] - considerando opções...
 tuber.canis.actions.MarquiseDeCatActions.MarquiseDeCatBirdsongAction.ChooseWhereToPutWood.opponent=Marqueses - escolhendo uma clareira para gerar madeira.
 tuber.canis.actions.MarquiseDeCatActions.MarquiseDeCatBirdsongAction.ChooseWhereToPutWoodWithCount.opponent=Marqueses - escolhendo uma clareira para gerar madeira.
-tuber.canis.actions.MarquiseDeCatActions.FieldHospitalSelection.opponent=Marqueses - considerando o Hospital de Campo.
+tuber.canis.actions.MarquiseDeCatActions.FieldHospitalSelection.opponent=Marqueses - considerando Hospitais de Batalha.
+tuber.canis.actions.MarquiseDeCatActions.FieldHospitalSelection.bluff.opponent=Marqueses - considerando Hospitais de Batalha.
 tuber.canis.actions.CostActions.ExhaustSelectedItem.opponent=[player] - escolhendo um item para exaurir.
 tuber.canis.actions.VagabondActions.AidActions.ChooseCardForAiding.opponent=Malandro - ajudando.
 tuber.canis.abilities.MarquiseDeCatAbilities.ChooseBuilding.opponent=Marqueses - escolhendo um tipo de construção.
@@ -3628,12 +4423,9 @@ tuber.canis.actions.tuber.canis.actions.automateactions.outrage.opponent=[player
 vagabot.abiltiy.marksman=Atirador de Elite
 electriceyrie.ability.wartax=Imposto de Guerra
 mechanicalmarquise.score.buildings={0} Construções
-direbytes.header=Notícias do Lobo Terrível
-direbytes.none=Sem Notícias do Lobo Terrível
 tuber.canis.undo.endturnconfirmation=Pressione o botão continuar para encerrar o turno.
 tuber.canis.undo.marquiseDeCatSetupUndo=Pressione o botão continuar para concluir a preparação.
 tuber.canis.undo.vagabondSetupUndo=Pressione o botão continuar para concluir a preparação.
-direbytes.link=Link
 tuber.canis.undo.endturnconfirmation.opponent=Aguardando o oponente passar o turno.
 tuber.canis.undo.marquiseDeCatSetupUndo.opponent=Aguardando os Marqueses confirmarem a preparação.
 tuber.canis.undo.vagabondSetupUndo.opponent=Aguardando o Malandro confirmar a preparação.
@@ -3642,15 +4434,9 @@ prompts.productunlock.cosmetic.description={0} foi desbloqueado para sua conta.
 tuber.canis.actions.DrawThenDiscard.NoActions=Não há mais cartas para descartar. Pressione o botão continuar.
 tuber.canis.actions.DrawThenDiscard.NoActions.opponent=[player] - escolhendo cartas para descartar.
 prompt.platform.warning=Essa configuração pode fazer com que a interface pareça incorreta em determinados dispositivos e não pode ser alterada durante o jogo. Tem certeza de que deseja continuar?
-prompt.readylivegame=Seu jogo ao vivo está pronto. Como os temporizadores de turno são curtos, você deve ir até lá agora ou desistir.
 prompt.game.aitakeover=Você ficou sem tempo para fazer uma jogada no Root, então seu turno foi assumido por uma IA. Faça sua próxima jogada dentro do tempo permitido ou será removido do jogo.
-prompt.first.live.game=Bem-vindo ao seu primeiro jogo ao vivo. Você tem 3 minutos para completar um turno. Se exceder esse tempo, seu turno será assumido por uma IA. Se a IA assumir seu turno duas vezes seguidas, você será resignado. Divirta-se e não vá a lugar nenhum!
 tuber.canis.actions.RequiredAbilitySelect=Você deve usar a carta criada [ability] para continuar.
 tuber.canis.actions.RequiredAbilitySelect.opponent=[player] - considerando opções...
-login.deleteaccountbutton=Excluir Conta
-deleteaccount.confirm.message=Tem certeza de que deseja excluir sua conta?
-deleteaccount.complete.message=Verifique seu e-mail para concluir a exclusão da conta.
-deleteaccount.failed.message=Um erro de rede impediu a exclusão de sua conta. Tente novamente mais tarde.
 prompt.advancedsetup.choose.faction=Escolha Sua Facção
 prompt.advancedsetup.choose.faction.opponent=Um oponente está escolhendo sua Facção.
 prompt.advancedsetup.discard=Escolha 2 cartas para devolver ao baralho.
@@ -3682,16 +4468,30 @@ prompt.advancedsetup.corvidconspiracy.plot.opponent=[player] - escolhendo uma tr
 prompt.advancedsetup.undergroundduchy.homeland=Escolha uma clareira de origem que não seja adjacente às clareiras de origem inimigas e coloque 2 guerreiros e um Túnel lá.
 prompt.advancedsetup.undergroundduchy.homeland.opponent=[player] - escolhendo uma clareira de origem.
 tuber.canis.actions.CharmOffensiveInformants=Substituir compra de Carta Charme Ofensivo por Informantes ou continuar.
-tuber.canis.actions.CharmOffensiveInformants.opponent=[player] - considerando as opções...
+tuber.canis.actions.CharmOffensiveInformants.opponent=[player] - considerando opções...
 prompt.challenges.sectionheader.standard=Padrão
-prompt.controllersupport.enable=Detectamos uma entrada de controle. Deseja habilitar o suporte para gamepad?
+tuber.canis.prompts.RiverfolkChooseSuit=Escolha um naipe para o Entreposto Comercial.
+tuber.canis.prompts.RiverfolkChooseSuit.opponent=[player] - considerando opções...
+tuber.canis.abilities.WoodlandAllianceAbilities.ChooseSuit=Escolha um naipe para a Base.
+tuber.canis.prompts.LizardCult.ChooseSuit=Escolha um naipe para o Jardim.
+tuber.canis.actions.EyrieDynastiesActions.ChooseDecreesExhaust=Escolha cartas para exaurir em seu decreto.
+tuber.canis.prompts.KeepersChooseSuit=Escolha um naipe.
+prompt.physicians.rescue.discard=Descarte uma carta correspondente para usar Médicos Felinos.
+prompt.physicians.rescue.discard.bluff=Não há cartas correspondentes para usar Médicos Felinos. Pressione Pular para prosseguir.
+tuber.canis.actions.OptionalBirdsongSelect=Use uma habilidade do Amanhecer ou pressione continuar.
+tuber.canis.prompts.LizardCult.ChooseSuit.opponent=[player] - escolhendo um naipe para o seu Jardim.
+tuber.canis.actions.OptionalBirdsongSelect.opponent=[player] - usando suas habilidades de Amanhecer.
+tuber.canis.actions.endTurnConfirmation.Vagabond=Você ainda tem itens para usar que podem ser reanimados no próximo turno. Tem certeza de que deseja encerrar seu turno?
+prompt.physicians.rescue.discard.opponent=[player] - usando seus Médicos Felinos.
+tuber.canis.undo.startinghandconfirmation=Pressione o botão Continuar para concluir a preparação.
+prompts.generic.choice.opponent=[player] - considerando opções...
+tuber.canis.undo.startinghandconfirmation.opponent=Aguardando o oponente confirmar sua mão inicial.
 store.product.clockwork.name=A Expansão Autômata
 store.product.clockwork.description=Quatro facções automatizadas traiçoeiras oferecem uma alternativa desafiadora e personalizável à IA. O novo modo cooperativo permite que os jogadores formem equipes para enfrentar poderosos oponentes automatizados!
 store.product.clockwork.shortdescription=Quatro facções automatizadas e modo cooperativo!
 store.product.clockwork.storedescription=Tique...taque...tique...taque...<br><br>A batalha pela floresta selvagem entra em ação com a Expansão Autômata!<br><br>Quatro facções inimigas automatizadas e traiçoeiras trazem novos desafios ao Root em uma alternativa personalizável à IA do jogo! Você consegue superar a ameaça mecânica e garantir seu direito de governar a floresta?<br><br>Introduz o Modo Cooperativo! Forme equipes para enfrentar poderosos oponentes automatizados!<br><br> Marquês Mecânico 2.0<br>Este é o mais simples dos bots e pode ser usado para completar a contagem de jogadores em dezenas de configurações. Embora este bot seja direto, não se acomode. Pelo menos um jogador precisará mantê-lo sob controle!<br><br>Rapinas Elétricas<br>As Rapinas Elétricas vão inspirar medo até mesmo nos jogadores mais resistentes. Assim como a Dinastia das Rapinas, esse bot pode aumentar rapidamente seu potencial de ações.<br><br>Aliança Automatizada<br>A Aliança Automatizada é especialmente zelosa e se revoltará com frequência. Fique atento aos alvos em potencial para evitar surpresas desagradáveis. Uma vez que eles estabelecem uma base, o tempo é crucial. Não deixe que consolidem seus guerreiros ou você terá problemas!<br><br>Automalandro<br>O Automalandro pode ser um amigo ou inimigo imprevisível. Assim como um jogador humano, ele recompensará aqueles que criarem itens. Mas cuidado, ele pode se tornar um inimigo perigoso quando conseguir itens suficientes para aumentar seu dano máximo.
 store.verificationFailed=A integridade do DLC não pôde ser verificada. Reinicie com uma conexão à internet para validar.
 store.restorePurchases=Restaurar Compras
-store.restorePurchasesError.default=Ocorreu um erro. Verifique sua conexão com a internet e tente novamente.
 store.product.wintermap.name=O Mapa de Inverno
 store.product.riverfolk.name=A Expansão Ribeirinhos
 store.product.riverfolk.description=Duas novas facções entram na briga! A Companhia Ribeirinha e os Lagartos Cultistas trazem novas estratégias à batalha pelo domínio da floresta. <br><br>Três novos Malandros - o Patife, o Vagabundo e o Árbitro - ajudam você a vencer com astúcia!
@@ -3722,6 +4522,8 @@ store.product.underworldexpansion.description=Conquiste novos campos de batalha 
 store.product.marauderexpansion.name=A Expansão Saqueadores
 store.product.marauderexpansion.description=Duas novas facções!<br>Senhor das Centenas – Oprima a Floresta e queime-a até o chão se necessário. Você não sofre dissidência.<br>Guardiões de Ferro – Lidere sua ordem exilada de cavaleiros devotos para a batalha para recuperar relíquias antigas. Para a glória!
 store.product.marauderexpansion.name.short=A Expansão Saqueadores
+store.product.hirelings.name=Capangas e Marcos
+store.product.hirelings.description=Descubra estratégias únicas e torne a Floresta ainda mais selvagem adicionando capangas e marcos às suas partidas.<br><br>Inclui 13 Capangas Promovidos e 13 Rebaixados<br>4 Marcos - Feira do Rolo, Cidade Perdida, Forja Lendária e Árvore Anciã
 scenario.journeytothenorth.name=Jornada ao Norte
 scenario.journeytothenorth.tier1description=Governe as 4 clareiras mais ao norte para vencer (não é necessário pontuar pontos de vitória).
 scenario.town.name=Cidade do Funileiro
@@ -3803,7 +4605,7 @@ Log.Train=[faction name] - treinando um oficial.
 Log.Lost.base=Como uma base da <color=#008D3F>Aliança da Floresta</color> foi removida, eles perdem [X] oficiais e descartam [X2] apoiadores correspondentes.
 Log.Generate.Wood=[faction name] - gerando [X] madeira(s) durante o Amanhecer.
 Log.Overwork=[faction name] - usando Hora Extra para descartar uma carta de [suit icon] por 1 madeira.
-Log.Field.Hospitals=[faction name] - usando Hospitais de Campanha para devolver [X] guerreiro(s) caídos à Torre da Guarda.
+Log.Field.Hospitals=[faction name] - usando Hospitais de Batalha para devolver [X] guerreiro(s) caídos à Torre da Guarda.
 Log.Hawks=[faction name] - descartando uma carta <sprite name="birdicon"> para realizar uma ação extra.
 Log.Decree.Assignment=[faction name] - atribuindo [suit icon] ao decreto de [name].
 Log.Special.Birdsong.Draw=[faction name] - comprando uma carta durante o Amanhecer porque a mão estava vazia.
@@ -3880,7 +4682,7 @@ Log.DiscardOne.eot=[faction name] - descartando 1 carta para atender ao limite d
 Log.DrawOne=[faction name] - comprando 1 carta.
 log.setup.electric.eyrie.one=<color=#3a63cb>Rapinas Elétricas</color> - adicionando 1 carta <sprite name="birdicon"> à coluna de <sprite name="birdicon"> de seu decreto.
 Log.Nonvagabond.Move.one=[faction name] - movendo 1 guerreiro para uma clareira de [suit icon].
-Log.Field.Hospitals.one=[faction name] - usando Hospitais de Campo para devolver 1 guerreiro caído à Torre da Guarda.
+Log.Field.Hospitals.one=[faction name] - usando Hospitais de Batalha para devolver 1 guerreiro caído à Torre da Guarda.
 Log.Move.Buddy.one=[faction name] - se movendo com 1 guerreiro de [faction name 2].
 log.public.pity.one=<color=#008D3F>Aliança Automatizada</color> - usando Pena Pública para espalhar simpatia 1 vez.
 Log.trait.Hospitals.one=<color=#CC6633>Marquês Mecânico</color> - usando seu traço Hospital para devolver 1 guerreiro caído à sua Torre da Guarda.
@@ -3895,6 +4697,8 @@ Log.Move.Vagabond.Free=[faction name] - movendo-se para uma clareira de [suit ic
 log.advancedsetup.returncards=[faction name] - embaralhando 2 cartas de sua mão no baralho.
 log.raid=Uma Emboscada é removida, fazendo com que a Conspiração Corvídea adicione um guerreiro a cada clareira adjacente à clareira de [suit icon] onde foi removida.
 log.player.won=Vitória - [faction name]
+log.supporters.max=<color=#008D3F>Aliança da Floresta</color> - colocando uma carta na pilha de descarte em vez de seus apoiadores, já que eles não têm base e seu limite de apoiadores é 5.
+log.field.hospitals.decline=[faction name] - recusando-se a usar Hospitais de Batalha.
 login.versionPrefix=Construir:
 singleplayer.selectfaction=Selecionar Facção
 eula.acceptTerms=Eu concordo
